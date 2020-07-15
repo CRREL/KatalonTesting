@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="GRiD Login" time="116.716" tests="2" failures="1" errors="0">
+   <testsuite name="GRiD Login" tests="2" failures="1" errors="0" time="116.716" timestamp="2020-07-01 13:39:25" hostname="bhavikpatel - c02yj0qyjgh7.lan" id="Test Suites/GRiD Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/bhavikpatel/Katalon Studio/GRiD UI Automation/Reports/20200701_133922/GRiD Login/20200701_133922"/>
+         <property name="logFiles" value="/Users/bhavikpatel/Katalon Studio/GRiD UI Automation/Reports/20200701_133922/GRiD Login/20200701_133922/execution0.log"/>
+         <property name="attachments" value="/Users/bhavikpatel/Katalon Studio/GRiD UI Automation/Reports/20200701_133922/GRiD Login/20200701_133922/1593625280066.png"/>
+         <property name="hostName" value="bhavikpatel - c02yj0qyjgh7.lan"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.5.5.1"/>
+         <property name="browser" value="Chrome 83.0.4103.116"/>
+         <property name="hostAddress" value="192.168.86.130"/>
+         <property name="sessionId" value="d7b76ab6eb12c5b67565684b736a3880"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Login with GEOAxIS" time="28.791" classname="Test Cases/Login with GEOAxIS" status="PASSED">
+         <system-out><![CDATA[2020-07-01 13:39:26 - [TEST_CASE][PASSED] - Test Cases/Login with GEOAxIS: Test Cases/Login with GEOAxIS
+
+2020-07-01 13:39:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-07-01 13:39:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-07-01 13:39:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-07-01 13:39:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-07-01 13:39:28 - [TEST_STEP][PASSED] - navigateToUrl("https://grid.nga.mil/grid/"): Navigate to 'https://grid.nga.mil/grid/' successfully
+
+2020-07-01 13:39:30 - [MESSAGE][PASSED] - Navigate to 'https://grid.nga.mil/grid/' successfully
+
+2020-07-01 13:39:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home  GRiD/a_GEOAxIS")): Object: 'Object Repository/Page_Home  GRiD/a_GEOAxIS' is clicked on
+
+2020-07-01 13:39:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home  GRiD/a_GEOAxIS' is clicked on
+
+2020-07-01 13:39:34 - [TEST_STEP][PASSED] - click(findTestObject("Page_GEOAxIS/a_PKI Certificate")): Object: 'Object Repository/Page_GEOAxIS/a_PKI Certificate' is clicked on
+
+2020-07-01 13:39:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GEOAxIS/a_PKI Certificate' is clicked on
+
+2020-07-01 13:39:34 - [TEST_STEP][PASSED] - click(findTestObject("Page_GEOAxIS/span_Click here to continue")): Object: 'Object Repository/Page_GEOAxIS/span_Click here to continue' is clicked on
+
+2020-07-01 13:39:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GEOAxIS/span_Click here to continue' is clicked on
+
+2020-07-01 13:39:47 - [TEST_STEP][PASSED] - verifyTextPresent("How do I use GRiD?", false): Text 'How do I use GRiD?' is present on page 
+
+2020-07-01 13:39:47 - [MESSAGE][PASSED] - Text 'How do I use GRiD?' is present on page 
+
+2020-07-01 13:39:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Home  GRiD/a_Settings bhavikpatel"), 0): Object 'Object Repository/Page_Home  GRiD/a_Settings bhavikpatel' is present
+
+2020-07-01 13:39:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-07-01 13:39:48 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Home  GRiD/a_Settings bhavikpatel' is present
+
+2020-07-01 13:39:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home  GRiD/a_Settings bhavikpatel")): Object: 'Object Repository/Page_Home  GRiD/a_Settings bhavikpatel' is clicked on
+
+2020-07-01 13:39:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home  GRiD/a_Settings bhavikpatel' is clicked on
+
+2020-07-01 13:39:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home  GRiD/a_Account settings")): Object: 'Object Repository/Page_Home  GRiD/a_Account settings' is clicked on
+
+2020-07-01 13:39:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home  GRiD/a_Account settings' is clicked on
+
+2020-07-01 13:39:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Account Settings  GRiD/a_Change Email")): Object: 'Object Repository/Page_Account Settings  GRiD/a_Change Email' is clicked on
+
+2020-07-01 13:39:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Account Settings  GRiD/a_Change Email' is clicked on
+
+2020-07-01 13:39:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Account Settings  GRiD/a_Change Password")): Object: 'Object Repository/Page_Account Settings  GRiD/a_Change Password' is clicked on
+
+2020-07-01 13:39:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Account Settings  GRiD/a_Change Password' is clicked on
+
+2020-07-01 13:39:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Account Settings  GRiD/div_WARNING When you log in with your usern_0db060")): Object: 'Object Repository/Page_Account Settings  GRiD/div_WARNING When you log in with your usern_0db060' is clicked on
+
+2020-07-01 13:39:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Account Settings  GRiD/div_WARNING When you log in with your usern_0db060' is clicked on
+
+2020-07-01 13:39:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Account Settings  GRiD/a_Subscriptions")): Object: 'Object Repository/Page_Account Settings  GRiD/a_Subscriptions' is clicked on
+
+2020-07-01 13:39:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Account Settings  GRiD/a_Subscriptions' is clicked on
+
+2020-07-01 13:39:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Account Settings  GRiD/a_Permissions")): Object: 'Object Repository/Page_Account Settings  GRiD/a_Permissions' is clicked on
+
+2020-07-01 13:39:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Account Settings  GRiD/a_Permissions' is clicked on
+
+2020-07-01 13:39:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Permission requests  GRiD/a_Data Access Agreements")): Object: 'Object Repository/Page_Permission requests  GRiD/a_Data Access Agreements' is clicked on
+
+2020-07-01 13:39:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Permission requests  GRiD/a_Data Access Agreements' is clicked on
+
+2020-07-01 13:39:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Data Access Agreements  GRiD/img_Map_brand")): Object: 'Object Repository/Page_Data Access Agreements  GRiD/img_Map_brand' is clicked on
+
+2020-07-01 13:39:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Data Access Agreements  GRiD/img_Map_brand' is clicked on
+
+2020-07-01 13:39:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-07-01 13:39:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Export Buckeye PointCloud" time="87.524" classname="Test Cases/Export Buckeye PointCloud" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Export Buckeye PointCloud FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Map  GRiD/canvas_Loading Layers_ol-unselectable'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Export Buckeye PointCloud.run(Export Buckeye PointCloud:88)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1593625162377.run(TempTestSuite1593625162377.groovy:37)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;canvas class=&quot;ol-unselectable&quot; style=&quot;width: 100%; height: 100%;&quot; width=&quot;3360&quot; height=&quot;1416&quot;>&lt;/canvas> is not clickable at point (840, 430). Other element would receive the click: &lt;div id=&quot;89.25577463825213&quot; class=&quot;tooltip-popup tooltip-static&quot;>...&lt;/div>
+  (Session info: chrome=83.0.4103.116)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'c02yj0qyjgh7.lan', ip: 'fe80:0:0:0:ccd:ccd0:e134:a423%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /var/folders/mk/mm0g76rn3_g...}, goog:chromeOptions: {debuggerAddress: localhost:54377}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d7b76ab6eb12c5b67565684b736a3880
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-07-01 13:39:54 - [TEST_CASE][FAILED] - Test Cases/Export Buckeye PointCloud: Test Cases/Export Buckeye PointCloud FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Map  GRiD/canvas_Loading Layers_ol-unselectable'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Export Buckeye PointCloud.run(Export Buckeye PointCloud:88)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1593625162377.run(TempTestSuite1593625162377.groovy:37)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <canvas class="ol-unselectable" style="width: 100%; height: 100%;" width="3360" height="1416"></canvas> is not clickable at point (840, 430). Other element would receive the click: <div id="89.25577463825213" class="tooltip-popup tooltip-static">...</div>
+  (Session info: chrome=83.0.4103.116)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'c02yj0qyjgh7.lan', ip: 'fe80:0:0:0:ccd:ccd0:e134:a423%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /var/folders/mk/mm0g76rn3_g...}, goog:chromeOptions: {debuggerAddress: localhost:54377}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d7b76ab6eb12c5b67565684b736a3880
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-07-01 13:39:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-07-01 13:39:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-07-01 13:39:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-07-01 13:39:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-07-01 13:39:56 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-07-01 13:39:56 - [MESSAGE][PASSED] - Current window maximized
+
+2020-07-01 13:39:56 - [TEST_STEP][PASSED] - navigateToUrl("https://grid.nga.mil/grid/"): Navigate to 'https://grid.nga.mil/grid/' successfully
+
+2020-07-01 13:39:57 - [MESSAGE][PASSED] - Navigate to 'https://grid.nga.mil/grid/' successfully
+
+2020-07-01 13:39:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home  GRiD/a_GEOAxIS")): Object: 'Object Repository/Page_Home  GRiD/a_GEOAxIS' is clicked on
+
+2020-07-01 13:40:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home  GRiD/a_GEOAxIS' is clicked on
+
+2020-07-01 13:40:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_GEOAxIS/a_PKI Certificate")): Object: 'Object Repository/Page_GEOAxIS/a_PKI Certificate' is clicked on
+
+2020-07-01 13:40:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GEOAxIS/a_PKI Certificate' is clicked on
+
+2020-07-01 13:40:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_GEOAxIS/span_Click here to continue")): Object: 'Object Repository/Page_GEOAxIS/span_Click here to continue' is clicked on
+
+2020-07-01 13:40:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GEOAxIS/span_Click here to continue' is clicked on
+
+2020-07-01 13:40:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home  GRiD/a_Create AOI")): Object: 'Object Repository/Page_Home  GRiD/a_Create AOI' is clicked on
+
+2020-07-01 13:40:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home  GRiD/a_Create AOI' is clicked on
+
+2020-07-01 13:40:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home  GRiD/a_Create From Geo-Coord")): Object: 'Object Repository/Page_Home  GRiD/a_Create From Geo-Coord' is clicked on
+
+2020-07-01 13:40:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home  GRiD/a_Create From Geo-Coord' is clicked on
+
+2020-07-01 13:40:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Create Manual AOI  GRiD/input_Name_name"), "demo2 Auto"): Text 'demo2 Auto' is set on object 'Object Repository/Page_Create Manual AOI  GRiD/input_Name_name'
+
+2020-07-01 13:40:16 - [MESSAGE][PASSED] - Text 'demo2 Auto' is set on object 'Object Repository/Page_Create Manual AOI  GRiD/input_Name_name'
+
+2020-07-01 13:40:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Create Manual AOI  GRiD/input_Coordinate - Radius_aoi_type")): Object: 'Object Repository/Page_Create Manual AOI  GRiD/input_Coordinate - Radius_aoi_type' is clicked on
+
+2020-07-01 13:40:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create Manual AOI  GRiD/input_Coordinate - Radius_aoi_type' is clicked on
+
+2020-07-01 13:40:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Create Manual AOI  GRiD/input_Buffer (m)_buffer_radius"), "1000"): Text '1000' is set on object 'Object Repository/Page_Create Manual AOI  GRiD/input_Buffer (m)_buffer_radius'
+
+2020-07-01 13:40:16 - [MESSAGE][PASSED] - Text '1000' is set on object 'Object Repository/Page_Create Manual AOI  GRiD/input_Buffer (m)_buffer_radius'
+
+2020-07-01 13:40:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Create Manual AOI  GRiD/input_Coordinate(s)_geocoords"), "33SUS2843739565"): Text '33SUS2843739565' is set on object 'Object Repository/Page_Create Manual AOI  GRiD/input_Coordinate(s)_geocoords'
+
+2020-07-01 13:40:17 - [MESSAGE][PASSED] - Text '33SUS2843739565' is set on object 'Object Repository/Page_Create Manual AOI  GRiD/input_Coordinate(s)_geocoords'
+
+2020-07-01 13:40:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Create Manual AOI  GRiD/input_Cancel_submit-export")): Object: 'Object Repository/Page_Create Manual AOI  GRiD/input_Cancel_submit-export' is clicked on
+
+2020-07-01 13:40:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create Manual AOI  GRiD/input_Cancel_submit-export' is clicked on
+
+2020-07-01 13:40:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_demo2 Auto  GRiD/a_Export pointcloud data")): Object: 'Object Repository/Page_demo2 Auto  GRiD/a_Export pointcloud data' is clicked on
+
+2020-07-01 13:40:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_demo2 Auto  GRiD/a_Export pointcloud data' is clicked on
+
+2020-07-01 13:40:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_demo2 Auto  GRiD/input_BuckEye_library")): Object: 'Object Repository/Page_demo2 Auto  GRiD/input_BuckEye_library' is clicked on
+
+2020-07-01 13:40:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_demo2 Auto  GRiD/input_BuckEye_library' is clicked on
+
+2020-07-01 13:40:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_demo2 Auto  GRiD/div_PC 20170629_33S324360 UNCLASSIFIEDFOUO _eabaf5")): Object: 'Object Repository/Page_demo2 Auto  GRiD/div_PC 20170629_33S324360 UNCLASSIFIEDFOUO _eabaf5' is clicked on
+
+2020-07-01 13:40:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_demo2 Auto  GRiD/div_PC 20170629_33S324360 UNCLASSIFIEDFOUO _eabaf5' is clicked on
+
+2020-07-01 13:40:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_demo2 Auto  GRiD/input_Display Name_name"), "buckeye PointCloud Demo 1"): Text 'buckeye PointCloud Demo 1' is set on object 'Object Repository/Page_demo2 Auto  GRiD/input_Display Name_name'
+
+2020-07-01 13:40:34 - [MESSAGE][PASSED] - Text 'buckeye PointCloud Demo 1' is set on object 'Object Repository/Page_demo2 Auto  GRiD/input_Display Name_name'
+
+2020-07-01 13:40:34 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_demo2 Auto  GRiD/select_BPF  CSV  LAS 12  LAS 14  PDF"), "4", true): All options with value '4' are selected in object 'Object Repository/Page_demo2 Auto  GRiD/select_BPF  CSV  LAS 12  LAS 14  PDF'  using regular expression
+
+2020-07-01 13:40:35 - [MESSAGE][PASSED] - All options with value '4' are selected in object 'Object Repository/Page_demo2 Auto  GRiD/select_BPF  CSV  LAS 12  LAS 14  PDF'  using regular expression
+
+2020-07-01 13:40:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_demo2 Auto  GRiD/div_Cancel    Generate")): Object: 'Object Repository/Page_demo2 Auto  GRiD/div_Cancel    Generate' is clicked on
+
+2020-07-01 13:40:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_demo2 Auto  GRiD/div_Cancel    Generate' is clicked on
+
+2020-07-01 13:40:49 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-07-01 13:40:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-07-01 13:40:49 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-07-01 13:40:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_demo2 Auto  GRiD/a_buckeye PointCloud Demo 1")): Object: 'Object Repository/Page_demo2 Auto  GRiD/a_buckeye PointCloud Demo 1' is clicked on
+
+2020-07-01 13:40:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_demo2 Auto  GRiD/a_buckeye PointCloud Demo 1' is clicked on
+
+2020-07-01 13:40:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_buckeye PointCloud Demo 1  GRiD/button_Download")): Object: 'Object Repository/Page_buckeye PointCloud Demo 1  GRiD/button_Download' is clicked on
+
+2020-07-01 13:40:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_buckeye PointCloud Demo 1  GRiD/button_Download' is clicked on
+
+2020-07-01 13:40:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_buckeye PointCloud Demo 1  GRiD/a_demo2 Auto")): Object: 'Object Repository/Page_buckeye PointCloud Demo 1  GRiD/a_demo2 Auto' is clicked on
+
+2020-07-01 13:40:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_buckeye PointCloud Demo 1  GRiD/a_demo2 Auto' is clicked on
+
+2020-07-01 13:40:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_demo2 Auto  GRiD/button_AOI Options")): Object: 'Object Repository/Page_demo2 Auto  GRiD/button_AOI Options' is clicked on
+
+2020-07-01 13:41:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_demo2 Auto  GRiD/button_AOI Options' is clicked on
+
+2020-07-01 13:41:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_demo2 Auto  GRiD/a_Delete AOI")): Object: 'Object Repository/Page_demo2 Auto  GRiD/a_Delete AOI' is clicked on
+
+2020-07-01 13:41:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_demo2 Auto  GRiD/a_Delete AOI' is clicked on
+
+2020-07-01 13:41:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_demo2 Auto  GRiD/a_Delete")): Object: 'Object Repository/Page_demo2 Auto  GRiD/a_Delete' is clicked on
+
+2020-07-01 13:41:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_demo2 Auto  GRiD/a_Delete' is clicked on
+
+2020-07-01 13:41:04 - [TEST_STEP][PASSED] - navigateToUrl("https://grid.nga.mil/grid/export/aoi/list/"): Navigate to 'https://grid.nga.mil/grid/export/aoi/list/' successfully
+
+2020-07-01 13:41:06 - [MESSAGE][PASSED] - Navigate to 'https://grid.nga.mil/grid/export/aoi/list/' successfully
+
+2020-07-01 13:41:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_demo2 Auto  GRiD/a_Map")): Object: 'Object Repository/Page_demo2 Auto  GRiD/a_Map' is clicked on
+
+2020-07-01 13:41:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_demo2 Auto  GRiD/a_Map' is clicked on
+
+2020-07-01 13:41:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Map  GRiD/input_Search Collects_map-search"), "33SUS2843739565"): Text '33SUS2843739565' is set on object 'Object Repository/Page_Map  GRiD/input_Search Collects_map-search'
+
+2020-07-01 13:41:09 - [MESSAGE][PASSED] - Text '33SUS2843739565' is set on object 'Object Repository/Page_Map  GRiD/input_Search Collects_map-search'
+
+2020-07-01 13:41:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Map  GRiD/a_33SUS2843639564")): Object: 'Object Repository/Page_Map  GRiD/a_33SUS2843639564' is clicked on
+
+2020-07-01 13:41:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Map  GRiD/a_33SUS2843639564' is clicked on
+
+2020-07-01 13:41:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Map  GRiD/input_Search Collects_map-search"), "33SUS2843639564"): Text '33SUS2843639564' is set on object 'Object Repository/Page_Map  GRiD/input_Search Collects_map-search'
+
+2020-07-01 13:41:14 - [MESSAGE][PASSED] - Text '33SUS2843639564' is set on object 'Object Repository/Page_Map  GRiD/input_Search Collects_map-search'
+
+2020-07-01 13:41:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Map  GRiD/i_Resume View_jstree-icon jstree-checkbox")): Object: 'Object Repository/Page_Map  GRiD/i_Resume View_jstree-icon jstree-checkbox' is clicked on
+
+2020-07-01 13:41:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Map  GRiD/i_Resume View_jstree-icon jstree-checkbox' is clicked on
+
+2020-07-01 13:41:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Map  GRiD/i_Resume View_jstree-icon jstree-checkbox")): Object: 'Object Repository/Page_Map  GRiD/i_Resume View_jstree-icon jstree-checkbox' is clicked on
+
+2020-07-01 13:41:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Map  GRiD/i_Resume View_jstree-icon jstree-checkbox' is clicked on
+
+2020-07-01 13:41:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Map  GRiD/path"), OPTIONAL): Object: 'Object Repository/Page_Map  GRiD/path' is clicked on
+
+2020-07-01 13:41:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Map  GRiD/path' is clicked on
+
+2020-07-01 13:41:18 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Page_Map  GRiD/canvas_Loading Layers_ol-unselectable")): Unable to click on object 'Object Repository/Page_Map  GRiD/canvas_Loading Layers_ol-unselectable' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Map  GRiD/canvas_Loading Layers_ol-unselectable'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Export Buckeye PointCloud.run(Export Buckeye PointCloud:88)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1593625162377.run(TempTestSuite1593625162377.groovy:37)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <canvas class="ol-unselectable" style="width: 100%; height: 100%;" width="3360" height="1416"></canvas> is not clickable at point (840, 430). Other element would receive the click: <div id="89.25577463825213" class="tooltip-popup tooltip-static">...</div>
+  (Session info: chrome=83.0.4103.116)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'c02yj0qyjgh7.lan', ip: 'fe80:0:0:0:ccd:ccd0:e134:a423%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /var/folders/mk/mm0g76rn3_g...}, goog:chromeOptions: {debuggerAddress: localhost:54377}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d7b76ab6eb12c5b67565684b736a3880
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1593619051761.run(Script1593619051761.groovy:88)
+	... 13 more
+)
+
+2020-07-01 13:41:22 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Map  GRiD/canvas_Loading Layers_ol-unselectable' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Map  GRiD/canvas_Loading Layers_ol-unselectable'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Export Buckeye PointCloud.run(Export Buckeye PointCloud:88)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1593625162377.run(TempTestSuite1593625162377.groovy:37)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <canvas class="ol-unselectable" style="width: 100%; height: 100%;" width="3360" height="1416"></canvas> is not clickable at point (840, 430). Other element would receive the click: <div id="89.25577463825213" class="tooltip-popup tooltip-static">...</div>
+  (Session info: chrome=83.0.4103.116)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'c02yj0qyjgh7.lan', ip: 'fe80:0:0:0:ccd:ccd0:e134:a423%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /var/folders/mk/mm0g76rn3_g...}, goog:chromeOptions: {debuggerAddress: localhost:54377}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d7b76ab6eb12c5b67565684b736a3880
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1593619051761.run(Script1593619051761.groovy:88)
+	... 13 more
+)
+[[ATTACHMENT|/Users/bhavikpatel/Katalon Studio/GRiD UI Automation/Reports/20200701_133922/GRiD Login/20200701_133922/1593625280066.png]]]]></system-out>
+         <system-err><![CDATA[2020-07-01 13:39:54 - [TEST_CASE][FAILED] - Test Cases/Export Buckeye PointCloud: Test Cases/Export Buckeye PointCloud FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Map  GRiD/canvas_Loading Layers_ol-unselectable'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Export Buckeye PointCloud.run(Export Buckeye PointCloud:88)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1593625162377.run(TempTestSuite1593625162377.groovy:37)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <canvas class="ol-unselectable" style="width: 100%; height: 100%;" width="3360" height="1416"></canvas> is not clickable at point (840, 430). Other element would receive the click: <div id="89.25577463825213" class="tooltip-popup tooltip-static">...</div>
+  (Session info: chrome=83.0.4103.116)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'c02yj0qyjgh7.lan', ip: 'fe80:0:0:0:ccd:ccd0:e134:a423%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /var/folders/mk/mm0g76rn3_g...}, goog:chromeOptions: {debuggerAddress: localhost:54377}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d7b76ab6eb12c5b67565684b736a3880
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-07-01 13:39:25 - [TEST_SUITE][FAILED] - GRiD Login: Test Cases/Export Buckeye PointCloud FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Map  GRiD/canvas_Loading Layers_ol-unselectable'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Export Buckeye PointCloud.run(Export Buckeye PointCloud:88)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1593625162377.run(TempTestSuite1593625162377.groovy:37)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <canvas class="ol-unselectable" style="width: 100%; height: 100%;" width="3360" height="1416"></canvas> is not clickable at point (840, 430). Other element would receive the click: <div id="89.25577463825213" class="tooltip-popup tooltip-static">...</div>
+  (Session info: chrome=83.0.4103.116)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'c02yj0qyjgh7.lan', ip: 'fe80:0:0:0:ccd:ccd0:e134:a423%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /var/folders/mk/mm0g76rn3_g...}, goog:chromeOptions: {debuggerAddress: localhost:54377}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d7b76ab6eb12c5b67565684b736a3880
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-07-01 13:39:25 - [TEST_SUITE][FAILED] - GRiD Login: Test Cases/Export Buckeye PointCloud FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Map  GRiD/canvas_Loading Layers_ol-unselectable'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Export Buckeye PointCloud.run(Export Buckeye PointCloud:88)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1593625162377.run(TempTestSuite1593625162377.groovy:37)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <canvas class="ol-unselectable" style="width: 100%; height: 100%;" width="3360" height="1416"></canvas> is not clickable at point (840, 430). Other element would receive the click: <div id="89.25577463825213" class="tooltip-popup tooltip-static">...</div>
+  (Session info: chrome=83.0.4103.116)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'c02yj0qyjgh7.lan', ip: 'fe80:0:0:0:ccd:ccd0:e134:a423%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /var/folders/mk/mm0g76rn3_g...}, goog:chromeOptions: {debuggerAddress: localhost:54377}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d7b76ab6eb12c5b67565684b736a3880
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>
