@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>FG3D Test</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e0c775a1-579b-4b12-b1ff-6809bc2bcd48</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f01bd361-b168-4f3d-8788-c320a5f91087</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>

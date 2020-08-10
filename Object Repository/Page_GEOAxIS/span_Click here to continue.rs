@@ -9,6 +9,10 @@
          <key>XPATH</key>
          <value>//span[@id='certNotify']</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#certNotify</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>

@@ -9,6 +9,10 @@
          <key>XPATH</key>
          <value>//div[@id='authmechlinks']/div/ul/li[2]/a</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.x509</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>

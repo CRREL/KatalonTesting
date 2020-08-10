@@ -9,6 +9,9 @@
          <key>XPATH</key>
          <value>//a[contains(text(),'GEOAxIS')]</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>

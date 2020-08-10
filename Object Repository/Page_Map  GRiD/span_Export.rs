@@ -9,6 +9,10 @@
          <key>XPATH</key>
          <value>//span[@id='export-btn-text']</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#export-btn-text</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -66,7 +70,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='U//FO'])[8]/following::span[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='—'])[2]/following::span[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,6 +92,13 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button/span[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='U//FO'])[8]/following::span[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
