@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>AOI: AT-Pointcloud
+Export Workflow: Export Pointcloud
+Filter: None</description>
+   <name>4 - ALIRT Intensity Export</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e391986f-0ab2-4e85-a348-0f9f6b39be8d</testCaseGuid>
+</TestCaseEntity>

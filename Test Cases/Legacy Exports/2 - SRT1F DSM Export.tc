@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>AOI: AT-Pointcloud
+Export Workflow: Export Pointcloud
+Filter: None</description>
+   <name>2 - SRT1F DSM Export</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cd7a9eba-5319-440d-bc3d-44ee5ea71358</testCaseGuid>
+</TestCaseEntity>
