@@ -20,7 +20,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://grid.nga.mil/grid/accounts/login/?next=/grid/export/aoi/38123/')
 
-WebUI.click(findTestObject('Object Repository/Page_Login  GRiD/btn_CAC  GEOAxIS Login'))
+WebUI.click(findTestObject('null'))
 
 WebUI.click(findTestObject('Page_GEOAxIS/a_PKI Certificate'))
 
