@@ -32,8 +32,8 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.t
 
 
 
-RunConfiguration.setExecutionSettingFile("/Users/bhavikpatel/Downloads/Projects/CRREL/GRiD/Automation Testing/Automation Testing Project/KatalonTesting/Reports/20200924_130926/AFE Test Suite/20200924_130926/execution.properties")
+RunConfiguration.setExecutionSettingFile("/Users/bhavikpatel/Downloads/Projects/CRREL/GRiD/Automation Testing/Automation Testing Project/KatalonTesting/Reports/20200924_134358/AFE Test Suite/20200924_134358/execution.properties")
 
 TestCaseMain.beforeStart()
 
-TestCaseMain.startTestSuite('Test Suites/AFE Test Suite', suiteProperties, new File("/Users/bhavikpatel/Downloads/Projects/CRREL/GRiD/Automation Testing/Automation Testing Project/KatalonTesting/Reports/20200924_130926/AFE Test Suite/20200924_130926/testCaseBinding"))
+TestCaseMain.startTestSuite('Test Suites/AFE Test Suite', suiteProperties, new File("/Users/bhavikpatel/Downloads/Projects/CRREL/GRiD/Automation Testing/Automation Testing Project/KatalonTesting/Reports/20200924_134358/AFE Test Suite/20200924_134358/testCaseBinding"))

@@ -6,19 +6,18 @@
    <elementGuidId>631413c6-0e0c-4642-97f4-e8aaca2c0955</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'form-check-label' and (text() = 'VBS3' or . = 'VBS3')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='id_ascend_output']/div[3]/label</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@class = 'form-check-label' and (text() = 'VBS3' or . = 'VBS3')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

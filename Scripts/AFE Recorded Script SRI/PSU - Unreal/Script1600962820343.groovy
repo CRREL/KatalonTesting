@@ -31,6 +31,8 @@ WebUI.selectOptionByValue(findTestObject('Page_AFE  GRiD/select_TexPert 315-1  P
 
 Thread.sleep(2000)
 
+WebUI.scrollToElement(findTestObject('Page_AFE  GRiD/label_Unreal'), 0)
+
 WebUI.click(findTestObject('Page_AFE  GRiD/label_Unreal'))
 
 WebUI.click(findTestObject('Page_AFE  GRiD/div_Cancel    Generate'))

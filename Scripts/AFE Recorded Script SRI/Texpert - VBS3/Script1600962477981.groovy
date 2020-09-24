@@ -27,7 +27,9 @@ Thread.sleep(1000)
 
 WebUI.click(findTestObject('Page_AFE  GRiD/input_Feature Extraction_filter_afe'))
 
-Thread.sleep(2000)
+Thread.sleep(5000)
+
+WebUI.scrollToElement(findTestObject('Page_AFE  GRiD/label_VBS3'), 0)
 
 WebUI.click(findTestObject('Page_AFE  GRiD/label_VBS3'))
 

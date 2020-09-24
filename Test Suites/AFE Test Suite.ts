@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>72295cd9-8511-4211-a5b1-bbee119a87dc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/AFE 1</testCaseId>
    </testCaseLink>
    <testCaseLink>
