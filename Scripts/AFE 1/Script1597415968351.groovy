@@ -33,9 +33,13 @@ WebUI.setText(findTestObject('Page_AFE  GRiD/input_Display Name_name'), 'Textper
 
 WebUI.click(findTestObject('Page_AFE  GRiD/Filter Drop-down'))
 
+WebUI.waitForElementNotClickable(findTestObject('Page_AFE  GRiD/input_Feature Extraction_filter_afe'), 10)
+
 WebUI.click(findTestObject('Page_AFE  GRiD/input_Feature Extraction_filter_afe'))
 
 WebUI.selectOptionByValue(findTestObject('Page_AFE  GRiD/select_TexPert 315-1  PSU 170  SRI 15'), 'texpert_3.1.5-1;', true)
+
+WebUI.waitForElementNotClickable(findTestObject('Page_AFE  GRiD/label_VBS3'), 5)
 
 WebUI.click(findTestObject('Page_AFE  GRiD/label_VBS3'))
 

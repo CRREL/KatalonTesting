@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>3cf9478a-c5f3-44d7-ac70-30e41fa731ed</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Login with GEOAxIS</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -65,7 +65,7 @@
    <testCaseLink>
       <guid>06fda8ea-8636-4de8-959a-605f5b706b71</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/FG3D Test - Stragetic</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

@@ -16,15 +16,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://grid.nga.mil/grid/accounts/login/?next=/grid/export/aoi/38117/')
-
-WebUI.click(findTestObject('null'))
-
-WebUI.click(findTestObject('Page_GEOAxIS/a_PKI Certificate'))
-
-WebUI.click(findTestObject('Page_GEOAxIS/span_Click here to continue'))
+WebUI.click(findTestObject('Page_AT-Pointcloud  GRiD/a_AT-Imagery'))
 
 WebUI.click(findTestObject('Object Repository/Page_AT-Imagery  GRiD/a_Export DEMsimagery'))
 
@@ -34,7 +26,9 @@ WebUI.click(findTestObject('Page_AT-Imagery  GRiD/div_Intensity - 20111014_41R75
 
 WebUI.setText(findTestObject('Object Repository/Page_AT-Imagery  GRiD/input_Display Name_name'), 'Katalon - ALIRT Intensity Export')
 
-WebUI.click(findTestObject('Object Repository/Page_AT-Imagery  GRiD/button_Generate'))
+WebUI.click(findTestObject('Page_AFE  GRiD/div_Cancel    Generate'))
+
+WebUI.waitForElementClickable(findTestObject('Page_AT-Pointcloud  GRiD/button_Download'), 15)
 
 WebUI.click(findTestObject('Page_AT-Imagery  GRiD/button_Download'))
 

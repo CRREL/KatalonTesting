@@ -6,15 +6,18 @@
    <elementGuidId>985463b2-d535-4895-a571-a23dc3a03d2d</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'OpenFlight' or . = 'OpenFlight')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='id_ascend_output']/div[5]/label</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

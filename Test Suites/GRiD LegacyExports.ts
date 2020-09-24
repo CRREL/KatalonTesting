@@ -15,7 +15,7 @@
       <guid>72995c5b-4ca1-42b6-9429-4d6fdfb3654c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Legacy Exports/1 - ALIRT PC Export</testCaseId>
+      <testCaseId>Test Cases/Legacy Exports/1 - ALIRT PC Export - First</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>b29b2dd7-2575-4be4-a204-4217b913195e</guid>

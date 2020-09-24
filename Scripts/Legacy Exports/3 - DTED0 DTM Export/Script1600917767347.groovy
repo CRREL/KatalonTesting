@@ -16,15 +16,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://grid.nga.mil/grid/accounts/login/?next=/grid/export/aoi/38115/')
-
-WebUI.click(findTestObject('null'))
-
-WebUI.click(findTestObject('Page_GEOAxIS/a_PKI Certificate'))
-
-WebUI.click(findTestObject('Page_GEOAxIS/span_Click here to continue'))
+WebUI.click(findTestObject('Page_AT-Pointcloud  GRiD/a_AT-Elevation'))
 
 WebUI.click(findTestObject('Page_AT-Elevation  GRiD/a_Export DEMsimagery'))
 
@@ -34,7 +26,9 @@ WebUI.click(findTestObject('Page_AT-Elevation  GRiD/div_DTM - 20010601_1C461111 
 
 WebUI.setText(findTestObject('Page_AT-Elevation  GRiD/input_Display Name_name'), 'Katalon - DTED0 DTM Export')
 
-WebUI.click(findTestObject('Page_AT-Elevation  GRiD/button_Generate'))
+WebUI.click(findTestObject('Page_AFE  GRiD/div_Cancel    Generate'))
+
+WebUI.waitForElementClickable(findTestObject('Page_AT-Pointcloud  GRiD/button_Download'), 15)
 
 WebUI.click(findTestObject('Page_AT-Elevation  GRiD/button_Download'))
 

@@ -6,6 +6,10 @@
    <elementGuidId>53e5891e-09c4-465e-b54b-db32d39f2338</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'CDB' or . = 'CDB')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='id_ascend_output']/div/label</value>
       </entry>
@@ -14,7 +18,7 @@
          <value>#id_ascend_output > div.form-check > label.form-check-label</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

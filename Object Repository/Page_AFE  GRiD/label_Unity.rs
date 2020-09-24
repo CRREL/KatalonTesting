@@ -6,15 +6,18 @@
    <elementGuidId>75dc07a8-4e15-4bb1-bc7a-595e6f7b10af</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Unity' or . = 'Unity')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='id_ascend_output']/div[2]/label</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
