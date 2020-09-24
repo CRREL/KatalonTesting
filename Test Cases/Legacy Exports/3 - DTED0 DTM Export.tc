@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>AOI: AT-Pointcloud
+Export Workflow: Export Pointcloud
+Filter: None</description>
+   <name>3 - DTED0 DTM Export</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f6f167e4-09ed-4186-9efc-d331314b4825</testCaseGuid>
+</TestCaseEntity>

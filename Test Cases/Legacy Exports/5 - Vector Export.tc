@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>AOI: AT-Pointcloud
+Export Workflow: Export Pointcloud
+Filter: None</description>
+   <name>5 - Vector Export</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>50aa92ef-8839-4cc8-815f-ad73e655a8f1</testCaseGuid>
+</TestCaseEntity>
