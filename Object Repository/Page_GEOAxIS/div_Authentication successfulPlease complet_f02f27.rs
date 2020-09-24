@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Intensity - 20111014_41R751348 UNCLASSI_1a1436</name>
+   <name>div_Authentication successfulPlease complet_f02f27</name>
    <tag></tag>
-   <elementGuidId>8471856d-da10-4f3f-aa98-be09182fa06b</elementGuidId>
+   <elementGuidId>f7518ae7-d0a9-4c00-bbac-6920e0c00ff9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//li[@id='69242-selectable']/span/div</value>
+         <value>//div[@id='jNotify']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#69242-selectable > span > div</value>
+         <value>#jNotify</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -24,52 +24,60 @@
       <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-toggle</name>
+      <name>id</name>
       <type>Main</type>
-      <value>popover</value>
+      <value>jNotify</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Intensity - 20111014_41R751348: UNCLASSIFIED//FOUO. 2011-10-14. Program: ALIRTAOI Coverage: 100%.  Res: 1.0m. V.Datum: Not Specified</value>
+      <value>Authentication successful!Please complete the one-time registration process to create a Disadvantaged User account  
+(DUA) via this link. After registering a DUA with GEOAxIS, you will no longer see this prompt.Your last login occurred on Thu Sep 24 03:28:45 GMT 2020Click here to continue</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;69242-selectable&quot;)/span[1]/div[1]</value>
+      <value>id(&quot;jNotify&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
+      <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//li[@id='69242-selectable']/span/div</value>
+      <value>//div[@id='jNotify']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Selected'])[1]/preceding::div[30]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'jNotify', '&quot;', ')')])[1]/following::div[5]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[14]/following::div[8]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Authentication successful!']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[54]/span/div</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//li[49]/span/div</value>
+      <value>//div[9]</value>
    </webElementXpaths>
 </WebElementEntity>
