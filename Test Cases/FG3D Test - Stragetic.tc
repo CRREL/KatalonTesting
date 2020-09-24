@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>FG3D Test - Stragetic</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>79eeb401-064d-4174-b898-f6f601a38180</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('FG3D Test Data')</defaultValue>
+      <description></description>
+      <id>9ccd36a9-a9ca-46aa-bc69-bd2c7f08dcd2</id>
+      <masked>false</masked>
+      <name>id_name</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('FG3D Test Data')</defaultValue>
+      <description></description>
+      <id>4ed5902b-dd31-4951-826b-a5cff99c6ff1</id>
+      <masked>false</masked>
+      <name>id_imagery</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('FG3D Test Data')</defaultValue>
+      <description></description>
+      <id>bf28fbf9-e795-47ba-a072-e2aca1ee2cad</id>
+      <masked>false</masked>
+      <name>id_elevation</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('FG3D Test Data')</defaultValue>
+      <description></description>
+      <id>3d3847d2-0c10-4f39-a5f3-fb61bec611be</id>
+      <masked>false</masked>
+      <name>id_vectors</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('FG3D Test Data')</defaultValue>
+      <description></description>
+      <id>da4f3047-96c2-4f97-8808-08425f977115</id>
+      <masked>false</masked>
+      <name>id_models</name>
+   </variable>
+</TestCaseEntity>

@@ -6,12 +6,12 @@
    <elementGuidId>be186521-c64c-4842-8d1d-5e980c79496b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='aoiview']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#aoiview</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[2]/div/div/a[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
