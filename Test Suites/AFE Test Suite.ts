@@ -12,12 +12,6 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>5d0ecad5-f79c-4ca6-aabb-4914ee3c9e91</testSuiteGuid>
    <testCaseLink>
-      <guid>72295cd9-8511-4211-a5b1-bbee119a87dc</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/AFE 1</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>52c2adc6-9763-46e6-9e49-868934d6f07a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

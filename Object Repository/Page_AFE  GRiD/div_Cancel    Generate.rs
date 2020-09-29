@@ -6,10 +6,6 @@
    <elementGuidId>d027a657-5b39-4bfb-b62f-b8e0528793ca</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//form[@id='aoiexport']/div[27]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.actions</value>
       </entry>
@@ -22,6 +18,10 @@
     Cancel
     Generate
   ')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Send an email on job completion'])[1]/following::div[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

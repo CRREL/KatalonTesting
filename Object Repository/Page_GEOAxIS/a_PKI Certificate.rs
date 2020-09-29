@@ -6,12 +6,12 @@
    <elementGuidId>303f6d60-f001-489a-927a-3c91ca1aaf81</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='authmechlinks']/div/ul/li[2]/a</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>a.x509</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

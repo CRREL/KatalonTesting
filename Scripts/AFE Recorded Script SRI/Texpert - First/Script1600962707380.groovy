@@ -17,13 +17,9 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://grid.nga.mil/grid/accounts/login/?next=/grid/export/aoi/38277/')
+WebUI.navigateToUrl('https://grid.nga.mil/testgrid/accounts/login/?next=/testgrid/export/aoi/38277/')
 
 WebUI.click(findTestObject('Page_Login  GRiD/btn_CAC  GEOAxIS Login'))
-
-WebUI.click(findTestObject('Page_GEOAxIS/a_PKI Certificate'))
-
-WebUI.click(findTestObject('Page_GEOAxIS/span_Click here to continue'))
 
 WebUI.click(findTestObject('Page_AFE  GRiD/a_Export pointcloud data'))
 

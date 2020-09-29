@@ -1,0 +1,987 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AFE Test Suite" time="383.902" tests="21" failures="0" errors="0">
+   <testsuite name="AFE Test Suite" tests="21" failures="0" errors="0" time="383.902" timestamp="2020-09-28 15:37:41" hostname="bhavikpatel - c02yj0qyjgh7.lan" id="Test Suites/AFE Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/bhavikpatel/Downloads/Projects/CRREL/GRiD/Automation Testing/Automation Testing Project/KatalonTesting/Reports/20200928_153737/AFE Test Suite/20200928_153737"/>
+         <property name="logFiles" value="/Users/bhavikpatel/Downloads/Projects/CRREL/GRiD/Automation Testing/Automation Testing Project/KatalonTesting/Reports/20200928_153737/AFE Test Suite/20200928_153737/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="bhavikpatel - c02yj0qyjgh7.lan"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.6.2.205"/>
+         <property name="browser" value="Chrome 85.0.4183.121"/>
+         <property name="hostAddress" value="192.168.87.37"/>
+         <property name="sessionId" value="9a2b8967ccba882aaad27e973b6d757b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/AFE Recorded Script SRI/Texpert - First" time="31.078" classname="Test Cases/AFE Recorded Script SRI/Texpert - First" status="PASSED">
+         <system-out><![CDATA[2020-09-28 15:37:41 - [TEST_CASE][PASSED] - Test Cases/AFE Recorded Script SRI/Texpert - First: Test Cases/AFE Recorded Script SRI/Texpert - First
+
+2020-09-28 15:37:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-09-28 15:37:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-28 15:37:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-28 15:37:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-28 15:37:44 - [TEST_STEP][PASSED] - navigateToUrl("https://grid.nga.mil/testgrid/accounts/login/?next=/testgrid/export/aoi/38277/"): Navigate to 'https://grid.nga.mil/testgrid/accounts/login/?next=/testgrid/export/aoi/38277/' successfully
+
+2020-09-28 15:37:45 - [MESSAGE][PASSED] - Navigate to 'https://grid.nga.mil/testgrid/accounts/login/?next=/testgrid/export/aoi/38277/' successfully
+
+2020-09-28 15:37:45 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login  GRiD/btn_CAC  GEOAxIS Login")): Object: 'Object Repository/Page_Login  GRiD/btn_CAC  GEOAxIS Login' is clicked on
+
+2020-09-28 15:38:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login  GRiD/btn_CAC  GEOAxIS Login' is clicked on
+
+2020-09-28 15:38:00 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/a_Export pointcloud data")): Object: 'Object Repository/Page_AFE  GRiD/a_Export pointcloud data' is clicked on
+
+2020-09-28 15:38:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/a_Export pointcloud data' is clicked on
+
+2020-09-28 15:38:03 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/div_PC 20190623_18T577450 UNCLASSIFIEDFOUO _33ce5f")): Object: 'Object Repository/Page_AFE  GRiD/div_PC 20190623_18T577450 UNCLASSIFIEDFOUO _33ce5f' is clicked on
+
+2020-09-28 15:38:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/div_PC 20190623_18T577450 UNCLASSIFIEDFOUO _33ce5f' is clicked on
+
+2020-09-28 15:38:04 - [TEST_STEP][PASSED] - setText(findTestObject("Page_AFE  GRiD/input_Display Name_name"), "Texpert"): Text 'Texpert' is set on object 'Object Repository/Page_AFE  GRiD/input_Display Name_name'
+
+2020-09-28 15:38:05 - [MESSAGE][PASSED] - Text 'Texpert' is set on object 'Object Repository/Page_AFE  GRiD/input_Display Name_name'
+
+2020-09-28 15:38:05 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/Filter Drop-down")): Object: 'Object Repository/Page_AFE  GRiD/Filter Drop-down' is clicked on
+
+2020-09-28 15:38:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/Filter Drop-down' is clicked on
+
+2020-09-28 15:38:05 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-09-28 15:38:06 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/input_Feature Extraction_filter_afe")): Object: 'Object Repository/Page_AFE  GRiD/input_Feature Extraction_filter_afe' is clicked on
+
+2020-09-28 15:38:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/input_Feature Extraction_filter_afe' is clicked on
+
+2020-09-28 15:38:07 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/div_Cancel    Generate")): Object: 'Object Repository/Page_AFE  GRiD/div_Cancel    Generate' is clicked on
+
+2020-09-28 15:38:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/div_Cancel    Generate' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AFE Recorded Script SRI/Texpert - CDB" time="17.425" classname="Test Cases/AFE Recorded Script SRI/Texpert - CDB" status="PASSED">
+         <system-out><![CDATA[2020-09-28 15:38:12 - [TEST_CASE][PASSED] - Test Cases/AFE Recorded Script SRI/Texpert - CDB: Test Cases/AFE Recorded Script SRI/Texpert - CDB
+
+2020-09-28 15:38:12 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/a_Export pointcloud data")): Object: 'Object Repository/Page_AFE  GRiD/a_Export pointcloud data' is clicked on
+
+2020-09-28 15:38:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/a_Export pointcloud data' is clicked on
+
+2020-09-28 15:38:15 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/div_PC 20190623_18T577450 UNCLASSIFIEDFOUO _33ce5f")): Object: 'Object Repository/Page_AFE  GRiD/div_PC 20190623_18T577450 UNCLASSIFIEDFOUO _33ce5f' is clicked on
+
+2020-09-28 15:38:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/div_PC 20190623_18T577450 UNCLASSIFIEDFOUO _33ce5f' is clicked on
+
+2020-09-28 15:38:16 - [TEST_STEP][PASSED] - setText(findTestObject("Page_AFE  GRiD/input_Display Name_name"), "Texpert - CDB"): Text 'Texpert - CDB' is set on object 'Object Repository/Page_AFE  GRiD/input_Display Name_name'
+
+2020-09-28 15:38:17 - [MESSAGE][PASSED] - Text 'Texpert - CDB' is set on object 'Object Repository/Page_AFE  GRiD/input_Display Name_name'
+
+2020-09-28 15:38:17 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/Filter Drop-down")): Object: 'Object Repository/Page_AFE  GRiD/Filter Drop-down' is clicked on
+
+2020-09-28 15:38:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/Filter Drop-down' is clicked on
+
+2020-09-28 15:38:18 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-09-28 15:38:19 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/input_Feature Extraction_filter_afe")): Object: 'Object Repository/Page_AFE  GRiD/input_Feature Extraction_filter_afe' is clicked on
+
+2020-09-28 15:38:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/input_Feature Extraction_filter_afe' is clicked on
+
+2020-09-28 15:38:19 - [TEST_STEP][PASSED] - Thread.sleep(5000): null
+
+2020-09-28 15:38:24 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_AFE  GRiD/label_CDB"), 0): Scroll to object 'Object Repository/Page_AFE  GRiD/label_CDB' successfully
+
+2020-09-28 15:38:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-28 15:38:25 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_AFE  GRiD/label_CDB' successfully
+
+2020-09-28 15:38:25 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/label_CDB")): Object: 'Object Repository/Page_AFE  GRiD/label_CDB' is clicked on
+
+2020-09-28 15:38:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/label_CDB' is clicked on
+
+2020-09-28 15:38:25 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/div_Cancel    Generate")): Object: 'Object Repository/Page_AFE  GRiD/div_Cancel    Generate' is clicked on
+
+2020-09-28 15:38:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/div_Cancel    Generate' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AFE Recorded Script SRI/Texpert - Unity" time="14.204" classname="Test Cases/AFE Recorded Script SRI/Texpert - Unity" status="PASSED">
+         <system-out><![CDATA[2020-09-28 15:38:29 - [TEST_CASE][PASSED] - Test Cases/AFE Recorded Script SRI/Texpert - Unity: Test Cases/AFE Recorded Script SRI/Texpert - Unity
+
+2020-09-28 15:38:30 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/a_Export pointcloud data")): Object: 'Object Repository/Page_AFE  GRiD/a_Export pointcloud data' is clicked on
+
+2020-09-28 15:38:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/a_Export pointcloud data' is clicked on
+
+2020-09-28 15:38:33 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/div_PC 20190623_18T577450 UNCLASSIFIEDFOUO _33ce5f")): Object: 'Object Repository/Page_AFE  GRiD/div_PC 20190623_18T577450 UNCLASSIFIEDFOUO _33ce5f' is clicked on
+
+2020-09-28 15:38:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/div_PC 20190623_18T577450 UNCLASSIFIEDFOUO _33ce5f' is clicked on
+
+2020-09-28 15:38:34 - [TEST_STEP][PASSED] - setText(findTestObject("Page_AFE  GRiD/input_Display Name_name"), "Texpert - Unity"): Text 'Texpert - Unity' is set on object 'Object Repository/Page_AFE  GRiD/input_Display Name_name'
+
+2020-09-28 15:38:35 - [MESSAGE][PASSED] - Text 'Texpert - Unity' is set on object 'Object Repository/Page_AFE  GRiD/input_Display Name_name'
+
+2020-09-28 15:38:35 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/Filter Drop-down")): Object: 'Object Repository/Page_AFE  GRiD/Filter Drop-down' is clicked on
+
+2020-09-28 15:38:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/Filter Drop-down' is clicked on
+
+2020-09-28 15:38:35 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-09-28 15:38:36 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/input_Feature Extraction_filter_afe")): Object: 'Object Repository/Page_AFE  GRiD/input_Feature Extraction_filter_afe' is clicked on
+
+2020-09-28 15:38:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/input_Feature Extraction_filter_afe' is clicked on
+
+2020-09-28 15:38:36 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2020-09-28 15:38:38 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_AFE  GRiD/label_Unity"), 0): Scroll to object 'Object Repository/Page_AFE  GRiD/label_Unity' successfully
+
+2020-09-28 15:38:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-28 15:38:39 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_AFE  GRiD/label_Unity' successfully
+
+2020-09-28 15:38:39 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/label_Unity")): Object: 'Object Repository/Page_AFE  GRiD/label_Unity' is clicked on
+
+2020-09-28 15:38:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/label_Unity' is clicked on
+
+2020-09-28 15:38:39 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/div_Cancel    Generate")): Object: 'Object Repository/Page_AFE  GRiD/div_Cancel    Generate' is clicked on
+
+2020-09-28 15:38:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/div_Cancel    Generate' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AFE Recorded Script SRI/Texpert - VBS3" time="17.428" classname="Test Cases/AFE Recorded Script SRI/Texpert - VBS3" status="PASSED">
+         <system-out><![CDATA[2020-09-28 15:38:44 - [TEST_CASE][PASSED] - Test Cases/AFE Recorded Script SRI/Texpert - VBS3: Test Cases/AFE Recorded Script SRI/Texpert - VBS3
+
+2020-09-28 15:38:44 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/a_Export pointcloud data")): Object: 'Object Repository/Page_AFE  GRiD/a_Export pointcloud data' is clicked on
+
+2020-09-28 15:38:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/a_Export pointcloud data' is clicked on
+
+2020-09-28 15:38:47 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/div_PC 20190623_18T577450 UNCLASSIFIEDFOUO _33ce5f")): Object: 'Object Repository/Page_AFE  GRiD/div_PC 20190623_18T577450 UNCLASSIFIEDFOUO _33ce5f' is clicked on
+
+2020-09-28 15:38:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/div_PC 20190623_18T577450 UNCLASSIFIEDFOUO _33ce5f' is clicked on
+
+2020-09-28 15:38:48 - [TEST_STEP][PASSED] - setText(findTestObject("Page_AFE  GRiD/input_Display Name_name"), "Texpert - VBS3"): Text 'Texpert - VBS3' is set on object 'Object Repository/Page_AFE  GRiD/input_Display Name_name'
+
+2020-09-28 15:38:49 - [MESSAGE][PASSED] - Text 'Texpert - VBS3' is set on object 'Object Repository/Page_AFE  GRiD/input_Display Name_name'
+
+2020-09-28 15:38:49 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/Filter Drop-down")): Object: 'Object Repository/Page_AFE  GRiD/Filter Drop-down' is clicked on
+
+2020-09-28 15:38:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/Filter Drop-down' is clicked on
+
+2020-09-28 15:38:49 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-09-28 15:38:50 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/input_Feature Extraction_filter_afe")): Object: 'Object Repository/Page_AFE  GRiD/input_Feature Extraction_filter_afe' is clicked on
+
+2020-09-28 15:38:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/input_Feature Extraction_filter_afe' is clicked on
+
+2020-09-28 15:38:51 - [TEST_STEP][PASSED] - Thread.sleep(5000): null
+
+2020-09-28 15:38:56 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_AFE  GRiD/label_VBS3"), 0): Scroll to object 'Object Repository/Page_AFE  GRiD/label_VBS3' successfully
+
+2020-09-28 15:38:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-28 15:38:56 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_AFE  GRiD/label_VBS3' successfully
+
+2020-09-28 15:38:56 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/label_VBS3")): Object: 'Object Repository/Page_AFE  GRiD/label_VBS3' is clicked on
+
+2020-09-28 15:38:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/label_VBS3' is clicked on
+
+2020-09-28 15:38:57 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/div_Cancel    Generate")): Object: 'Object Repository/Page_AFE  GRiD/div_Cancel    Generate' is clicked on
+
+2020-09-28 15:39:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/div_Cancel    Generate' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AFE Recorded Script SRI/Texpert - Unreal" time="17.617" classname="Test Cases/AFE Recorded Script SRI/Texpert - Unreal" status="PASSED">
+         <system-out><![CDATA[2020-09-28 15:39:01 - [TEST_CASE][PASSED] - Test Cases/AFE Recorded Script SRI/Texpert - Unreal: Test Cases/AFE Recorded Script SRI/Texpert - Unreal
+
+2020-09-28 15:39:01 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/a_Export pointcloud data")): Object: 'Object Repository/Page_AFE  GRiD/a_Export pointcloud data' is clicked on
+
+2020-09-28 15:39:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/a_Export pointcloud data' is clicked on
+
+2020-09-28 15:39:05 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/div_PC 20190623_18T577450 UNCLASSIFIEDFOUO _33ce5f")): Object: 'Object Repository/Page_AFE  GRiD/div_PC 20190623_18T577450 UNCLASSIFIEDFOUO _33ce5f' is clicked on
+
+2020-09-28 15:39:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/div_PC 20190623_18T577450 UNCLASSIFIEDFOUO _33ce5f' is clicked on
+
+2020-09-28 15:39:05 - [TEST_STEP][PASSED] - setText(findTestObject("Page_AFE  GRiD/input_Display Name_name"), "Texpert - Unreal"): Text 'Texpert - Unreal' is set on object 'Object Repository/Page_AFE  GRiD/input_Display Name_name'
+
+2020-09-28 15:39:07 - [MESSAGE][PASSED] - Text 'Texpert - Unreal' is set on object 'Object Repository/Page_AFE  GRiD/input_Display Name_name'
+
+2020-09-28 15:39:07 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/Filter Drop-down")): Object: 'Object Repository/Page_AFE  GRiD/Filter Drop-down' is clicked on
+
+2020-09-28 15:39:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/Filter Drop-down' is clicked on
+
+2020-09-28 15:39:07 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-09-28 15:39:08 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/input_Feature Extraction_filter_afe")): Object: 'Object Repository/Page_AFE  GRiD/input_Feature Extraction_filter_afe' is clicked on
+
+2020-09-28 15:39:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/input_Feature Extraction_filter_afe' is clicked on
+
+2020-09-28 15:39:08 - [TEST_STEP][PASSED] - Thread.sleep(5000): null
+
+2020-09-28 15:39:13 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_AFE  GRiD/label_Unreal"), 0): Scroll to object 'Object Repository/Page_AFE  GRiD/label_Unreal' successfully
+
+2020-09-28 15:39:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-28 15:39:14 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_AFE  GRiD/label_Unreal' successfully
+
+2020-09-28 15:39:14 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/label_Unreal")): Object: 'Object Repository/Page_AFE  GRiD/label_Unreal' is clicked on
+
+2020-09-28 15:39:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/label_Unreal' is clicked on
+
+2020-09-28 15:39:14 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/div_Cancel    Generate")): Object: 'Object Repository/Page_AFE  GRiD/div_Cancel    Generate' is clicked on
+
+2020-09-28 15:39:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/div_Cancel    Generate' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AFE Recorded Script SRI/Texpert - OpenFlight" time="17.891" classname="Test Cases/AFE Recorded Script SRI/Texpert - OpenFlight" status="PASSED">
+         <system-out><![CDATA[2020-09-28 15:39:19 - [TEST_CASE][PASSED] - Test Cases/AFE Recorded Script SRI/Texpert - OpenFlight: Test Cases/AFE Recorded Script SRI/Texpert - OpenFlight
+
+2020-09-28 15:39:19 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/a_Export pointcloud data")): Object: 'Object Repository/Page_AFE  GRiD/a_Export pointcloud data' is clicked on
+
+2020-09-28 15:39:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/a_Export pointcloud data' is clicked on
+
+2020-09-28 15:39:22 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/div_PC 20190623_18T577450 UNCLASSIFIEDFOUO _33ce5f")): Object: 'Object Repository/Page_AFE  GRiD/div_PC 20190623_18T577450 UNCLASSIFIEDFOUO _33ce5f' is clicked on
+
+2020-09-28 15:39:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/div_PC 20190623_18T577450 UNCLASSIFIEDFOUO _33ce5f' is clicked on
+
+2020-09-28 15:39:23 - [TEST_STEP][PASSED] - setText(findTestObject("Page_AFE  GRiD/input_Display Name_name"), "Texpert - OpenFlight"): Text 'Texpert - OpenFlight' is set on object 'Object Repository/Page_AFE  GRiD/input_Display Name_name'
+
+2020-09-28 15:39:24 - [MESSAGE][PASSED] - Text 'Texpert - OpenFlight' is set on object 'Object Repository/Page_AFE  GRiD/input_Display Name_name'
+
+2020-09-28 15:39:24 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/Filter Drop-down")): Object: 'Object Repository/Page_AFE  GRiD/Filter Drop-down' is clicked on
+
+2020-09-28 15:39:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/Filter Drop-down' is clicked on
+
+2020-09-28 15:39:24 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-09-28 15:39:25 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/input_Feature Extraction_filter_afe")): Object: 'Object Repository/Page_AFE  GRiD/input_Feature Extraction_filter_afe' is clicked on
+
+2020-09-28 15:39:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/input_Feature Extraction_filter_afe' is clicked on
+
+2020-09-28 15:39:26 - [TEST_STEP][PASSED] - Thread.sleep(5000): null
+
+2020-09-28 15:39:31 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_AFE  GRiD/label_OpenFlight"), 0): Scroll to object 'Object Repository/Page_AFE  GRiD/label_OpenFlight' successfully
+
+2020-09-28 15:39:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-28 15:39:31 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_AFE  GRiD/label_OpenFlight' successfully
+
+2020-09-28 15:39:31 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/label_OpenFlight")): Object: 'Object Repository/Page_AFE  GRiD/label_OpenFlight' is clicked on
+
+2020-09-28 15:39:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/label_OpenFlight' is clicked on
+
+2020-09-28 15:39:32 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/div_Cancel    Generate")): Object: 'Object Repository/Page_AFE  GRiD/div_Cancel    Generate' is clicked on
+
+2020-09-28 15:39:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/div_Cancel    Generate' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AFE Recorded Script SRI/Texpert - All" time="19.662" classname="Test Cases/AFE Recorded Script SRI/Texpert - All" status="PASSED">
+         <system-out><![CDATA[2020-09-28 15:39:37 - [TEST_CASE][PASSED] - Test Cases/AFE Recorded Script SRI/Texpert - All: Test Cases/AFE Recorded Script SRI/Texpert - All
+
+2020-09-28 15:39:37 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/a_Export pointcloud data")): Object: 'Object Repository/Page_AFE  GRiD/a_Export pointcloud data' is clicked on
+
+2020-09-28 15:39:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/a_Export pointcloud data' is clicked on
+
+2020-09-28 15:39:40 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/div_PC 20190623_18T577450 UNCLASSIFIEDFOUO _33ce5f")): Object: 'Object Repository/Page_AFE  GRiD/div_PC 20190623_18T577450 UNCLASSIFIEDFOUO _33ce5f' is clicked on
+
+2020-09-28 15:39:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/div_PC 20190623_18T577450 UNCLASSIFIEDFOUO _33ce5f' is clicked on
+
+2020-09-28 15:39:41 - [TEST_STEP][PASSED] - setText(findTestObject("Page_AFE  GRiD/input_Display Name_name"), "Texpert - All"): Text 'Texpert - All' is set on object 'Object Repository/Page_AFE  GRiD/input_Display Name_name'
+
+2020-09-28 15:39:42 - [MESSAGE][PASSED] - Text 'Texpert - All' is set on object 'Object Repository/Page_AFE  GRiD/input_Display Name_name'
+
+2020-09-28 15:39:42 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/Filter Drop-down")): Object: 'Object Repository/Page_AFE  GRiD/Filter Drop-down' is clicked on
+
+2020-09-28 15:39:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/Filter Drop-down' is clicked on
+
+2020-09-28 15:39:43 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-09-28 15:39:44 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/input_Feature Extraction_filter_afe")): Object: 'Object Repository/Page_AFE  GRiD/input_Feature Extraction_filter_afe' is clicked on
+
+2020-09-28 15:39:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/input_Feature Extraction_filter_afe' is clicked on
+
+2020-09-28 15:39:44 - [TEST_STEP][PASSED] - Thread.sleep(5000): null
+
+2020-09-28 15:39:49 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_AFE  GRiD/label_Unity"), 0): Scroll to object 'Object Repository/Page_AFE  GRiD/label_Unity' successfully
+
+2020-09-28 15:39:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-28 15:39:50 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_AFE  GRiD/label_Unity' successfully
+
+2020-09-28 15:39:50 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/label_CDB")): Object: 'Object Repository/Page_AFE  GRiD/label_CDB' is clicked on
+
+2020-09-28 15:39:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/label_CDB' is clicked on
+
+2020-09-28 15:39:50 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/label_Unity")): Object: 'Object Repository/Page_AFE  GRiD/label_Unity' is clicked on
+
+2020-09-28 15:39:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/label_Unity' is clicked on
+
+2020-09-28 15:39:50 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/label_VBS3")): Object: 'Object Repository/Page_AFE  GRiD/label_VBS3' is clicked on
+
+2020-09-28 15:39:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/label_VBS3' is clicked on
+
+2020-09-28 15:39:51 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/label_Unreal")): Object: 'Object Repository/Page_AFE  GRiD/label_Unreal' is clicked on
+
+2020-09-28 15:39:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/label_Unreal' is clicked on
+
+2020-09-28 15:39:51 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/label_OpenFlight")): Object: 'Object Repository/Page_AFE  GRiD/label_OpenFlight' is clicked on
+
+2020-09-28 15:39:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/label_OpenFlight' is clicked on
+
+2020-09-28 15:39:51 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/div_Cancel    Generate")): Object: 'Object Repository/Page_AFE  GRiD/div_Cancel    Generate' is clicked on
+
+2020-09-28 15:39:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/div_Cancel    Generate' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AFE Recorded Script SRI/PSU" time="14.23" classname="Test Cases/AFE Recorded Script SRI/PSU" status="PASSED">
+         <system-out><![CDATA[2020-09-28 15:39:56 - [TEST_CASE][PASSED] - Test Cases/AFE Recorded Script SRI/PSU: Test Cases/AFE Recorded Script SRI/PSU
+
+2020-09-28 15:39:56 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/a_Export pointcloud data")): Object: 'Object Repository/Page_AFE  GRiD/a_Export pointcloud data' is clicked on
+
+2020-09-28 15:40:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/a_Export pointcloud data' is clicked on
+
+2020-09-28 15:40:00 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/div_PC 20190623_18T577450 UNCLASSIFIEDFOUO _33ce5f")): Object: 'Object Repository/Page_AFE  GRiD/div_PC 20190623_18T577450 UNCLASSIFIEDFOUO _33ce5f' is clicked on
+
+2020-09-28 15:40:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/div_PC 20190623_18T577450 UNCLASSIFIEDFOUO _33ce5f' is clicked on
+
+2020-09-28 15:40:01 - [TEST_STEP][PASSED] - setText(findTestObject("Page_AFE  GRiD/input_Display Name_name"), "PSU"): Text 'PSU' is set on object 'Object Repository/Page_AFE  GRiD/input_Display Name_name'
+
+2020-09-28 15:40:02 - [MESSAGE][PASSED] - Text 'PSU' is set on object 'Object Repository/Page_AFE  GRiD/input_Display Name_name'
+
+2020-09-28 15:40:02 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/Filter Drop-down")): Object: 'Object Repository/Page_AFE  GRiD/Filter Drop-down' is clicked on
+
+2020-09-28 15:40:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/Filter Drop-down' is clicked on
+
+2020-09-28 15:40:02 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2020-09-28 15:40:04 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/input_Feature Extraction_filter_afe")): Object: 'Object Repository/Page_AFE  GRiD/input_Feature Extraction_filter_afe' is clicked on
+
+2020-09-28 15:40:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/input_Feature Extraction_filter_afe' is clicked on
+
+2020-09-28 15:40:05 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_AFE  GRiD/select_TexPert 315-1  PSU 170  SRI 15"), "psu_1.7.0;", true): All options with value 'psu_1.7.0;' are selected in object 'Object Repository/Page_AFE  GRiD/select_TexPert 315-1  PSU 170  SRI 15'  using regular expression
+
+2020-09-28 15:40:06 - [MESSAGE][PASSED] - All options with value 'psu_1.7.0;' are selected in object 'Object Repository/Page_AFE  GRiD/select_TexPert 315-1  PSU 170  SRI 15'  using regular expression
+
+2020-09-28 15:40:06 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/div_Cancel    Generate")): Object: 'Object Repository/Page_AFE  GRiD/div_Cancel    Generate' is clicked on
+
+2020-09-28 15:40:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/div_Cancel    Generate' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AFE Recorded Script SRI/PSU - CDB" time="18.095" classname="Test Cases/AFE Recorded Script SRI/PSU - CDB" status="PASSED">
+         <system-out><![CDATA[2020-09-28 15:40:11 - [TEST_CASE][PASSED] - Test Cases/AFE Recorded Script SRI/PSU - CDB: Test Cases/AFE Recorded Script SRI/PSU - CDB
+
+2020-09-28 15:40:11 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/a_Export pointcloud data")): Object: 'Object Repository/Page_AFE  GRiD/a_Export pointcloud data' is clicked on
+
+2020-09-28 15:40:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/a_Export pointcloud data' is clicked on
+
+2020-09-28 15:40:14 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/div_PC 20190623_18T577450 UNCLASSIFIEDFOUO _33ce5f")): Object: 'Object Repository/Page_AFE  GRiD/div_PC 20190623_18T577450 UNCLASSIFIEDFOUO _33ce5f' is clicked on
+
+2020-09-28 15:40:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/div_PC 20190623_18T577450 UNCLASSIFIEDFOUO _33ce5f' is clicked on
+
+2020-09-28 15:40:15 - [TEST_STEP][PASSED] - setText(findTestObject("Page_AFE  GRiD/input_Display Name_name"), "PSU - CDB"): Text 'PSU - CDB' is set on object 'Object Repository/Page_AFE  GRiD/input_Display Name_name'
+
+2020-09-28 15:40:16 - [MESSAGE][PASSED] - Text 'PSU - CDB' is set on object 'Object Repository/Page_AFE  GRiD/input_Display Name_name'
+
+2020-09-28 15:40:16 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/Filter Drop-down")): Object: 'Object Repository/Page_AFE  GRiD/Filter Drop-down' is clicked on
+
+2020-09-28 15:40:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/Filter Drop-down' is clicked on
+
+2020-09-28 15:40:17 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2020-09-28 15:40:19 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/input_Feature Extraction_filter_afe")): Object: 'Object Repository/Page_AFE  GRiD/input_Feature Extraction_filter_afe' is clicked on
+
+2020-09-28 15:40:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/input_Feature Extraction_filter_afe' is clicked on
+
+2020-09-28 15:40:19 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_AFE  GRiD/select_TexPert 315-1  PSU 170  SRI 15"), "psu_1.7.0;", true): All options with value 'psu_1.7.0;' are selected in object 'Object Repository/Page_AFE  GRiD/select_TexPert 315-1  PSU 170  SRI 15'  using regular expression
+
+2020-09-28 15:40:21 - [MESSAGE][PASSED] - All options with value 'psu_1.7.0;' are selected in object 'Object Repository/Page_AFE  GRiD/select_TexPert 315-1  PSU 170  SRI 15'  using regular expression
+
+2020-09-28 15:40:21 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2020-09-28 15:40:23 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_AFE  GRiD/label_CDB"), 0): Scroll to object 'Object Repository/Page_AFE  GRiD/label_CDB' successfully
+
+2020-09-28 15:40:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-28 15:40:23 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_AFE  GRiD/label_CDB' successfully
+
+2020-09-28 15:40:23 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/label_CDB")): Object: 'Object Repository/Page_AFE  GRiD/label_CDB' is clicked on
+
+2020-09-28 15:40:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/label_CDB' is clicked on
+
+2020-09-28 15:40:24 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/div_Cancel    Generate")): Object: 'Object Repository/Page_AFE  GRiD/div_Cancel    Generate' is clicked on
+
+2020-09-28 15:40:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/div_Cancel    Generate' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AFE Recorded Script SRI/PSU - VBS3" time="17.133" classname="Test Cases/AFE Recorded Script SRI/PSU - VBS3" status="PASSED">
+         <system-out><![CDATA[2020-09-28 15:40:29 - [TEST_CASE][PASSED] - Test Cases/AFE Recorded Script SRI/PSU - VBS3: Test Cases/AFE Recorded Script SRI/PSU - VBS3
+
+2020-09-28 15:40:29 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/a_Export pointcloud data")): Object: 'Object Repository/Page_AFE  GRiD/a_Export pointcloud data' is clicked on
+
+2020-09-28 15:40:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/a_Export pointcloud data' is clicked on
+
+2020-09-28 15:40:32 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/div_PC 20190623_18T577450 UNCLASSIFIEDFOUO _33ce5f")): Object: 'Object Repository/Page_AFE  GRiD/div_PC 20190623_18T577450 UNCLASSIFIEDFOUO _33ce5f' is clicked on
+
+2020-09-28 15:40:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/div_PC 20190623_18T577450 UNCLASSIFIEDFOUO _33ce5f' is clicked on
+
+2020-09-28 15:40:33 - [TEST_STEP][PASSED] - setText(findTestObject("Page_AFE  GRiD/input_Display Name_name"), "PSU- VBS3"): Text 'PSU- VBS3' is set on object 'Object Repository/Page_AFE  GRiD/input_Display Name_name'
+
+2020-09-28 15:40:34 - [MESSAGE][PASSED] - Text 'PSU- VBS3' is set on object 'Object Repository/Page_AFE  GRiD/input_Display Name_name'
+
+2020-09-28 15:40:34 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/Filter Drop-down")): Object: 'Object Repository/Page_AFE  GRiD/Filter Drop-down' is clicked on
+
+2020-09-28 15:40:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/Filter Drop-down' is clicked on
+
+2020-09-28 15:40:35 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2020-09-28 15:40:37 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/input_Feature Extraction_filter_afe")): Object: 'Object Repository/Page_AFE  GRiD/input_Feature Extraction_filter_afe' is clicked on
+
+2020-09-28 15:40:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/input_Feature Extraction_filter_afe' is clicked on
+
+2020-09-28 15:40:37 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_AFE  GRiD/select_TexPert 315-1  PSU 170  SRI 15"), "psu_1.7.0;", true): All options with value 'psu_1.7.0;' are selected in object 'Object Repository/Page_AFE  GRiD/select_TexPert 315-1  PSU 170  SRI 15'  using regular expression
+
+2020-09-28 15:40:38 - [MESSAGE][PASSED] - All options with value 'psu_1.7.0;' are selected in object 'Object Repository/Page_AFE  GRiD/select_TexPert 315-1  PSU 170  SRI 15'  using regular expression
+
+2020-09-28 15:40:38 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2020-09-28 15:40:40 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_AFE  GRiD/label_VBS3"), 0): Scroll to object 'Object Repository/Page_AFE  GRiD/label_VBS3' successfully
+
+2020-09-28 15:40:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-28 15:40:40 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_AFE  GRiD/label_VBS3' successfully
+
+2020-09-28 15:40:40 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/label_VBS3")): Object: 'Object Repository/Page_AFE  GRiD/label_VBS3' is clicked on
+
+2020-09-28 15:40:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/label_VBS3' is clicked on
+
+2020-09-28 15:40:41 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/div_Cancel    Generate")): Object: 'Object Repository/Page_AFE  GRiD/div_Cancel    Generate' is clicked on
+
+2020-09-28 15:40:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/div_Cancel    Generate' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AFE Recorded Script SRI/PSU - Unity" time="17.596" classname="Test Cases/AFE Recorded Script SRI/PSU - Unity" status="PASSED">
+         <system-out><![CDATA[2020-09-28 15:40:46 - [TEST_CASE][PASSED] - Test Cases/AFE Recorded Script SRI/PSU - Unity: Test Cases/AFE Recorded Script SRI/PSU - Unity
+
+2020-09-28 15:40:46 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/a_Export pointcloud data")): Object: 'Object Repository/Page_AFE  GRiD/a_Export pointcloud data' is clicked on
+
+2020-09-28 15:40:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/a_Export pointcloud data' is clicked on
+
+2020-09-28 15:40:49 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/div_PC 20190623_18T577450 UNCLASSIFIEDFOUO _33ce5f")): Object: 'Object Repository/Page_AFE  GRiD/div_PC 20190623_18T577450 UNCLASSIFIEDFOUO _33ce5f' is clicked on
+
+2020-09-28 15:40:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/div_PC 20190623_18T577450 UNCLASSIFIEDFOUO _33ce5f' is clicked on
+
+2020-09-28 15:40:50 - [TEST_STEP][PASSED] - setText(findTestObject("Page_AFE  GRiD/input_Display Name_name"), "PSU - Unity"): Text 'PSU - Unity' is set on object 'Object Repository/Page_AFE  GRiD/input_Display Name_name'
+
+2020-09-28 15:40:51 - [MESSAGE][PASSED] - Text 'PSU - Unity' is set on object 'Object Repository/Page_AFE  GRiD/input_Display Name_name'
+
+2020-09-28 15:40:51 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/Filter Drop-down")): Object: 'Object Repository/Page_AFE  GRiD/Filter Drop-down' is clicked on
+
+2020-09-28 15:40:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/Filter Drop-down' is clicked on
+
+2020-09-28 15:40:52 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2020-09-28 15:40:54 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/input_Feature Extraction_filter_afe")): Object: 'Object Repository/Page_AFE  GRiD/input_Feature Extraction_filter_afe' is clicked on
+
+2020-09-28 15:40:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/input_Feature Extraction_filter_afe' is clicked on
+
+2020-09-28 15:40:54 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_AFE  GRiD/select_TexPert 315-1  PSU 170  SRI 15"), "psu_1.7.0;", true): All options with value 'psu_1.7.0;' are selected in object 'Object Repository/Page_AFE  GRiD/select_TexPert 315-1  PSU 170  SRI 15'  using regular expression
+
+2020-09-28 15:40:55 - [MESSAGE][PASSED] - All options with value 'psu_1.7.0;' are selected in object 'Object Repository/Page_AFE  GRiD/select_TexPert 315-1  PSU 170  SRI 15'  using regular expression
+
+2020-09-28 15:40:55 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2020-09-28 15:40:57 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_AFE  GRiD/label_Unity"), 0): Scroll to object 'Object Repository/Page_AFE  GRiD/label_Unity' successfully
+
+2020-09-28 15:40:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-28 15:40:58 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_AFE  GRiD/label_Unity' successfully
+
+2020-09-28 15:40:58 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/label_Unity")): Object: 'Object Repository/Page_AFE  GRiD/label_Unity' is clicked on
+
+2020-09-28 15:40:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/label_Unity' is clicked on
+
+2020-09-28 15:40:58 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/div_Cancel    Generate")): Object: 'Object Repository/Page_AFE  GRiD/div_Cancel    Generate' is clicked on
+
+2020-09-28 15:41:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/div_Cancel    Generate' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AFE Recorded Script SRI/PSU - Unreal" time="17.265" classname="Test Cases/AFE Recorded Script SRI/PSU - Unreal" status="PASSED">
+         <system-out><![CDATA[2020-09-28 15:41:03 - [TEST_CASE][PASSED] - Test Cases/AFE Recorded Script SRI/PSU - Unreal: Test Cases/AFE Recorded Script SRI/PSU - Unreal
+
+2020-09-28 15:41:03 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/a_Export pointcloud data")): Object: 'Object Repository/Page_AFE  GRiD/a_Export pointcloud data' is clicked on
+
+2020-09-28 15:41:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/a_Export pointcloud data' is clicked on
+
+2020-09-28 15:41:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_AFE  GRiD/span_20190623_18T577450")): Object: 'Object Repository/Page_AFE  GRiD/span_20190623_18T577450' is clicked on
+
+2020-09-28 15:41:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/span_20190623_18T577450' is clicked on
+
+2020-09-28 15:41:08 - [TEST_STEP][PASSED] - setText(findTestObject("Page_AFE  GRiD/input_Display Name_name"), "PSU - Unreal"): Text 'PSU - Unreal' is set on object 'Object Repository/Page_AFE  GRiD/input_Display Name_name'
+
+2020-09-28 15:41:09 - [MESSAGE][PASSED] - Text 'PSU - Unreal' is set on object 'Object Repository/Page_AFE  GRiD/input_Display Name_name'
+
+2020-09-28 15:41:09 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/Filter Drop-down")): Object: 'Object Repository/Page_AFE  GRiD/Filter Drop-down' is clicked on
+
+2020-09-28 15:41:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/Filter Drop-down' is clicked on
+
+2020-09-28 15:41:09 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2020-09-28 15:41:11 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/input_Feature Extraction_filter_afe")): Object: 'Object Repository/Page_AFE  GRiD/input_Feature Extraction_filter_afe' is clicked on
+
+2020-09-28 15:41:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/input_Feature Extraction_filter_afe' is clicked on
+
+2020-09-28 15:41:11 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_AFE  GRiD/select_TexPert 315-1  PSU 170  SRI 15"), "psu_1.7.0;", true): All options with value 'psu_1.7.0;' are selected in object 'Object Repository/Page_AFE  GRiD/select_TexPert 315-1  PSU 170  SRI 15'  using regular expression
+
+2020-09-28 15:41:13 - [MESSAGE][PASSED] - All options with value 'psu_1.7.0;' are selected in object 'Object Repository/Page_AFE  GRiD/select_TexPert 315-1  PSU 170  SRI 15'  using regular expression
+
+2020-09-28 15:41:13 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2020-09-28 15:41:15 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_AFE  GRiD/label_Unreal"), 0): Scroll to object 'Object Repository/Page_AFE  GRiD/label_Unreal' successfully
+
+2020-09-28 15:41:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-28 15:41:15 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_AFE  GRiD/label_Unreal' successfully
+
+2020-09-28 15:41:15 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/label_Unreal")): Object: 'Object Repository/Page_AFE  GRiD/label_Unreal' is clicked on
+
+2020-09-28 15:41:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/label_Unreal' is clicked on
+
+2020-09-28 15:41:15 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/div_Cancel    Generate")): Object: 'Object Repository/Page_AFE  GRiD/div_Cancel    Generate' is clicked on
+
+2020-09-28 15:41:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/div_Cancel    Generate' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AFE Recorded Script SRI/PSU - OpenFlight" time="20.803" classname="Test Cases/AFE Recorded Script SRI/PSU - OpenFlight" status="PASSED">
+         <system-out><![CDATA[2020-09-28 15:41:21 - [TEST_CASE][PASSED] - Test Cases/AFE Recorded Script SRI/PSU - OpenFlight: Test Cases/AFE Recorded Script SRI/PSU - OpenFlight
+
+2020-09-28 15:41:21 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/a_Export pointcloud data")): Object: 'Object Repository/Page_AFE  GRiD/a_Export pointcloud data' is clicked on
+
+2020-09-28 15:41:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/a_Export pointcloud data' is clicked on
+
+2020-09-28 15:41:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_AFE  GRiD/span_20190623_18T577450")): Object: 'Object Repository/Page_AFE  GRiD/span_20190623_18T577450' is clicked on
+
+2020-09-28 15:41:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/span_20190623_18T577450' is clicked on
+
+2020-09-28 15:41:29 - [TEST_STEP][PASSED] - setText(findTestObject("Page_AFE  GRiD/input_Display Name_name"), "PSU - OpenFlight"): Text 'PSU - OpenFlight' is set on object 'Object Repository/Page_AFE  GRiD/input_Display Name_name'
+
+2020-09-28 15:41:30 - [MESSAGE][PASSED] - Text 'PSU - OpenFlight' is set on object 'Object Repository/Page_AFE  GRiD/input_Display Name_name'
+
+2020-09-28 15:41:30 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/Filter Drop-down")): Object: 'Object Repository/Page_AFE  GRiD/Filter Drop-down' is clicked on
+
+2020-09-28 15:41:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/Filter Drop-down' is clicked on
+
+2020-09-28 15:41:30 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2020-09-28 15:41:32 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/input_Feature Extraction_filter_afe")): Object: 'Object Repository/Page_AFE  GRiD/input_Feature Extraction_filter_afe' is clicked on
+
+2020-09-28 15:41:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/input_Feature Extraction_filter_afe' is clicked on
+
+2020-09-28 15:41:32 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_AFE  GRiD/select_TexPert 315-1  PSU 170  SRI 15"), "psu_1.7.0;", true): All options with value 'psu_1.7.0;' are selected in object 'Object Repository/Page_AFE  GRiD/select_TexPert 315-1  PSU 170  SRI 15'  using regular expression
+
+2020-09-28 15:41:34 - [MESSAGE][PASSED] - All options with value 'psu_1.7.0;' are selected in object 'Object Repository/Page_AFE  GRiD/select_TexPert 315-1  PSU 170  SRI 15'  using regular expression
+
+2020-09-28 15:41:34 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2020-09-28 15:41:36 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_AFE  GRiD/label_OpenFlight"), 0): Scroll to object 'Object Repository/Page_AFE  GRiD/label_OpenFlight' successfully
+
+2020-09-28 15:41:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-28 15:41:36 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_AFE  GRiD/label_OpenFlight' successfully
+
+2020-09-28 15:41:36 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/label_OpenFlight")): Object: 'Object Repository/Page_AFE  GRiD/label_OpenFlight' is clicked on
+
+2020-09-28 15:41:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/label_OpenFlight' is clicked on
+
+2020-09-28 15:41:36 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/div_Cancel    Generate")): Object: 'Object Repository/Page_AFE  GRiD/div_Cancel    Generate' is clicked on
+
+2020-09-28 15:41:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/div_Cancel    Generate' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AFE Recorded Script SRI/PSU - All" time="19.698" classname="Test Cases/AFE Recorded Script SRI/PSU - All" status="PASSED">
+         <system-out><![CDATA[2020-09-28 15:41:41 - [TEST_CASE][PASSED] - Test Cases/AFE Recorded Script SRI/PSU - All: Test Cases/AFE Recorded Script SRI/PSU - All
+
+2020-09-28 15:41:42 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/a_Export pointcloud data")): Object: 'Object Repository/Page_AFE  GRiD/a_Export pointcloud data' is clicked on
+
+2020-09-28 15:41:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/a_Export pointcloud data' is clicked on
+
+2020-09-28 15:41:45 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/div_PC 20190623_18T577450 UNCLASSIFIEDFOUO _33ce5f")): Object: 'Object Repository/Page_AFE  GRiD/div_PC 20190623_18T577450 UNCLASSIFIEDFOUO _33ce5f' is clicked on
+
+2020-09-28 15:41:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/div_PC 20190623_18T577450 UNCLASSIFIEDFOUO _33ce5f' is clicked on
+
+2020-09-28 15:41:46 - [TEST_STEP][PASSED] - setText(findTestObject("Page_AFE  GRiD/input_Display Name_name"), "PSU - ALL"): Text 'PSU - ALL' is set on object 'Object Repository/Page_AFE  GRiD/input_Display Name_name'
+
+2020-09-28 15:41:47 - [MESSAGE][PASSED] - Text 'PSU - ALL' is set on object 'Object Repository/Page_AFE  GRiD/input_Display Name_name'
+
+2020-09-28 15:41:47 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/Filter Drop-down")): Object: 'Object Repository/Page_AFE  GRiD/Filter Drop-down' is clicked on
+
+2020-09-28 15:41:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/Filter Drop-down' is clicked on
+
+2020-09-28 15:41:48 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2020-09-28 15:41:50 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/input_Feature Extraction_filter_afe")): Object: 'Object Repository/Page_AFE  GRiD/input_Feature Extraction_filter_afe' is clicked on
+
+2020-09-28 15:41:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/input_Feature Extraction_filter_afe' is clicked on
+
+2020-09-28 15:41:50 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_AFE  GRiD/select_TexPert 315-1  PSU 170  SRI 15"), "psu_1.7.0;", true): All options with value 'psu_1.7.0;' are selected in object 'Object Repository/Page_AFE  GRiD/select_TexPert 315-1  PSU 170  SRI 15'  using regular expression
+
+2020-09-28 15:41:51 - [MESSAGE][PASSED] - All options with value 'psu_1.7.0;' are selected in object 'Object Repository/Page_AFE  GRiD/select_TexPert 315-1  PSU 170  SRI 15'  using regular expression
+
+2020-09-28 15:41:51 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2020-09-28 15:41:53 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_AFE  GRiD/label_Unreal"), 0): Scroll to object 'Object Repository/Page_AFE  GRiD/label_Unreal' successfully
+
+2020-09-28 15:41:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-28 15:41:53 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_AFE  GRiD/label_Unreal' successfully
+
+2020-09-28 15:41:53 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/label_CDB")): Object: 'Object Repository/Page_AFE  GRiD/label_CDB' is clicked on
+
+2020-09-28 15:41:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/label_CDB' is clicked on
+
+2020-09-28 15:41:54 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/label_Unity")): Object: 'Object Repository/Page_AFE  GRiD/label_Unity' is clicked on
+
+2020-09-28 15:41:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/label_Unity' is clicked on
+
+2020-09-28 15:41:54 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/label_Unreal")): Object: 'Object Repository/Page_AFE  GRiD/label_Unreal' is clicked on
+
+2020-09-28 15:41:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/label_Unreal' is clicked on
+
+2020-09-28 15:41:54 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/label_VBS3")): Object: 'Object Repository/Page_AFE  GRiD/label_VBS3' is clicked on
+
+2020-09-28 15:41:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/label_VBS3' is clicked on
+
+2020-09-28 15:41:55 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/label_OpenFlight")): Object: 'Object Repository/Page_AFE  GRiD/label_OpenFlight' is clicked on
+
+2020-09-28 15:41:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/label_OpenFlight' is clicked on
+
+2020-09-28 15:41:55 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/div_Cancel    Generate")): Object: 'Object Repository/Page_AFE  GRiD/div_Cancel    Generate' is clicked on
+
+2020-09-28 15:42:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/div_Cancel    Generate' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AFE Recorded Script SRI/SRI" time="13.272" classname="Test Cases/AFE Recorded Script SRI/SRI" status="PASSED">
+         <system-out><![CDATA[2020-09-28 15:42:01 - [TEST_CASE][PASSED] - Test Cases/AFE Recorded Script SRI/SRI: Test Cases/AFE Recorded Script SRI/SRI
+
+2020-09-28 15:42:01 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/a_Export pointcloud data")): Object: 'Object Repository/Page_AFE  GRiD/a_Export pointcloud data' is clicked on
+
+2020-09-28 15:42:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/a_Export pointcloud data' is clicked on
+
+2020-09-28 15:42:05 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/div_PC 20190623_18T577450 UNCLASSIFIEDFOUO _33ce5f")): Object: 'Object Repository/Page_AFE  GRiD/div_PC 20190623_18T577450 UNCLASSIFIEDFOUO _33ce5f' is clicked on
+
+2020-09-28 15:42:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/div_PC 20190623_18T577450 UNCLASSIFIEDFOUO _33ce5f' is clicked on
+
+2020-09-28 15:42:06 - [TEST_STEP][PASSED] - setText(findTestObject("Page_AFE  GRiD/input_Display Name_name"), "SRI"): Text 'SRI' is set on object 'Object Repository/Page_AFE  GRiD/input_Display Name_name'
+
+2020-09-28 15:42:07 - [MESSAGE][PASSED] - Text 'SRI' is set on object 'Object Repository/Page_AFE  GRiD/input_Display Name_name'
+
+2020-09-28 15:42:07 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/Filter Drop-down")): Object: 'Object Repository/Page_AFE  GRiD/Filter Drop-down' is clicked on
+
+2020-09-28 15:42:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/Filter Drop-down' is clicked on
+
+2020-09-28 15:42:07 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/input_Feature Extraction_filter_afe")): Object: 'Object Repository/Page_AFE  GRiD/input_Feature Extraction_filter_afe' is clicked on
+
+2020-09-28 15:42:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/input_Feature Extraction_filter_afe' is clicked on
+
+2020-09-28 15:42:08 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_AFE  GRiD/select_TexPert 315-1  PSU 170  SRI 15"), "sri_1.5;", true): All options with value 'sri_1.5;' are selected in object 'Object Repository/Page_AFE  GRiD/select_TexPert 315-1  PSU 170  SRI 15'  using regular expression
+
+2020-09-28 15:42:09 - [MESSAGE][PASSED] - All options with value 'sri_1.5;' are selected in object 'Object Repository/Page_AFE  GRiD/select_TexPert 315-1  PSU 170  SRI 15'  using regular expression
+
+2020-09-28 15:42:09 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/div_Cancel    Generate")): Object: 'Object Repository/Page_AFE  GRiD/div_Cancel    Generate' is clicked on
+
+2020-09-28 15:42:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/div_Cancel    Generate' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AFE Recorded Script SRI/SRI - CDB" time="17.744" classname="Test Cases/AFE Recorded Script SRI/SRI - CDB" status="PASSED">
+         <system-out><![CDATA[2020-09-28 15:42:14 - [TEST_CASE][PASSED] - Test Cases/AFE Recorded Script SRI/SRI - CDB: Test Cases/AFE Recorded Script SRI/SRI - CDB
+
+2020-09-28 15:42:15 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/a_Export pointcloud data")): Object: 'Object Repository/Page_AFE  GRiD/a_Export pointcloud data' is clicked on
+
+2020-09-28 15:42:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/a_Export pointcloud data' is clicked on
+
+2020-09-28 15:42:18 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/div_PC 20190623_18T577450 UNCLASSIFIEDFOUO _33ce5f")): Object: 'Object Repository/Page_AFE  GRiD/div_PC 20190623_18T577450 UNCLASSIFIEDFOUO _33ce5f' is clicked on
+
+2020-09-28 15:42:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/div_PC 20190623_18T577450 UNCLASSIFIEDFOUO _33ce5f' is clicked on
+
+2020-09-28 15:42:19 - [TEST_STEP][PASSED] - setText(findTestObject("Page_AFE  GRiD/input_Display Name_name"), "SRI - CDB"): Text 'SRI - CDB' is set on object 'Object Repository/Page_AFE  GRiD/input_Display Name_name'
+
+2020-09-28 15:42:20 - [MESSAGE][PASSED] - Text 'SRI - CDB' is set on object 'Object Repository/Page_AFE  GRiD/input_Display Name_name'
+
+2020-09-28 15:42:20 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/Filter Drop-down")): Object: 'Object Repository/Page_AFE  GRiD/Filter Drop-down' is clicked on
+
+2020-09-28 15:42:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/Filter Drop-down' is clicked on
+
+2020-09-28 15:42:20 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2020-09-28 15:42:22 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/input_Feature Extraction_filter_afe")): Object: 'Object Repository/Page_AFE  GRiD/input_Feature Extraction_filter_afe' is clicked on
+
+2020-09-28 15:42:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/input_Feature Extraction_filter_afe' is clicked on
+
+2020-09-28 15:42:23 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_AFE  GRiD/select_TexPert 315-1  PSU 170  SRI 15"), "sri_1.5;", true): All options with value 'sri_1.5;' are selected in object 'Object Repository/Page_AFE  GRiD/select_TexPert 315-1  PSU 170  SRI 15'  using regular expression
+
+2020-09-28 15:42:24 - [MESSAGE][PASSED] - All options with value 'sri_1.5;' are selected in object 'Object Repository/Page_AFE  GRiD/select_TexPert 315-1  PSU 170  SRI 15'  using regular expression
+
+2020-09-28 15:42:24 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2020-09-28 15:42:26 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_AFE  GRiD/label_CDB"), 0): Scroll to object 'Object Repository/Page_AFE  GRiD/label_CDB' successfully
+
+2020-09-28 15:42:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-28 15:42:26 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_AFE  GRiD/label_CDB' successfully
+
+2020-09-28 15:42:26 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/label_CDB")): Object: 'Object Repository/Page_AFE  GRiD/label_CDB' is clicked on
+
+2020-09-28 15:42:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/label_CDB' is clicked on
+
+2020-09-28 15:42:27 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/div_Cancel    Generate")): Object: 'Object Repository/Page_AFE  GRiD/div_Cancel    Generate' is clicked on
+
+2020-09-28 15:42:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/div_Cancel    Generate' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AFE Recorded Script SRI/SRI - VBS3" time="17.827" classname="Test Cases/AFE Recorded Script SRI/SRI - VBS3" status="PASSED">
+         <system-out><![CDATA[2020-09-28 15:42:32 - [TEST_CASE][PASSED] - Test Cases/AFE Recorded Script SRI/SRI - VBS3: Test Cases/AFE Recorded Script SRI/SRI - VBS3
+
+2020-09-28 15:42:32 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/a_Export pointcloud data")): Object: 'Object Repository/Page_AFE  GRiD/a_Export pointcloud data' is clicked on
+
+2020-09-28 15:42:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/a_Export pointcloud data' is clicked on
+
+2020-09-28 15:42:36 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/div_PC 20190623_18T577450 UNCLASSIFIEDFOUO _33ce5f")): Object: 'Object Repository/Page_AFE  GRiD/div_PC 20190623_18T577450 UNCLASSIFIEDFOUO _33ce5f' is clicked on
+
+2020-09-28 15:42:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/div_PC 20190623_18T577450 UNCLASSIFIEDFOUO _33ce5f' is clicked on
+
+2020-09-28 15:42:37 - [TEST_STEP][PASSED] - setText(findTestObject("Page_AFE  GRiD/input_Display Name_name"), "SRI - VBS3"): Text 'SRI - VBS3' is set on object 'Object Repository/Page_AFE  GRiD/input_Display Name_name'
+
+2020-09-28 15:42:38 - [MESSAGE][PASSED] - Text 'SRI - VBS3' is set on object 'Object Repository/Page_AFE  GRiD/input_Display Name_name'
+
+2020-09-28 15:42:38 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/Filter Drop-down")): Object: 'Object Repository/Page_AFE  GRiD/Filter Drop-down' is clicked on
+
+2020-09-28 15:42:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/Filter Drop-down' is clicked on
+
+2020-09-28 15:42:38 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2020-09-28 15:42:40 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/input_Feature Extraction_filter_afe")): Object: 'Object Repository/Page_AFE  GRiD/input_Feature Extraction_filter_afe' is clicked on
+
+2020-09-28 15:42:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/input_Feature Extraction_filter_afe' is clicked on
+
+2020-09-28 15:42:41 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_AFE  GRiD/select_TexPert 315-1  PSU 170  SRI 15"), "sri_1.5;", true): All options with value 'sri_1.5;' are selected in object 'Object Repository/Page_AFE  GRiD/select_TexPert 315-1  PSU 170  SRI 15'  using regular expression
+
+2020-09-28 15:42:42 - [MESSAGE][PASSED] - All options with value 'sri_1.5;' are selected in object 'Object Repository/Page_AFE  GRiD/select_TexPert 315-1  PSU 170  SRI 15'  using regular expression
+
+2020-09-28 15:42:42 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2020-09-28 15:42:44 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_AFE  GRiD/label_VBS3"), 0): Scroll to object 'Object Repository/Page_AFE  GRiD/label_VBS3' successfully
+
+2020-09-28 15:42:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-28 15:42:44 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_AFE  GRiD/label_VBS3' successfully
+
+2020-09-28 15:42:44 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/label_VBS3")): Object: 'Object Repository/Page_AFE  GRiD/label_VBS3' is clicked on
+
+2020-09-28 15:42:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/label_VBS3' is clicked on
+
+2020-09-28 15:42:45 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/div_Cancel    Generate")): Object: 'Object Repository/Page_AFE  GRiD/div_Cancel    Generate' is clicked on
+
+2020-09-28 15:42:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/div_Cancel    Generate' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AFE Recorded Script SRI/SRI- Unity" time="18.131" classname="Test Cases/AFE Recorded Script SRI/SRI- Unity" status="PASSED">
+         <system-out><![CDATA[2020-09-28 15:42:50 - [TEST_CASE][PASSED] - Test Cases/AFE Recorded Script SRI/SRI- Unity: Test Cases/AFE Recorded Script SRI/SRI- Unity
+
+2020-09-28 15:42:50 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/a_Export pointcloud data")): Object: 'Object Repository/Page_AFE  GRiD/a_Export pointcloud data' is clicked on
+
+2020-09-28 15:42:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/a_Export pointcloud data' is clicked on
+
+2020-09-28 15:42:54 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/div_PC 20190623_18T577450 UNCLASSIFIEDFOUO _33ce5f")): Object: 'Object Repository/Page_AFE  GRiD/div_PC 20190623_18T577450 UNCLASSIFIEDFOUO _33ce5f' is clicked on
+
+2020-09-28 15:42:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/div_PC 20190623_18T577450 UNCLASSIFIEDFOUO _33ce5f' is clicked on
+
+2020-09-28 15:42:55 - [TEST_STEP][PASSED] - setText(findTestObject("Page_AFE  GRiD/input_Display Name_name"), "SRI- Unity"): Text 'SRI- Unity' is set on object 'Object Repository/Page_AFE  GRiD/input_Display Name_name'
+
+2020-09-28 15:42:56 - [MESSAGE][PASSED] - Text 'SRI- Unity' is set on object 'Object Repository/Page_AFE  GRiD/input_Display Name_name'
+
+2020-09-28 15:42:56 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/Filter Drop-down")): Object: 'Object Repository/Page_AFE  GRiD/Filter Drop-down' is clicked on
+
+2020-09-28 15:42:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/Filter Drop-down' is clicked on
+
+2020-09-28 15:42:56 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2020-09-28 15:42:58 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/input_Feature Extraction_filter_afe")): Object: 'Object Repository/Page_AFE  GRiD/input_Feature Extraction_filter_afe' is clicked on
+
+2020-09-28 15:42:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/input_Feature Extraction_filter_afe' is clicked on
+
+2020-09-28 15:42:59 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_AFE  GRiD/select_TexPert 315-1  PSU 170  SRI 15"), "sri_1.5;", true): All options with value 'sri_1.5;' are selected in object 'Object Repository/Page_AFE  GRiD/select_TexPert 315-1  PSU 170  SRI 15'  using regular expression
+
+2020-09-28 15:43:00 - [MESSAGE][PASSED] - All options with value 'sri_1.5;' are selected in object 'Object Repository/Page_AFE  GRiD/select_TexPert 315-1  PSU 170  SRI 15'  using regular expression
+
+2020-09-28 15:43:00 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2020-09-28 15:43:02 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_AFE  GRiD/label_Unity"), 0): Scroll to object 'Object Repository/Page_AFE  GRiD/label_Unity' successfully
+
+2020-09-28 15:43:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-28 15:43:02 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_AFE  GRiD/label_Unity' successfully
+
+2020-09-28 15:43:02 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/label_Unity")): Object: 'Object Repository/Page_AFE  GRiD/label_Unity' is clicked on
+
+2020-09-28 15:43:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/label_Unity' is clicked on
+
+2020-09-28 15:43:03 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/div_Cancel    Generate")): Object: 'Object Repository/Page_AFE  GRiD/div_Cancel    Generate' is clicked on
+
+2020-09-28 15:43:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/div_Cancel    Generate' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AFE Recorded Script SRI/SRI - Unreal" time="18.171" classname="Test Cases/AFE Recorded Script SRI/SRI - Unreal" status="PASSED">
+         <system-out><![CDATA[2020-09-28 15:43:08 - [TEST_CASE][PASSED] - Test Cases/AFE Recorded Script SRI/SRI - Unreal: Test Cases/AFE Recorded Script SRI/SRI - Unreal
+
+2020-09-28 15:43:08 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/a_Export pointcloud data")): Object: 'Object Repository/Page_AFE  GRiD/a_Export pointcloud data' is clicked on
+
+2020-09-28 15:43:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/a_Export pointcloud data' is clicked on
+
+2020-09-28 15:43:12 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/div_PC 20190623_18T577450 UNCLASSIFIEDFOUO _33ce5f")): Object: 'Object Repository/Page_AFE  GRiD/div_PC 20190623_18T577450 UNCLASSIFIEDFOUO _33ce5f' is clicked on
+
+2020-09-28 15:43:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/div_PC 20190623_18T577450 UNCLASSIFIEDFOUO _33ce5f' is clicked on
+
+2020-09-28 15:43:13 - [TEST_STEP][PASSED] - setText(findTestObject("Page_AFE  GRiD/input_Display Name_name"), "SRI - Unreal"): Text 'SRI - Unreal' is set on object 'Object Repository/Page_AFE  GRiD/input_Display Name_name'
+
+2020-09-28 15:43:14 - [MESSAGE][PASSED] - Text 'SRI - Unreal' is set on object 'Object Repository/Page_AFE  GRiD/input_Display Name_name'
+
+2020-09-28 15:43:14 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/Filter Drop-down")): Object: 'Object Repository/Page_AFE  GRiD/Filter Drop-down' is clicked on
+
+2020-09-28 15:43:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/Filter Drop-down' is clicked on
+
+2020-09-28 15:43:14 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2020-09-28 15:43:16 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/input_Feature Extraction_filter_afe")): Object: 'Object Repository/Page_AFE  GRiD/input_Feature Extraction_filter_afe' is clicked on
+
+2020-09-28 15:43:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/input_Feature Extraction_filter_afe' is clicked on
+
+2020-09-28 15:43:17 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_AFE  GRiD/select_TexPert 315-1  PSU 170  SRI 15"), "sri_1.5;", true): All options with value 'sri_1.5;' are selected in object 'Object Repository/Page_AFE  GRiD/select_TexPert 315-1  PSU 170  SRI 15'  using regular expression
+
+2020-09-28 15:43:18 - [MESSAGE][PASSED] - All options with value 'sri_1.5;' are selected in object 'Object Repository/Page_AFE  GRiD/select_TexPert 315-1  PSU 170  SRI 15'  using regular expression
+
+2020-09-28 15:43:18 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2020-09-28 15:43:20 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_AFE  GRiD/label_Unreal"), 0): Scroll to object 'Object Repository/Page_AFE  GRiD/label_Unreal' successfully
+
+2020-09-28 15:43:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-28 15:43:21 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_AFE  GRiD/label_Unreal' successfully
+
+2020-09-28 15:43:21 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/label_Unreal")): Object: 'Object Repository/Page_AFE  GRiD/label_Unreal' is clicked on
+
+2020-09-28 15:43:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/label_Unreal' is clicked on
+
+2020-09-28 15:43:21 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/div_Cancel    Generate")): Object: 'Object Repository/Page_AFE  GRiD/div_Cancel    Generate' is clicked on
+
+2020-09-28 15:43:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/div_Cancel    Generate' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AFE Recorded Script SRI/SRI - OpenFlight" time="18.661" classname="Test Cases/AFE Recorded Script SRI/SRI - OpenFlight" status="PASSED">
+         <system-out><![CDATA[2020-09-28 15:43:26 - [TEST_CASE][PASSED] - Test Cases/AFE Recorded Script SRI/SRI - OpenFlight: Test Cases/AFE Recorded Script SRI/SRI - OpenFlight
+
+2020-09-28 15:43:26 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/a_Export pointcloud data")): Object: 'Object Repository/Page_AFE  GRiD/a_Export pointcloud data' is clicked on
+
+2020-09-28 15:43:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/a_Export pointcloud data' is clicked on
+
+2020-09-28 15:43:30 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/div_PC 20190623_18T577450 UNCLASSIFIEDFOUO _33ce5f")): Object: 'Object Repository/Page_AFE  GRiD/div_PC 20190623_18T577450 UNCLASSIFIEDFOUO _33ce5f' is clicked on
+
+2020-09-28 15:43:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/div_PC 20190623_18T577450 UNCLASSIFIEDFOUO _33ce5f' is clicked on
+
+2020-09-28 15:43:31 - [TEST_STEP][PASSED] - setText(findTestObject("Page_AFE  GRiD/input_Display Name_name"), "SRI - OpenFlight"): Text 'SRI - OpenFlight' is set on object 'Object Repository/Page_AFE  GRiD/input_Display Name_name'
+
+2020-09-28 15:43:32 - [MESSAGE][PASSED] - Text 'SRI - OpenFlight' is set on object 'Object Repository/Page_AFE  GRiD/input_Display Name_name'
+
+2020-09-28 15:43:32 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/Filter Drop-down")): Object: 'Object Repository/Page_AFE  GRiD/Filter Drop-down' is clicked on
+
+2020-09-28 15:43:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/Filter Drop-down' is clicked on
+
+2020-09-28 15:43:33 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2020-09-28 15:43:35 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/input_Feature Extraction_filter_afe")): Object: 'Object Repository/Page_AFE  GRiD/input_Feature Extraction_filter_afe' is clicked on
+
+2020-09-28 15:43:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/input_Feature Extraction_filter_afe' is clicked on
+
+2020-09-28 15:43:35 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_AFE  GRiD/select_TexPert 315-1  PSU 170  SRI 15"), "sri_1.5;", true): All options with value 'sri_1.5;' are selected in object 'Object Repository/Page_AFE  GRiD/select_TexPert 315-1  PSU 170  SRI 15'  using regular expression
+
+2020-09-28 15:43:37 - [MESSAGE][PASSED] - All options with value 'sri_1.5;' are selected in object 'Object Repository/Page_AFE  GRiD/select_TexPert 315-1  PSU 170  SRI 15'  using regular expression
+
+2020-09-28 15:43:37 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2020-09-28 15:43:39 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_AFE  GRiD/label_OpenFlight"), 0): Scroll to object 'Object Repository/Page_AFE  GRiD/label_OpenFlight' successfully
+
+2020-09-28 15:43:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-28 15:43:39 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_AFE  GRiD/label_OpenFlight' successfully
+
+2020-09-28 15:43:39 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/label_OpenFlight")): Object: 'Object Repository/Page_AFE  GRiD/label_OpenFlight' is clicked on
+
+2020-09-28 15:43:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/label_OpenFlight' is clicked on
+
+2020-09-28 15:43:39 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/div_Cancel    Generate")): Object: 'Object Repository/Page_AFE  GRiD/div_Cancel    Generate' is clicked on
+
+2020-09-28 15:43:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/div_Cancel    Generate' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AFE Recorded Script SRI/SRI - All" time="19.521" classname="Test Cases/AFE Recorded Script SRI/SRI - All" status="PASSED">
+         <system-out><![CDATA[2020-09-28 15:43:45 - [TEST_CASE][PASSED] - Test Cases/AFE Recorded Script SRI/SRI - All: Test Cases/AFE Recorded Script SRI/SRI - All
+
+2020-09-28 15:43:45 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/a_Export pointcloud data")): Object: 'Object Repository/Page_AFE  GRiD/a_Export pointcloud data' is clicked on
+
+2020-09-28 15:43:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/a_Export pointcloud data' is clicked on
+
+2020-09-28 15:43:49 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/div_PC 20190623_18T577450 UNCLASSIFIEDFOUO _33ce5f")): Object: 'Object Repository/Page_AFE  GRiD/div_PC 20190623_18T577450 UNCLASSIFIEDFOUO _33ce5f' is clicked on
+
+2020-09-28 15:43:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/div_PC 20190623_18T577450 UNCLASSIFIEDFOUO _33ce5f' is clicked on
+
+2020-09-28 15:43:49 - [TEST_STEP][PASSED] - setText(findTestObject("Page_AFE  GRiD/input_Display Name_name"), "SRi - ALL"): Text 'SRi - ALL' is set on object 'Object Repository/Page_AFE  GRiD/input_Display Name_name'
+
+2020-09-28 15:43:51 - [MESSAGE][PASSED] - Text 'SRi - ALL' is set on object 'Object Repository/Page_AFE  GRiD/input_Display Name_name'
+
+2020-09-28 15:43:51 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/Filter Drop-down")): Object: 'Object Repository/Page_AFE  GRiD/Filter Drop-down' is clicked on
+
+2020-09-28 15:43:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/Filter Drop-down' is clicked on
+
+2020-09-28 15:43:51 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-09-28 15:43:52 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/input_Feature Extraction_filter_afe")): Object: 'Object Repository/Page_AFE  GRiD/input_Feature Extraction_filter_afe' is clicked on
+
+2020-09-28 15:43:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/input_Feature Extraction_filter_afe' is clicked on
+
+2020-09-28 15:43:53 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_AFE  GRiD/select_TexPert 315-1  PSU 170  SRI 15"), "sri_1.5;", true): All options with value 'sri_1.5;' are selected in object 'Object Repository/Page_AFE  GRiD/select_TexPert 315-1  PSU 170  SRI 15'  using regular expression
+
+2020-09-28 15:43:54 - [MESSAGE][PASSED] - All options with value 'sri_1.5;' are selected in object 'Object Repository/Page_AFE  GRiD/select_TexPert 315-1  PSU 170  SRI 15'  using regular expression
+
+2020-09-28 15:43:54 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2020-09-28 15:43:56 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_AFE  GRiD/label_OpenFlight"), 0): Scroll to object 'Object Repository/Page_AFE  GRiD/label_OpenFlight' successfully
+
+2020-09-28 15:43:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-28 15:43:56 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_AFE  GRiD/label_OpenFlight' successfully
+
+2020-09-28 15:43:56 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/label_CDB")): Object: 'Object Repository/Page_AFE  GRiD/label_CDB' is clicked on
+
+2020-09-28 15:43:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/label_CDB' is clicked on
+
+2020-09-28 15:43:57 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/label_Unity")): Object: 'Object Repository/Page_AFE  GRiD/label_Unity' is clicked on
+
+2020-09-28 15:43:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/label_Unity' is clicked on
+
+2020-09-28 15:43:57 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/label_Unreal")): Object: 'Object Repository/Page_AFE  GRiD/label_Unreal' is clicked on
+
+2020-09-28 15:43:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/label_Unreal' is clicked on
+
+2020-09-28 15:43:58 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/label_VBS3")): Object: 'Object Repository/Page_AFE  GRiD/label_VBS3' is clicked on
+
+2020-09-28 15:43:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/label_VBS3' is clicked on
+
+2020-09-28 15:43:58 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/label_OpenFlight")): Object: 'Object Repository/Page_AFE  GRiD/label_OpenFlight' is clicked on
+
+2020-09-28 15:43:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/label_OpenFlight' is clicked on
+
+2020-09-28 15:43:59 - [TEST_STEP][PASSED] - click(findTestObject("Page_AFE  GRiD/div_Cancel    Generate")): Object: 'Object Repository/Page_AFE  GRiD/div_Cancel    Generate' is clicked on
+
+2020-09-28 15:44:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AFE  GRiD/div_Cancel    Generate' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-09-28 15:37:41 - [TEST_SUITE][PASSED] - AFE Test Suite: Test Cases/AFE Recorded Script SRI/SRI - All]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

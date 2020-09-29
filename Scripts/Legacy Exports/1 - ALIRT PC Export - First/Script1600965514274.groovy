@@ -15,16 +15,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import org.openqa.selenium.WebDriver as WebDriver
+import org.openqa.selenium.support.ui.ExpectedConditions as ExpectedConditions
+import org.openqa.selenium.support.ui.WebDriverWait as WebDriverWait
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://grid.nga.mil/grid/accounts/login/?next=/grid/export/aoi/38123/')
+WebUI.navigateToUrl('https://grid.nga.mil/testgrid/accounts/login/?next=/testgrid/export/aoi/38123/')
 
 WebUI.click(findTestObject('Page_Login  GRiD/btn_CAC  GEOAxIS Login'))
-
-WebUI.click(findTestObject('Page_GEOAxIS/a_PKI Certificate'))
-
-WebUI.click(findTestObject('Page_GEOAxIS/span_Click here to continue'))
 
 WebUI.click(findTestObject('Page_AT-Pointcloud  GRiD/a_Export pointcloud data'))
 
@@ -34,7 +33,9 @@ WebUI.setText(findTestObject('Page_AT-Pointcloud  GRiD/input_Display Name_name')
 
 WebUI.click(findTestObject('Page_AFE  GRiD/div_Cancel    Generate'))
 
-WebUI.waitForElementClickable(findTestObject('Page_AT-Pointcloud  GRiD/button_Download'), 15)
+Thread.sleep(35000)
+
+WebUI.verifyElementClickable(findTestObject('Page_AT-Pointcloud  GRiD/button_Download'))
 
 WebUI.click(findTestObject('Page_AT-Pointcloud  GRiD/button_Download'))
 

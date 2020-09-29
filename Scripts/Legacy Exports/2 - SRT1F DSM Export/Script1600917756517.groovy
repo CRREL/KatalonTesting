@@ -26,7 +26,9 @@ WebUI.setText(findTestObject('Object Repository/Page_AT-Elevation  GRiD/input_Di
 
 WebUI.click(findTestObject('Page_AFE  GRiD/div_Cancel    Generate'))
 
-WebUI.waitForElementClickable(findTestObject('Page_AT-Pointcloud  GRiD/button_Download'), 15)
+Thread.sleep(35000)
+
+WebUI.verifyElementClickable(findTestObject('Page_AT-Pointcloud  GRiD/button_Download'))
 
 WebUI.click(findTestObject('Page_AT-Elevation  GRiD/button_Download'))
 

@@ -32,7 +32,9 @@ WebUI.setText(findTestObject('Object Repository/Page_AT-Vectors  GRiD/input_Disp
 
 WebUI.click(findTestObject('Page_AFE  GRiD/div_Cancel    Generate'))
 
-WebUI.waitForElementClickable(findTestObject('Page_AT-Pointcloud  GRiD/button_Download'), 15)
+Thread.sleep(30000)
+
+WebUI.verifyElementClickable(findTestObject('Page_AT-Pointcloud  GRiD/button_Download'))
 
 WebUI.click(findTestObject('Object Repository/Page_AT-Vectors  GRiD/button_Download'))
 
