@@ -20,7 +20,7 @@
    <testCaseLink>
       <guid>79ce3cc6-644d-4394-8c62-4748068121c9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/FG3D/FG3D Test</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

@@ -28,6 +28,9 @@ WebUI.click(findTestObject('Page_Home  GRiD/a_Share'))
 WebUI.click(findTestObject('Page_Workgroups  GRiD/a_FG3D'))
 
 for (def row = 1; row <= findTestData('FG3D Test Data').getRowNumbers(); row++) {
+	
+	Thread.sleep(2000)
+	
     WebUI.click(findTestObject('Object Repository/Page_FG3D  GRiD/button_AOI Options'))
 
     WebUI.click(findTestObject('Object Repository/Page_FG3D  GRiD/a_View on map'))

@@ -1,14 +1,3 @@
 {
-  "brokenTestObjects": [
-    {
-      "approved": true,
-      "testObjectId": "Object Repository/Page_Home  GRiD/a_Share",
-      "brokenLocator": "//div[@id\u003d\u0027navbarToggle\u0027]/ul/li[5]/a",
-      "brokenLocatorMethod": "XPATH",
-      "proposedLocator": "//li[5]/a",
-      "proposedLocatorMethod": "XPATH",
-      "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Home  GRiD/a_Share_position.png"
-    }
-  ]
+  "brokenTestObjects" : [ ]
 }

@@ -24,6 +24,10 @@ WebUI.click(findTestObject('Object Repository/Page_AT-Elevation  GRiD/div_DSM - 
 
 WebUI.setText(findTestObject('Object Repository/Page_AT-Elevation  GRiD/input_Display Name_name'), 'Katalon - SRT1F DSM Export')
 
+Thread.sleep(2000)
+
+WebUI.scrollToElement(findTestObject('Page_AFE  GRiD/div_Cancel    Generate'), 0)
+
 WebUI.click(findTestObject('Page_AFE  GRiD/div_Cancel    Generate'))
 
 Thread.sleep(35000)
