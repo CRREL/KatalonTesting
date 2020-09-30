@@ -1,3 +1,14 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Map  GRiD/Export Name AOI Modal",
+      "brokenLocator": "id(\"id_name\")[count(. | //input[@type \u003d \u0027text\u0027 and @name \u003d \u0027name\u0027 and @value \u003d \u0027USACE-DSM_DSM - First Return_20200806.1455\u0027 and @class \u003d \u0027form-control\u0027 and @id \u003d \u0027id_name\u0027]) \u003d count(//input[@type \u003d \u0027text\u0027 and @name \u003d \u0027name\u0027 and @value \u003d \u0027USACE-DSM_DSM - First Return_20200806.1455\u0027 and @class \u003d \u0027form-control\u0027 and @id \u003d \u0027id_name\u0027])]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[@id\u003d\u0027id_name\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Map  GRiD/Export Name AOI Modal_XPATH.png"
+    }
+  ]
 }

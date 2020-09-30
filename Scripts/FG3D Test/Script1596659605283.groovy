@@ -45,9 +45,6 @@ for (def row = 1; row <= findTestData('FG3D Test Data').getRowNumbers(); row++) 
     WebUI.setText(findTestObject('Page_Map  GRiD/input_Export Name_name'), findTestData('FG3D Test Data').getValue('id_name', 
             row))
 
-    WebUI.selectOptionByLabel(findTestObject('Page_Map  GRiD/select_GeoTiff  GeoPackage  ERDAS Imagine  --- No Output ---'), 
-        findTestData('FG3D Test Data').getValue('id_geoint_imagery', row), true)
-
     WebUI.selectOptionByLabel(findTestObject('Page_Map  GRiD/select_GeoTiff  GeoPackage  DTED  --- No Output ---'), findTestData(
             'FG3D Test Data').getValue('id_geoint_elevation', row), true)
 
@@ -59,4 +56,7 @@ for (def row = 1; row <= findTestData('FG3D Test Data').getRowNumbers(); row++) 
 
     WebUI.click(findTestObject('Page_Map  GRiD/button_Finish'))
 }
+
+WebUI.selectOptionByLabel(findTestObject('Page_Map  GRiD/select_GeoTiff  GeoPackage  ERDAS Imagine  --- No Output ---'), 
+    findTestData('FG3D Test Data').getValue('id_geoint_imagery', row), true)
 
