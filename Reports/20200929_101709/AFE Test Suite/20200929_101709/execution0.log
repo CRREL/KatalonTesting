@@ -1,0 +1,1770 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-09-29T10:17:12</date>
+  <millis>1601389032643</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/AFE Test Suite</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">AFE Test Suite</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/AFE Test Suite</property>
+  <property name="stopImmediately">false</property>
+</record>
+<record>
+  <date>2020-09-29T10:17:12</date>
+  <millis>1601389032657</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = NickLivas - DESKTOP-1HIC9R3</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">NickLivas - DESKTOP-1HIC9R3</property>
+</record>
+<record>
+  <date>2020-09-29T10:17:12</date>
+  <millis>1601389032658</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2020-09-29T10:17:12</date>
+  <millis>1601389032659</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.0.119</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.0.119</property>
+</record>
+<record>
+  <date>2020-09-29T10:17:12</date>
+  <millis>1601389032660</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 7.6.2.205</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">7.6.2.205</property>
+</record>
+<record>
+  <date>2020-09-29T10:17:12</date>
+  <millis>1601389032926</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/AFE Recorded Script SRI/Texpert - First</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/AFE Recorded Script SRI/Texpert - First</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/AFE Recorded Script SRI/Texpert - First</property>
+  <property name="source">C:\\Users\\NickLivas\\Documents\\Testing\\Katalon\\KatalonTesting\\Test Cases\\AFE Recorded Script SRI\\Texpert - First.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-09-29T10:17:13</date>
+  <millis>1601389033359</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(\&amp;quot;https://grid.nga.mil/testgrid/\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-09-29T10:17:13</date>
+  <millis>1601389033704</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Edge Chromium&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:17:22</date>
+  <millis>1601389042460</millis>
+  <sequence>11</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 milliseconds</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:17:27</date>
+  <millis>1601389047749</millis>
+  <sequence>13</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = 03558fb7e38143022206aa94c782ffea</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">03558fb7e38143022206aa94c782ffea</property>
+</record>
+<record>
+  <date>2020-09-29T10:17:27</date>
+  <millis>1601389047926</millis>
+  <sequence>14</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Edge Chromium 85</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="browser">Edge Chromium 85</property>
+</record>
+<record>
+  <date>2020-09-29T10:17:27</date>
+  <millis>1601389047928</millis>
+  <sequence>15</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2020-09-29T10:17:27</date>
+  <millis>1601389047929</millis>
+  <sequence>16</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.141.59</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="seleniumVersion">3.141.59</property>
+</record>
+<record>
+  <date>2020-09-29T10:17:27</date>
+  <millis>1601389047931</millis>
+  <sequence>17</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&amp;quot;\&amp;quot;, isApplyToDesiredCapabilities=true }</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="proxyInformation">ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }</property>
+</record>
+<record>
+  <date>2020-09-29T10:17:28</date>
+  <millis>1601389048842</millis>
+  <sequence>19</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;https://grid.nga.mil/testgrid/&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:17:28</date>
+  <millis>1601389048843</millis>
+  <sequence>20</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(\&amp;quot;https://grid.nga.mil/testgrid/\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:17:28</date>
+  <millis>1601389048844</millis>
+  <sequence>21</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Page_Login  GRiD/btn_CAC  GEOAxIS Login\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2020-09-29T10:18:00</date>
+  <millis>1601389080008</millis>
+  <sequence>2700</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to find the element located by &amp;apos;By.xpath: //btn[@id=&amp;apos;ga-btn&amp;apos;]&amp;apos;. Please recheck the objects properties to make sure the desired element is located. </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:18:00</date>
+  <millis>1601389080010</millis>
+  <sequence>2701</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed to find element with id &amp;apos;Object Repository/Page_Login  GRiD/btn_CAC  GEOAxIS Login&amp;apos;. Try using Self-healing.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:18:00</date>
+  <millis>1601389080037</millis>
+  <sequence>2703</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;//btn[@id=&amp;apos;ga-btn&amp;apos;]&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:18:00</date>
+  <millis>1601389080055</millis>
+  <sequence>2705</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;(.//*[normalize-space(text()) and normalize-space(.)=&amp;apos;Password:&amp;apos;])[1]/following::btn[1]&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:18:00</date>
+  <millis>1601389080072</millis>
+  <sequence>2707</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;(.//*[normalize-space(text()) and normalize-space(.)=&amp;apos;Username or Email:&amp;apos;])[1]/following::btn[1]&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:18:00</date>
+  <millis>1601389080092</millis>
+  <sequence>2709</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;(.//*[normalize-space(text()) and normalize-space(.)=&amp;apos;Reset it&amp;apos;])[1]/preceding::btn[1]&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:18:00</date>
+  <millis>1601389080110</millis>
+  <sequence>2711</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;(.//*[normalize-space(text()) and normalize-space(.)=&amp;apos;Register now&amp;apos;])[1]/preceding::btn[1]&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:18:00</date>
+  <millis>1601389080135</millis>
+  <sequence>2713</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Working Locator: &amp;apos;//*/text()[normalize-space(.)=&amp;apos;CAC / GEOAxIS Login&amp;apos;]/parent::*&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:18:00</date>
+  <millis>1601389080615</millis>
+  <sequence>2714</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Screenshot: C:/Users/NickLivas/Documents/Testing/Katalon/KatalonTesting/Reports/Self-healing/Object Repository/Page_Login  GRiD/btn_CAC  GEOAxIS Login_neighbor.png</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:18:00</date>
+  <millis>1601389080632</millis>
+  <sequence>2715</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] The current locator of test object &amp;apos;Object Repository/Page_Login  GRiD/btn_CAC  GEOAxIS Login&amp;apos; was broken. Propose an alternative one: &amp;apos;//*/text()[normalize-space(.)=&amp;apos;CAC / GEOAxIS Login&amp;apos;]/parent::*&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:18:19</date>
+  <millis>1601389099895</millis>
+  <sequence>2717</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_Login  GRiD/btn_CAC  GEOAxIS Login&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:18:19</date>
+  <millis>1601389099897</millis>
+  <sequence>2718</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Page_Login  GRiD/btn_CAC  GEOAxIS Login\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:18:19</date>
+  <millis>1601389099897</millis>
+  <sequence>2719</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Page_GEOAxIS/a_PKI Certificate\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2020-09-29T10:18:50</date>
+  <millis>1601389130962</millis>
+  <sequence>5767</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to find the element located by &amp;apos;By.xpath: //div[@id=&amp;apos;authmechlinks&amp;apos;]/div/ul/li[2]/a&amp;apos;. Please recheck the objects properties to make sure the desired element is located. </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:18:50</date>
+  <millis>1601389130963</millis>
+  <sequence>5768</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed to find element with id &amp;apos;Object Repository/Page_GEOAxIS/a_PKI Certificate&amp;apos;. Try using Self-healing.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:18:50</date>
+  <millis>1601389130977</millis>
+  <sequence>5770</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;//div[@id=&amp;apos;authmechlinks&amp;apos;]/div/ul/li[2]/a&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:18:50</date>
+  <millis>1601389130993</millis>
+  <sequence>5772</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;//a[contains(text(),&amp;apos;PKI Certificate&amp;apos;)]&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:18:51</date>
+  <millis>1601389131009</millis>
+  <sequence>5774</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;(.//*[normalize-space(text()) and normalize-space(.)=&amp;apos;PKI Certificate&amp;apos;])[1]/following::a[1]&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:18:51</date>
+  <millis>1601389131026</millis>
+  <sequence>5776</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;(.//*[normalize-space(text()) and normalize-space(.)=&amp;apos;Please provide one of the following credentials to Authenticate&amp;apos;])[1]/following::a[1]&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:18:51</date>
+  <millis>1601389131041</millis>
+  <sequence>5778</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;(.//*[normalize-space(text()) and normalize-space(.)=&amp;apos;Login/Password&amp;apos;])[1]/preceding::a[1]&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:18:51</date>
+  <millis>1601389131059</millis>
+  <sequence>5780</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;(.//*[normalize-space(text()) and normalize-space(.)=&amp;apos;Disadvantaged Users&amp;apos;])[1]/preceding::a[1]&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:18:51</date>
+  <millis>1601389131075</millis>
+  <sequence>5782</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;//a[contains(@href, &amp;apos;CredCollector/X509?mechanism=GxCert&amp;apos;)]&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:18:51</date>
+  <millis>1601389131096</millis>
+  <sequence>5784</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Working Locator: &amp;apos;//a&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:18:51</date>
+  <millis>1601389131398</millis>
+  <sequence>5785</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Screenshot: C:/Users/NickLivas/Documents/Testing/Katalon/KatalonTesting/Reports/Self-healing/Object Repository/Page_GEOAxIS/a_PKI Certificate_position.png</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:18:51</date>
+  <millis>1601389131417</millis>
+  <sequence>5786</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] The current locator of test object &amp;apos;Object Repository/Page_GEOAxIS/a_PKI Certificate&amp;apos; was broken. Propose an alternative one: &amp;apos;//a&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:18:53</date>
+  <millis>1601389133050</millis>
+  <sequence>5788</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_GEOAxIS/a_PKI Certificate&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:18:53</date>
+  <millis>1601389133050</millis>
+  <sequence>5789</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Page_GEOAxIS/a_PKI Certificate\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:18:53</date>
+  <millis>1601389133051</millis>
+  <sequence>5790</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Page_GEOAxIS/span_Click here to continue\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2020-09-29T10:19:24</date>
+  <millis>1601389164137</millis>
+  <sequence>9032</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to find the element located by &amp;apos;By.xpath: //span[@id=&amp;apos;certNotify&amp;apos;]&amp;apos;. Please recheck the objects properties to make sure the desired element is located. </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:24</date>
+  <millis>1601389164178</millis>
+  <sequence>9033</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed to find element with id &amp;apos;Object Repository/Page_GEOAxIS/span_Click here to continue&amp;apos;. Try using Self-healing.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:24</date>
+  <millis>1601389164244</millis>
+  <sequence>9035</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;//span[@id=&amp;apos;certNotify&amp;apos;]&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:24</date>
+  <millis>1601389164262</millis>
+  <sequence>9037</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;//div[@id=&amp;apos;jNotify&amp;apos;]/span&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:24</date>
+  <millis>1601389164283</millis>
+  <sequence>9039</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;(.//*[normalize-space(text()) and normalize-space(.)=&amp;apos;link&amp;apos;])[1]/following::span[1]&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:24</date>
+  <millis>1601389164301</millis>
+  <sequence>9041</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;(.//*[normalize-space(text()) and normalize-space(.)=&amp;apos;one-time&amp;apos;])[1]/following::span[1]&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:24</date>
+  <millis>1601389164318</millis>
+  <sequence>9043</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;//*/text()[normalize-space(.)=&amp;apos;Click here to continue&amp;apos;]/parent::*&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:24</date>
+  <millis>1601389164337</millis>
+  <sequence>9045</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;//div[9]/span&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:24</date>
+  <millis>1601389164351</millis>
+  <sequence>9047</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;//span[@id=&amp;apos;certNotify&amp;apos;]&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:24</date>
+  <millis>1601389164366</millis>
+  <sequence>9049</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;//div[@id=&amp;apos;jNotify&amp;apos;]/span&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:24</date>
+  <millis>1601389164380</millis>
+  <sequence>9051</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;(.//*[normalize-space(text()) and normalize-space(.)=&amp;apos;link&amp;apos;])[1]/following::span[1]&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:24</date>
+  <millis>1601389164397</millis>
+  <sequence>9053</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;(.//*[normalize-space(text()) and normalize-space(.)=&amp;apos;one-time&amp;apos;])[1]/following::span[1]&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:24</date>
+  <millis>1601389164412</millis>
+  <sequence>9055</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;//*/text()[normalize-space(.)=&amp;apos;Click here to continue&amp;apos;]/parent::*&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:24</date>
+  <millis>1601389164428</millis>
+  <sequence>9057</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;//div[9]/span&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:24</date>
+  <millis>1601389164443</millis>
+  <sequence>9059</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;//span[@id=&amp;apos;certNotify&amp;apos;]&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:24</date>
+  <millis>1601389164458</millis>
+  <sequence>9061</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;//div[@id=&amp;apos;jNotify&amp;apos;]/span&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:24</date>
+  <millis>1601389164473</millis>
+  <sequence>9063</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;(.//*[normalize-space(text()) and normalize-space(.)=&amp;apos;link&amp;apos;])[1]/following::span[1]&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:24</date>
+  <millis>1601389164489</millis>
+  <sequence>9065</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;(.//*[normalize-space(text()) and normalize-space(.)=&amp;apos;one-time&amp;apos;])[1]/following::span[1]&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:24</date>
+  <millis>1601389164506</millis>
+  <sequence>9067</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;//*/text()[normalize-space(.)=&amp;apos;Click here to continue&amp;apos;]/parent::*&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:24</date>
+  <millis>1601389164521</millis>
+  <sequence>9069</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;//div[9]/span&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:24</date>
+  <millis>1601389164536</millis>
+  <sequence>9071</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;//span[@id=&amp;apos;certNotify&amp;apos;]&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:24</date>
+  <millis>1601389164550</millis>
+  <sequence>9073</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;//div[@id=&amp;apos;jNotify&amp;apos;]/span&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:24</date>
+  <millis>1601389164564</millis>
+  <sequence>9075</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;(.//*[normalize-space(text()) and normalize-space(.)=&amp;apos;link&amp;apos;])[1]/following::span[1]&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:24</date>
+  <millis>1601389164577</millis>
+  <sequence>9077</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;(.//*[normalize-space(text()) and normalize-space(.)=&amp;apos;one-time&amp;apos;])[1]/following::span[1]&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:24</date>
+  <millis>1601389164590</millis>
+  <sequence>9079</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;//*/text()[normalize-space(.)=&amp;apos;Click here to continue&amp;apos;]/parent::*&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:24</date>
+  <millis>1601389164602</millis>
+  <sequence>9081</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;//div[9]/span&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:24</date>
+  <millis>1601389164615</millis>
+  <sequence>9083</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;//span[@id=&amp;apos;certNotify&amp;apos;]&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:24</date>
+  <millis>1601389164627</millis>
+  <sequence>9085</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;//div[@id=&amp;apos;jNotify&amp;apos;]/span&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:24</date>
+  <millis>1601389164639</millis>
+  <sequence>9087</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;(.//*[normalize-space(text()) and normalize-space(.)=&amp;apos;link&amp;apos;])[1]/following::span[1]&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:24</date>
+  <millis>1601389164651</millis>
+  <sequence>9089</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;(.//*[normalize-space(text()) and normalize-space(.)=&amp;apos;one-time&amp;apos;])[1]/following::span[1]&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:24</date>
+  <millis>1601389164662</millis>
+  <sequence>9091</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;//*/text()[normalize-space(.)=&amp;apos;Click here to continue&amp;apos;]/parent::*&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:24</date>
+  <millis>1601389164673</millis>
+  <sequence>9093</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;//div[9]/span&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:24</date>
+  <millis>1601389164686</millis>
+  <sequence>9095</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;//span[@id=&amp;apos;certNotify&amp;apos;]&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:24</date>
+  <millis>1601389164699</millis>
+  <sequence>9097</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;//div[@id=&amp;apos;jNotify&amp;apos;]/span&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:24</date>
+  <millis>1601389164712</millis>
+  <sequence>9099</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;(.//*[normalize-space(text()) and normalize-space(.)=&amp;apos;link&amp;apos;])[1]/following::span[1]&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:24</date>
+  <millis>1601389164724</millis>
+  <sequence>9101</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;(.//*[normalize-space(text()) and normalize-space(.)=&amp;apos;one-time&amp;apos;])[1]/following::span[1]&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:24</date>
+  <millis>1601389164736</millis>
+  <sequence>9103</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;//*/text()[normalize-space(.)=&amp;apos;Click here to continue&amp;apos;]/parent::*&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:24</date>
+  <millis>1601389164750</millis>
+  <sequence>9105</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;//div[9]/span&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:24</date>
+  <millis>1601389164762</millis>
+  <sequence>9107</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;//span[@id=&amp;apos;certNotify&amp;apos;]&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:24</date>
+  <millis>1601389164773</millis>
+  <sequence>9109</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;//div[@id=&amp;apos;jNotify&amp;apos;]/span&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:24</date>
+  <millis>1601389164785</millis>
+  <sequence>9111</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;(.//*[normalize-space(text()) and normalize-space(.)=&amp;apos;link&amp;apos;])[1]/following::span[1]&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:24</date>
+  <millis>1601389164797</millis>
+  <sequence>9113</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;(.//*[normalize-space(text()) and normalize-space(.)=&amp;apos;one-time&amp;apos;])[1]/following::span[1]&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:24</date>
+  <millis>1601389164808</millis>
+  <sequence>9115</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;//*/text()[normalize-space(.)=&amp;apos;Click here to continue&amp;apos;]/parent::*&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:24</date>
+  <millis>1601389164822</millis>
+  <sequence>9117</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;//div[9]/span&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:24</date>
+  <millis>1601389164833</millis>
+  <sequence>9119</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;//span[@id=&amp;apos;certNotify&amp;apos;]&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:24</date>
+  <millis>1601389164848</millis>
+  <sequence>9121</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;//div[@id=&amp;apos;jNotify&amp;apos;]/span&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:24</date>
+  <millis>1601389164860</millis>
+  <sequence>9123</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;(.//*[normalize-space(text()) and normalize-space(.)=&amp;apos;link&amp;apos;])[1]/following::span[1]&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:24</date>
+  <millis>1601389164872</millis>
+  <sequence>9125</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;(.//*[normalize-space(text()) and normalize-space(.)=&amp;apos;one-time&amp;apos;])[1]/following::span[1]&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:24</date>
+  <millis>1601389164884</millis>
+  <sequence>9127</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;//*/text()[normalize-space(.)=&amp;apos;Click here to continue&amp;apos;]/parent::*&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:24</date>
+  <millis>1601389164894</millis>
+  <sequence>9129</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;//div[9]/span&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:24</date>
+  <millis>1601389164906</millis>
+  <sequence>9131</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;//span[@id=&amp;apos;certNotify&amp;apos;]&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:24</date>
+  <millis>1601389164919</millis>
+  <sequence>9133</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;//div[@id=&amp;apos;jNotify&amp;apos;]/span&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:24</date>
+  <millis>1601389164930</millis>
+  <sequence>9135</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;(.//*[normalize-space(text()) and normalize-space(.)=&amp;apos;link&amp;apos;])[1]/following::span[1]&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:24</date>
+  <millis>1601389164941</millis>
+  <sequence>9137</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;(.//*[normalize-space(text()) and normalize-space(.)=&amp;apos;one-time&amp;apos;])[1]/following::span[1]&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:24</date>
+  <millis>1601389164952</millis>
+  <sequence>9139</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;//*/text()[normalize-space(.)=&amp;apos;Click here to continue&amp;apos;]/parent::*&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:24</date>
+  <millis>1601389164964</millis>
+  <sequence>9141</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;//div[9]/span&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:24</date>
+  <millis>1601389164977</millis>
+  <sequence>9143</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;//span[@id=&amp;apos;certNotify&amp;apos;]&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:24</date>
+  <millis>1601389164989</millis>
+  <sequence>9145</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;//div[@id=&amp;apos;jNotify&amp;apos;]/span&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:25</date>
+  <millis>1601389165001</millis>
+  <sequence>9147</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;(.//*[normalize-space(text()) and normalize-space(.)=&amp;apos;link&amp;apos;])[1]/following::span[1]&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:25</date>
+  <millis>1601389165013</millis>
+  <sequence>9149</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;(.//*[normalize-space(text()) and normalize-space(.)=&amp;apos;one-time&amp;apos;])[1]/following::span[1]&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:25</date>
+  <millis>1601389165024</millis>
+  <sequence>9151</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;//*/text()[normalize-space(.)=&amp;apos;Click here to continue&amp;apos;]/parent::*&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:25</date>
+  <millis>1601389165036</millis>
+  <sequence>9153</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;//div[9]/span&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:25</date>
+  <millis>1601389165049</millis>
+  <sequence>9155</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;//span[@id=&amp;apos;certNotify&amp;apos;]&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:25</date>
+  <millis>1601389165062</millis>
+  <sequence>9157</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;//div[@id=&amp;apos;jNotify&amp;apos;]/span&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:25</date>
+  <millis>1601389165073</millis>
+  <sequence>9159</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;(.//*[normalize-space(text()) and normalize-space(.)=&amp;apos;link&amp;apos;])[1]/following::span[1]&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:25</date>
+  <millis>1601389165084</millis>
+  <sequence>9161</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;(.//*[normalize-space(text()) and normalize-space(.)=&amp;apos;one-time&amp;apos;])[1]/following::span[1]&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:25</date>
+  <millis>1601389165096</millis>
+  <sequence>9163</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;//*/text()[normalize-space(.)=&amp;apos;Click here to continue&amp;apos;]/parent::*&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:25</date>
+  <millis>1601389165109</millis>
+  <sequence>9165</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;//div[9]/span&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:25</date>
+  <millis>1601389165122</millis>
+  <sequence>9167</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;//span[@id=&amp;apos;certNotify&amp;apos;]&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:25</date>
+  <millis>1601389165132</millis>
+  <sequence>9169</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;//div[@id=&amp;apos;jNotify&amp;apos;]/span&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:25</date>
+  <millis>1601389165143</millis>
+  <sequence>9171</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;(.//*[normalize-space(text()) and normalize-space(.)=&amp;apos;link&amp;apos;])[1]/following::span[1]&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:25</date>
+  <millis>1601389165153</millis>
+  <sequence>9173</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;(.//*[normalize-space(text()) and normalize-space(.)=&amp;apos;one-time&amp;apos;])[1]/following::span[1]&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:25</date>
+  <millis>1601389165166</millis>
+  <sequence>9175</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;//*/text()[normalize-space(.)=&amp;apos;Click here to continue&amp;apos;]/parent::*&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:25</date>
+  <millis>1601389165179</millis>
+  <sequence>9177</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;//div[9]/span&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:25</date>
+  <millis>1601389165190</millis>
+  <sequence>9179</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;//span[@id=&amp;apos;certNotify&amp;apos;]&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:25</date>
+  <millis>1601389165203</millis>
+  <sequence>9181</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;//div[@id=&amp;apos;jNotify&amp;apos;]/span&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:25</date>
+  <millis>1601389165213</millis>
+  <sequence>9183</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;(.//*[normalize-space(text()) and normalize-space(.)=&amp;apos;link&amp;apos;])[1]/following::span[1]&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:25</date>
+  <millis>1601389165224</millis>
+  <sequence>9185</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;(.//*[normalize-space(text()) and normalize-space(.)=&amp;apos;one-time&amp;apos;])[1]/following::span[1]&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:25</date>
+  <millis>1601389165236</millis>
+  <sequence>9187</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;//*/text()[normalize-space(.)=&amp;apos;Click here to continue&amp;apos;]/parent::*&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:25</date>
+  <millis>1601389165247</millis>
+  <sequence>9189</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;//div[9]/span&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:26</date>
+  <millis>1601389166256</millis>
+  <sequence>9288</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to find the element located by &amp;apos;By.xpath: //*[@id = &amp;apos;certNotify&amp;apos; and (text() = &amp;apos;Click here to continue&amp;apos; or . = &amp;apos;Click here to continue&amp;apos;)]&amp;apos;. Please recheck the objects properties to make sure the desired element is located. </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:27</date>
+  <millis>1601389167259</millis>
+  <sequence>9399</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to find the element located by &amp;apos;By.cssSelector: #certNotify&amp;apos;. Please recheck the objects properties to make sure the desired element is located. </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:27</date>
+  <millis>1601389167704</millis>
+  <sequence>9403</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to click on object &amp;apos;Object Repository/Page_GEOAxIS/span_Click here to continue&amp;apos; (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object &amp;apos;Object Repository/Page_GEOAxIS/span_Click here to continue&amp;apos;\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$0.call(Unknown Source)\r\n\tat Texpert - First.run(Texpert - First:24)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1601389029329.run(TempTestSuite1601389029329.groovy:39)\r\nCaused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: &amp;apos;Object Repository/Page_GEOAxIS/span_Click here to continue&amp;apos; located by &amp;apos;//span[@id=&amp;apos;certNotify&amp;apos;]&amp;apos; not found\r\n\tat com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$0.call(Unknown Source)\r\n\tat Script1600962707380.run(Script1600962707380.groovy:24)\r\n\t... 13 more\r\n)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="failed.exception.class">com.kms.katalon.core.webui.exception.WebElementNotFoundException</property>
+  <property name="attachment">1601389167261.png</property>
+  <property name="failed.exception.stacktrace">com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: &apos;Object Repository/Page_GEOAxIS/span_Click here to continue&apos; located by &apos;//span[@id=&apos;certNotify&apos;]&apos; not found\r\n\tat com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$0.call(Unknown Source)\r\n\tat Texpert - First.run(Texpert - First:24)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1601389029329.run(TempTestSuite1601389029329.groovy:39)\r\n</property>
+  <property name="failed.exception.message">Web element with id: &apos;Object Repository/Page_GEOAxIS/span_Click here to continue&apos; located by &apos;//span[@id=&apos;certNotify&apos;]&apos; not found</property>
+</record>
+<record>
+  <date>2020-09-29T10:19:27</date>
+  <millis>1601389167705</millis>
+  <sequence>9404</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Page_GEOAxIS/span_Click here to continue\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:27</date>
+  <millis>1601389167706</millis>
+  <sequence>9407</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/AFE Recorded Script SRI/Texpert - First FAILED.\nReason:\ncom.kms.katalon.core.exception.StepFailedException: Unable to click on object &amp;apos;Object Repository/Page_GEOAxIS/span_Click here to continue&amp;apos;\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$0.call(Unknown Source)\r\n\tat Texpert - First.run(Texpert - First:24)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1601389029329.run(TempTestSuite1601389029329.groovy:39)\r\nCaused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: &amp;apos;Object Repository/Page_GEOAxIS/span_Click here to continue&amp;apos; located by &amp;apos;//span[@id=&amp;apos;certNotify&amp;apos;]&amp;apos; not found\r\n\tat com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)\r\n\t... 19 more\r\n</message>
+  <exception>
+    <message>com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_GEOAxIS/span_Click here to continue'</message>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>stepFailed</method>
+      <line>64</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>runKeyword</method>
+      <line>26</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.ClickKeyword</class>
+      <method>click</method>
+      <line>76</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.ClickKeyword</class>
+      <method>execute</method>
+      <line>43</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordExecutor</class>
+      <method>executeKeywordForPlatform</method>
+      <line>73</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords</class>
+      <method>click</method>
+      <line>616</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>Texpert - First</class>
+      <method>run</method>
+      <line>24</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>339</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>330</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>309</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>301</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>235</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>191</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>141</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>90</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1601389029329</class>
+      <method>run</method>
+      <line>39</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <property name="failed.exception.stacktrace">com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: &apos;Object Repository/Page_GEOAxIS/span_Click here to continue&apos; located by &apos;//span[@id=&apos;certNotify&apos;]&apos; not found\r\n\tat com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$0.call(Unknown Source)\r\n\tat Texpert - First.run(Texpert - First:24)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1601389029329.run(TempTestSuite1601389029329.groovy:39)\r\n</property>
+  <property name="failed.exception.class">com.kms.katalon.core.webui.exception.WebElementNotFoundException</property>
+  <property name="failed.exception.message">Web element with id: &apos;Object Repository/Page_GEOAxIS/span_Click here to continue&apos; located by &apos;//span[@id=&apos;certNotify&apos;]&apos; not found</property>
+</record>
+<record>
+  <date>2020-09-29T10:19:27</date>
+  <millis>1601389167710</millis>
+  <sequence>9409</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/AFE Recorded Script SRI/Texpert - First</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:27</date>
+  <millis>1601389167710</millis>
+  <sequence>9410</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message></message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:27</date>
+  <millis>1601389167710</millis>
+  <sequence>9411</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>===================== Self-healing Report ====================</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:27</date>
+  <millis>1601389167711</millis>
+  <sequence>9412</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>One of the failed test object locators has been recovered by Self-healing. Please refer to the Self-healing Insights tab for more details.</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:27</date>
+  <millis>1601389167711</millis>
+  <sequence>9413</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>To learn more about Self-healing, please read https://docs.katalon.com/katalon-studio/docs/self-healing.html</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:27</date>
+  <millis>1601389167712</millis>
+  <sequence>9414</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>==============================================================</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:27</date>
+  <millis>1601389167720</millis>
+  <sequence>9415</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/AFE Recorded Script SRI/Texpert - CDB</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/AFE Recorded Script SRI/Texpert - CDB</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/AFE Recorded Script SRI/Texpert - CDB</property>
+  <property name="source">C:\\Users\\NickLivas\\Documents\\Testing\\Katalon\\KatalonTesting\\Test Cases\\AFE Recorded Script SRI\\Texpert - CDB.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-09-29T10:19:27</date>
+  <millis>1601389167933</millis>
+  <sequence>9417</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Page_AFE  GRiD/a_Export pointcloud data\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-09-29T10:19:58</date>
+  <millis>1601389198981</millis>
+  <sequence>12672</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to find the element located by &amp;apos;By.xpath: //a[contains(text(),&amp;apos;Export pointcloud data&amp;apos;)]&amp;apos;. Please recheck the objects properties to make sure the desired element is located. </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:58</date>
+  <millis>1601389198996</millis>
+  <sequence>12673</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed to find element with id &amp;apos;Object Repository/Page_AFE  GRiD/a_Export pointcloud data&amp;apos;. Try using Self-healing.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:59</date>
+  <millis>1601389199012</millis>
+  <sequence>12675</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed Locator: &amp;apos;//a[contains(text(),&amp;apos;Export pointcloud data&amp;apos;)]&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:59</date>
+  <millis>1601389199029</millis>
+  <sequence>12677</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Working Locator: &amp;apos;(.//*[normalize-space(text()) and normalize-space(.)=&amp;apos;Exports&amp;apos;])[1]/following::a[1]&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:59</date>
+  <millis>1601389199362</millis>
+  <sequence>12678</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Screenshot: C:/Users/NickLivas/Documents/Testing/Katalon/KatalonTesting/Reports/Self-healing/Object Repository/Page_AFE  GRiD/a_Export pointcloud data_neighbor.png</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:19:59</date>
+  <millis>1601389199378</millis>
+  <sequence>12679</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] The current locator of test object &amp;apos;Object Repository/Page_AFE  GRiD/a_Export pointcloud data&amp;apos; was broken. Propose an alternative one: &amp;apos;(.//*[normalize-space(text()) and normalize-space(.)=&amp;apos;Exports&amp;apos;])[1]/following::a[1]&amp;apos;.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:20:04</date>
+  <millis>1601389204171</millis>
+  <sequence>12681</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_AFE  GRiD/a_Export pointcloud data&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:20:04</date>
+  <millis>1601389204174</millis>
+  <sequence>12682</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Page_AFE  GRiD/a_Export pointcloud data\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-09-29T10:20:04</date>
+  <millis>1601389204175</millis>
+  <sequence>12683</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Page_AFE  GRiD/div_PC 20190623_18T577450 UNCLASSIFIEDFOUO _33ce5f\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">2</property>
+</record>

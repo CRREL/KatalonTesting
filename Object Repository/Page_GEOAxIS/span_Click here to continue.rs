@@ -6,12 +6,12 @@
    <elementGuidId>208d2bdf-b2f1-46e8-8e56-cc16eba0fd7a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//span[@id='certNotify']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#certNotify</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id='certNotify']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

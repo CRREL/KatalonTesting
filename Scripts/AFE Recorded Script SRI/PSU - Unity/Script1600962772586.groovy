@@ -17,7 +17,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.click(findTestObject('Page_AFE  GRiD/a_Export pointcloud data'))
 
-WebUI.click(findTestObject('Page_AFE  GRiD/div_PC 20190623_18T577450 UNCLASSIFIEDFOUO _33ce5f'))
+WebUI.click(findTestObject('Page_USGS PC  GRiD/div_PC USGS_20100408-0510 UNCLASSIFIED 2010_1266e1'))
 
 WebUI.setText(findTestObject('Page_AFE  GRiD/input_Display Name_name'), 'PSU - Unity')
 
@@ -27,7 +27,7 @@ Thread.sleep(2000)
 
 WebUI.click(findTestObject('Page_AFE  GRiD/input_Feature Extraction_filter_afe'))
 
-WebUI.selectOptionByValue(findTestObject('Page_AFE  GRiD/select_TexPert 315-1  PSU 170  SRI 15'), 'psu_1.7.0;', true)
+WebUI.selectOptionByValue(findTestObject('Page_USGS PC  GRiD/select_PSU 190  TexPert 315-3  SRI 15'), 'psu_1.9.0;', true)
 
 Thread.sleep(2000)
 

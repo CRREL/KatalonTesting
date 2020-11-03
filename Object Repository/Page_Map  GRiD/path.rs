@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>svg.svg-inline--fa.fa-filter.fa-w-16.layer-glyph > path</value>
+         <value>#241266_anchor > a[title=&quot;Edit/Filter Layer&quot;] > svg.svg-inline--fa.fa-filter.fa-w-16.layer-glyph > path</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -42,6 +42,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;205425_anchor&quot;)/a[2]/svg[@class=&quot;svg-inline--fa fa-filter fa-w-16 layer-glyph&quot;]/path[1]</value>
+      <value>id(&quot;241266_anchor&quot;)/a[2]/svg[@class=&quot;svg-inline--fa fa-filter fa-w-16 layer-glyph&quot;]/path[1]</value>
    </webElementProperties>
 </WebElementEntity>

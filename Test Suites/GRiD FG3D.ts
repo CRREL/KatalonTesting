@@ -21,7 +21,7 @@
       <guid>79ce3cc6-644d-4394-8c62-4748068121c9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/FG3D/FG3D Test</testCaseId>
+      <testCaseId>Test Cases/FG3D/FG3D Test - Tactical</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>6dc04db9-8342-417a-8f1d-bc4633ddc397</id>

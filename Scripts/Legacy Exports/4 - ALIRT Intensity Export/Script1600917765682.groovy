@@ -16,7 +16,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Page_AT-Pointcloud  GRiD/a_AT-Imagery'))
+WebUI.navigateToUrl('https://grid.nga.mil/testgrid/export/aoi/38117/')
 
 WebUI.click(findTestObject('Object Repository/Page_AT-Imagery  GRiD/a_Export DEMsimagery'))
 
@@ -33,5 +33,4 @@ Thread.sleep(30000)
 WebUI.verifyElementClickable(findTestObject('Page_AT-Pointcloud  GRiD/button_Download'))
 
 WebUI.click(findTestObject('Page_AT-Imagery  GRiD/button_Download'))
-
 

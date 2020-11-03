@@ -1,0 +1,44 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Map  GRiD/a_Apply Filter",
+      "brokenLocator": "//a[@onclick\u003d\u0027layer_form_post(\"/grid/map/layer/241265/edit/\")\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//form[@id\u003d\u0027layer-edit-form\u0027]/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20201030_161221/Program Data Exports/20201030_161221/Object Repository/Page_Map  GRiD/a_Apply Filter_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Map  GRiD/a_Buckeye (AOI)",
+      "brokenLocator": "//a[@id\u003d\u0027ui-id-63\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//ul[@id\u003d\u0027ui-id-1\u0027]/li/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20201030_161221/Program Data Exports/20201030_161221/Object Repository/Page_Map  GRiD/a_Buckeye (AOI)_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Map  GRiD/a_Artemis EO (AOI)",
+      "brokenLocator": "//a[@id\u003d\u0027ui-id-62\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//ul[@id\u003d\u0027ui-id-1\u0027]/li/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20201030_161221/Program Data Exports/20201030_161221/Object Repository/Page_Map  GRiD/a_Artemis EO (AOI)_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Map  GRiD/a_US Cities 1 (AOI)",
+      "brokenLocator": "//a[@id\u003d\u0027ui-id-483\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//ul[@id\u003d\u0027ui-id-1\u0027]/li/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20201030_161221/Program Data Exports/20201030_161221/Object Repository/Page_Map  GRiD/a_US Cities 1 (AOI)_idRelative.png"
+    }
+  ]
+}

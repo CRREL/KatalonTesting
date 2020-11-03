@@ -35,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/testgrid/geoaxis/ga_login/</value>
+      <value>/grid/geoaxis/ga_login/</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -98,7 +98,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/testgrid/geoaxis/ga_login/')]</value>
+      <value>//a[contains(@href, '/grid/geoaxis/ga_login/')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,5 +106,12 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/testgrid/geoaxis/ga_login/')]</value>
    </webElementXpaths>
 </WebElementEntity>

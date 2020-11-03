@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_AFE  GRiD/a_Export pointcloud data",
+      "brokenLocator": "//a[contains(text(),\u0027Export pointcloud data\u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(@href, \u0027/grid/export/aoi/38277/generate/pointcloud/\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20201021_150244/AFE Test Suite/20201021_150244/Object Repository/Page_AFE  GRiD/a_Export pointcloud data_href.png"
+    }
+  ]
+}

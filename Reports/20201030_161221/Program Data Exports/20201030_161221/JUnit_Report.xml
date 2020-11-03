@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Program Data Exports" time="302.244" tests="5" failures="0" errors="0">
+   <testsuite name="Program Data Exports" tests="5" failures="0" errors="0" time="302.244" timestamp="2020-10-30 16:12:24" hostname="NickLivas - DESKTOP-1HIC9R3" id="Test Suites/Program Data Exports">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\NickLivas\\Documents\\Testing\\Katalon\\KatalonTesting\\Reports\\20201030_161221\\Program Data Exports\\20201030_161221"/>
+         <property name="logFiles" value="C:\\Users\\NickLivas\\Documents\\Testing\\Katalon\\KatalonTesting\\Reports\\20201030_161221\\Program Data Exports\\20201030_161221\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="NickLivas - DESKTOP-1HIC9R3"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.6.2.205"/>
+         <property name="browser" value="Chrome 86.0.4240.111"/>
+         <property name="hostAddress" value="192.168.0.119"/>
+         <property name="sessionId" value="b81e15ed8e567d2458f87e67e3f40641"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Program Data File Formats/Authenticate" time="36.604" classname="Test Cases/Program Data File Formats/Authenticate" status="PASSED">
+         <system-out><![CDATA[2020-10-30 16:12:24 - [TEST_CASE][PASSED] - Test Cases/Program Data File Formats/Authenticate: Test Cases/Program Data File Formats/Authenticate
+
+2020-10-30 16:12:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-30 16:12:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-10-30 16:12:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-30 16:12:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-30 16:12:31 - [TEST_STEP][PASSED] - navigateToUrl("https://grid.nga.mil/"): Navigate to 'https://grid.nga.mil/' successfully
+
+2020-10-30 16:12:31 - [MESSAGE][PASSED] - Navigate to 'https://grid.nga.mil/' successfully
+
+2020-10-30 16:12:31 - [TEST_STEP][PASSED] - click(findTestObject("Page_Home  GRiD/a_CAC  GEOAxIS Login")): Object: 'Object Repository/Page_Home  GRiD/a_CAC  GEOAxIS Login' is clicked on
+
+2020-10-30 16:12:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home  GRiD/a_CAC  GEOAxIS Login' is clicked on
+
+2020-10-30 16:12:41 - [TEST_STEP][PASSED] - click(findTestObject("Page_GEOAxIS/a_PKI Certificate")): Object: 'Object Repository/Page_GEOAxIS/a_PKI Certificate' is clicked on
+
+2020-10-30 16:12:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GEOAxIS/a_PKI Certificate' is clicked on
+
+2020-10-30 16:12:41 - [TEST_STEP][PASSED] - click(findTestObject("Page_GEOAxIS/span_Click here to continue")): Object: 'Object Repository/Page_GEOAxIS/span_Click here to continue' is clicked on
+
+2020-10-30 16:13:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GEOAxIS/span_Click here to continue' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Program Data File Formats/Test Case 1" time="16.661" classname="Test Cases/Program Data File Formats/Test Case 1" status="PASSED">
+         <system-out><![CDATA[2020-10-30 16:13:01 - [TEST_CASE][PASSED] - Test Cases/Program Data File Formats/Test Case 1: Test Cases/Program Data File Formats/Test Case 1
+
+2020-10-30 16:13:01 - [TEST_STEP][PASSED] - click(findTestObject("Page_Home  GRiD/a_Map")): Object: 'Object Repository/Page_Home  GRiD/a_Map' is clicked on
+
+2020-10-30 16:13:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home  GRiD/a_Map' is clicked on
+
+2020-10-30 16:13:03 - [TEST_STEP][PASSED] - click(findTestObject("Page_Map  GRiD/span_Reset All")): Object: 'Object Repository/Page_Map  GRiD/span_Reset All' is clicked on
+
+2020-10-30 16:13:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Map  GRiD/span_Reset All' is clicked on
+
+2020-10-30 16:13:04 - [TEST_STEP][PASSED] - click(findTestObject("Page_Map  GRiD/Pointclouds Data Layer")): Object: 'Object Repository/Page_Map  GRiD/Pointclouds Data Layer' is clicked on
+
+2020-10-30 16:13:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Map  GRiD/Pointclouds Data Layer' is clicked on
+
+2020-10-30 16:13:05 - [TEST_STEP][PASSED] - click(findTestObject("Page_Map  GRiD/Pointclouds filter")): Object: 'Object Repository/Page_Map  GRiD/Pointclouds filter' is clicked on
+
+2020-10-30 16:13:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Map  GRiD/Pointclouds filter' is clicked on
+
+2020-10-30 16:13:05 - [TEST_STEP][PASSED] - click(findTestObject("Page_Map  GRiD/span_ALIRT")): Object: 'Object Repository/Page_Map  GRiD/span_ALIRT' is clicked on
+
+2020-10-30 16:13:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Map  GRiD/span_ALIRT' is clicked on
+
+2020-10-30 16:13:07 - [TEST_STEP][PASSED] - click(findTestObject("Page_Map  GRiD/span_PC")): Object: 'Object Repository/Page_Map  GRiD/span_PC' is clicked on
+
+2020-10-30 16:13:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Map  GRiD/span_PC' is clicked on
+
+2020-10-30 16:13:07 - [TEST_STEP][PASSED] - click(findTestObject("Page_Map  GRiD/a_Apply Filter")): Object: 'Object Repository/Page_Map  GRiD/a_Apply Filter' is clicked on
+
+2020-10-30 16:13:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Map  GRiD/a_Apply Filter' is clicked on
+
+2020-10-30 16:13:08 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Map  GRiD/input_Search Vectors_map-search"), "alirt"): Text 'alirt' is set on object 'Object Repository/Page_Map  GRiD/input_Search Vectors_map-search'
+
+2020-10-30 16:13:09 - [MESSAGE][PASSED] - Text 'alirt' is set on object 'Object Repository/Page_Map  GRiD/input_Search Vectors_map-search'
+
+2020-10-30 16:13:09 - [TEST_STEP][PASSED] - click(findTestObject("Page_Map  GRiD/a_ALIRT (AOI)")): Object: 'Object Repository/Page_Map  GRiD/a_ALIRT (AOI)' is clicked on
+
+2020-10-30 16:13:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Map  GRiD/a_ALIRT (AOI)' is clicked on
+
+2020-10-30 16:13:10 - [TEST_STEP][PASSED] - click(findTestObject("Page_Map  GRiD/input_Selection area or layers have been mo_90fb99")): Object: 'Object Repository/Page_Map  GRiD/input_Selection area or layers have been mo_90fb99' is clicked on
+
+2020-10-30 16:13:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Map  GRiD/input_Selection area or layers have been mo_90fb99' is clicked on
+
+2020-10-30 16:13:13 - [TEST_STEP][PASSED] - click(findTestObject("Page_Map  GRiD/span_Export")): Object: 'Object Repository/Page_Map  GRiD/span_Export' is clicked on
+
+2020-10-30 16:13:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Map  GRiD/span_Export' is clicked on
+
+2020-10-30 16:13:15 - [TEST_STEP][PASSED] - click(findTestObject("Page_Map  GRiD/input_Export Name_name")): Object: 'Object Repository/Page_Map  GRiD/input_Export Name_name' is clicked on
+
+2020-10-30 16:13:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Map  GRiD/input_Export Name_name' is clicked on
+
+2020-10-30 16:13:16 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Map  GRiD/input_Export Name_name"), "1"): Text '1' is set on object 'Object Repository/Page_Map  GRiD/input_Export Name_name'
+
+2020-10-30 16:13:16 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Page_Map  GRiD/input_Export Name_name'
+
+2020-10-30 16:13:16 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Map  GRiD/select_BPF  CSV  LAS 12  LAS 14  PDF  Sourc_c9fa4c"), "1", true): All options with value '1' are selected in object 'Object Repository/Page_Map  GRiD/select_BPF  CSV  LAS 12  LAS 14  PDF  Sourc_c9fa4c'  using regular expression
+
+2020-10-30 16:13:17 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Page_Map  GRiD/select_BPF  CSV  LAS 12  LAS 14  PDF  Sourc_c9fa4c'  using regular expression
+
+2020-10-30 16:13:17 - [TEST_STEP][PASSED] - click(findTestObject("Page_Map  GRiD/button_Finish")): Object: 'Object Repository/Page_Map  GRiD/button_Finish' is clicked on
+
+2020-10-30 16:13:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Map  GRiD/button_Finish' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Program Data File Formats/Test Case 2" time="86.641" classname="Test Cases/Program Data File Formats/Test Case 2" status="PASSED">
+         <system-out><![CDATA[2020-10-30 16:13:18 - [TEST_CASE][PASSED] - Test Cases/Program Data File Formats/Test Case 2: Test Cases/Program Data File Formats/Test Case 2
+
+2020-10-30 16:13:18 - [TEST_STEP][PASSED] - click(findTestObject("Page_Home  GRiD/a_Map")): Object: 'Object Repository/Page_Home  GRiD/a_Map' is clicked on
+
+2020-10-30 16:13:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home  GRiD/a_Map' is clicked on
+
+2020-10-30 16:13:28 - [TEST_STEP][PASSED] - click(findTestObject("Page_Map  GRiD/span_Reset All")): Object: 'Object Repository/Page_Map  GRiD/span_Reset All' is clicked on
+
+2020-10-30 16:13:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Map  GRiD/span_Reset All' is clicked on
+
+2020-10-30 16:13:30 - [TEST_STEP][PASSED] - click(findTestObject("Page_Map  GRiD/Elevation Models Data Layer")): Object: 'Object Repository/Page_Map  GRiD/Elevation Models Data Layer' is clicked on
+
+2020-10-30 16:13:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Map  GRiD/Elevation Models Data Layer' is clicked on
+
+2020-10-30 16:13:31 - [TEST_STEP][PASSED] - click(findTestObject("Page_Map  GRiD/Elevation Models filter")): Object: 'Object Repository/Page_Map  GRiD/Elevation Models filter' is clicked on
+
+2020-10-30 16:13:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Map  GRiD/Elevation Models filter' is clicked on
+
+2020-10-30 16:13:31 - [TEST_STEP][PASSED] - click(findTestObject("Page_Map  GRiD/span_BuckEye")): Object: 'Object Repository/Page_Map  GRiD/span_BuckEye' is clicked on
+
+2020-10-30 16:13:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Map  GRiD/span_BuckEye' is clicked on
+
+2020-10-30 16:13:33 - [TEST_STEP][PASSED] - click(findTestObject("Page_Map  GRiD/span_DSM - First Return")): Object: 'Object Repository/Page_Map  GRiD/span_DSM - First Return' is clicked on
+
+2020-10-30 16:13:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Map  GRiD/span_DSM - First Return' is clicked on
+
+2020-10-30 16:13:33 - [TEST_STEP][PASSED] - click(findTestObject("Page_Map  GRiD/a_Apply Filter")): Object: 'Object Repository/Page_Map  GRiD/a_Apply Filter' is clicked on
+
+2020-10-30 16:14:05 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[@onclick='layer_form_post("/grid/map/layer/241265/edit/")']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-10-30 16:14:05 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Map  GRiD/a_Apply Filter'. Try using Self-healing.
+
+2020-10-30 16:14:05 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Map  GRiD/a_Apply Filter' was broken. Propose an alternative one: '//form[@id='layer-edit-form']/a'.
+
+2020-10-30 16:14:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Map  GRiD/a_Apply Filter' is clicked on
+
+2020-10-30 16:14:05 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Map  GRiD/input_Search Vectors_map-search"), "buckeye"): Text 'buckeye' is set on object 'Object Repository/Page_Map  GRiD/input_Search Vectors_map-search'
+
+2020-10-30 16:14:07 - [MESSAGE][PASSED] - Text 'buckeye' is set on object 'Object Repository/Page_Map  GRiD/input_Search Vectors_map-search'
+
+2020-10-30 16:14:07 - [TEST_STEP][PASSED] - click(findTestObject("Page_Map  GRiD/a_Buckeye (AOI)")): Object: 'Object Repository/Page_Map  GRiD/a_Buckeye (AOI)' is clicked on
+
+2020-10-30 16:14:38 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[@id='ui-id-63']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-10-30 16:14:38 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Map  GRiD/a_Buckeye (AOI)'. Try using Self-healing.
+
+2020-10-30 16:14:39 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Map  GRiD/a_Buckeye (AOI)' was broken. Propose an alternative one: '//ul[@id='ui-id-1']/li/a'.
+
+2020-10-30 16:14:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Map  GRiD/a_Buckeye (AOI)' is clicked on
+
+2020-10-30 16:14:39 - [TEST_STEP][PASSED] - click(findTestObject("Page_Map  GRiD/input_Selection area or layers have been mo_90fb99")): Object: 'Object Repository/Page_Map  GRiD/input_Selection area or layers have been mo_90fb99' is clicked on
+
+2020-10-30 16:14:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Map  GRiD/input_Selection area or layers have been mo_90fb99' is clicked on
+
+2020-10-30 16:14:41 - [TEST_STEP][PASSED] - click(findTestObject("Page_Map  GRiD/span_Export")): Object: 'Object Repository/Page_Map  GRiD/span_Export' is clicked on
+
+2020-10-30 16:14:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Map  GRiD/span_Export' is clicked on
+
+2020-10-30 16:14:41 - [TEST_STEP][PASSED] - click(findTestObject("Page_Map  GRiD/input_Export Name_name")): Object: 'Object Repository/Page_Map  GRiD/input_Export Name_name' is clicked on
+
+2020-10-30 16:14:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Map  GRiD/input_Export Name_name' is clicked on
+
+2020-10-30 16:14:42 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Map  GRiD/input_Export Name_name"), "43"): Text '43' is set on object 'Object Repository/Page_Map  GRiD/input_Export Name_name'
+
+2020-10-30 16:14:43 - [MESSAGE][PASSED] - Text '43' is set on object 'Object Repository/Page_Map  GRiD/input_Export Name_name'
+
+2020-10-30 16:14:43 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_Map  GRiD/select_GeoTiff  National Imagery Transmissi_18f687"), "15", true): All options with value '15' are selected in object 'Object Repository/Page_Map  GRiD/select_GeoTiff  National Imagery Transmissi_18f687'  using regular expression
+
+2020-10-30 16:14:44 - [MESSAGE][PASSED] - All options with value '15' are selected in object 'Object Repository/Page_Map  GRiD/select_GeoTiff  National Imagery Transmissi_18f687'  using regular expression
+
+2020-10-30 16:14:44 - [TEST_STEP][PASSED] - click(findTestObject("Page_Map  GRiD/button_Finish")): Object: 'Object Repository/Page_Map  GRiD/button_Finish' is clicked on
+
+2020-10-30 16:14:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Map  GRiD/button_Finish' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Program Data File Formats/Test Case 3" time="80.274" classname="Test Cases/Program Data File Formats/Test Case 3" status="PASSED">
+         <system-out><![CDATA[2020-10-30 16:14:44 - [TEST_CASE][PASSED] - Test Cases/Program Data File Formats/Test Case 3: Test Cases/Program Data File Formats/Test Case 3
+
+2020-10-30 16:14:44 - [TEST_STEP][PASSED] - click(findTestObject("Page_Home  GRiD/a_Map")): Object: 'Object Repository/Page_Home  GRiD/a_Map' is clicked on
+
+2020-10-30 16:14:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home  GRiD/a_Map' is clicked on
+
+2020-10-30 16:14:48 - [TEST_STEP][PASSED] - click(findTestObject("Page_Map  GRiD/span_Reset All")): Object: 'Object Repository/Page_Map  GRiD/span_Reset All' is clicked on
+
+2020-10-30 16:14:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Map  GRiD/span_Reset All' is clicked on
+
+2020-10-30 16:14:50 - [TEST_STEP][PASSED] - click(findTestObject("Page_Map  GRiD/Imagery Data Layer")): Object: 'Object Repository/Page_Map  GRiD/Imagery Data Layer' is clicked on
+
+2020-10-30 16:14:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Map  GRiD/Imagery Data Layer' is clicked on
+
+2020-10-30 16:14:51 - [TEST_STEP][PASSED] - click(findTestObject("Page_Map  GRiD/Imagery filter")): Object: 'Object Repository/Page_Map  GRiD/Imagery filter' is clicked on
+
+2020-10-30 16:14:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Map  GRiD/Imagery filter' is clicked on
+
+2020-10-30 16:14:51 - [TEST_STEP][PASSED] - click(findTestObject("Page_Map  GRiD/span_Artemis")): Object: 'Object Repository/Page_Map  GRiD/span_Artemis' is clicked on
+
+2020-10-30 16:14:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Map  GRiD/span_Artemis' is clicked on
+
+2020-10-30 16:14:53 - [TEST_STEP][PASSED] - click(findTestObject("Page_Map  GRiD/span_EO - Orthorectified")): Object: 'Object Repository/Page_Map  GRiD/span_EO - Orthorectified' is clicked on
+
+2020-10-30 16:14:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Map  GRiD/span_EO - Orthorectified' is clicked on
+
+2020-10-30 16:14:53 - [TEST_STEP][PASSED] - click(findTestObject("Page_Map  GRiD/a_Apply Filter")): Object: 'Object Repository/Page_Map  GRiD/a_Apply Filter' is clicked on
+
+2020-10-30 16:15:24 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[@onclick='layer_form_post("/grid/map/layer/241265/edit/")']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-10-30 16:15:24 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Map  GRiD/a_Apply Filter'. Try using Self-healing.
+
+2020-10-30 16:15:24 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Map  GRiD/a_Apply Filter' was broken. Propose an alternative one: '//form[@id='layer-edit-form']/a'.
+
+2020-10-30 16:15:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Map  GRiD/a_Apply Filter' is clicked on
+
+2020-10-30 16:15:25 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Map  GRiD/input_Search Vectors_map-search"), "artemis eo"): Text 'artemis eo' is set on object 'Object Repository/Page_Map  GRiD/input_Search Vectors_map-search'
+
+2020-10-30 16:15:27 - [MESSAGE][PASSED] - Text 'artemis eo' is set on object 'Object Repository/Page_Map  GRiD/input_Search Vectors_map-search'
+
+2020-10-30 16:15:27 - [TEST_STEP][PASSED] - click(findTestObject("Page_Map  GRiD/a_Artemis EO (AOI)")): Object: 'Object Repository/Page_Map  GRiD/a_Artemis EO (AOI)' is clicked on
+
+2020-10-30 16:15:58 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[@id='ui-id-62']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-10-30 16:15:58 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Map  GRiD/a_Artemis EO (AOI)'. Try using Self-healing.
+
+2020-10-30 16:15:58 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//a[@id='ui-id-62']'.
+
+2020-10-30 16:15:58 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//ul[@id='ui-id-1']/li/a'.
+
+2020-10-30 16:15:59 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/NickLivas/Documents/Testing/Katalon/KatalonTesting/Reports/Self-healing/Object Repository/Page_Map  GRiD/a_Artemis EO (AOI)_idRelative.png
+
+2020-10-30 16:15:59 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Map  GRiD/a_Artemis EO (AOI)' was broken. Propose an alternative one: '//ul[@id='ui-id-1']/li/a'.
+
+2020-10-30 16:15:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Map  GRiD/a_Artemis EO (AOI)' is clicked on
+
+2020-10-30 16:15:59 - [TEST_STEP][PASSED] - click(findTestObject("Page_Map  GRiD/input_Selection area or layers have been mo_90fb99")): Object: 'Object Repository/Page_Map  GRiD/input_Selection area or layers have been mo_90fb99' is clicked on
+
+2020-10-30 16:16:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Map  GRiD/input_Selection area or layers have been mo_90fb99' is clicked on
+
+2020-10-30 16:16:01 - [TEST_STEP][PASSED] - click(findTestObject("Page_Map  GRiD/span_Export")): Object: 'Object Repository/Page_Map  GRiD/span_Export' is clicked on
+
+2020-10-30 16:16:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Map  GRiD/span_Export' is clicked on
+
+2020-10-30 16:16:02 - [TEST_STEP][PASSED] - click(findTestObject("Page_Map  GRiD/input_Export Name_name")): Object: 'Object Repository/Page_Map  GRiD/input_Export Name_name' is clicked on
+
+2020-10-30 16:16:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Map  GRiD/input_Export Name_name' is clicked on
+
+2020-10-30 16:16:03 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Map  GRiD/input_Export Name_name"), "16"): Text '16' is set on object 'Object Repository/Page_Map  GRiD/input_Export Name_name'
+
+2020-10-30 16:16:03 - [MESSAGE][PASSED] - Text '16' is set on object 'Object Repository/Page_Map  GRiD/input_Export Name_name'
+
+2020-10-30 16:16:03 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_Map  GRiD/select_GeoTiff  National Imagery Transmissi_18f687"), "8", true): All options with value '8' are selected in object 'Object Repository/Page_Map  GRiD/select_GeoTiff  National Imagery Transmissi_18f687'  using regular expression
+
+2020-10-30 16:16:04 - [MESSAGE][PASSED] - All options with value '8' are selected in object 'Object Repository/Page_Map  GRiD/select_GeoTiff  National Imagery Transmissi_18f687'  using regular expression
+
+2020-10-30 16:16:04 - [TEST_STEP][PASSED] - click(findTestObject("Page_Map  GRiD/button_Finish")): Object: 'Object Repository/Page_Map  GRiD/button_Finish' is clicked on
+
+2020-10-30 16:16:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Map  GRiD/button_Finish' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Program Data File Formats/Test Case 4" time="81.7" classname="Test Cases/Program Data File Formats/Test Case 4" status="PASSED">
+         <system-out><![CDATA[2020-10-30 16:16:05 - [TEST_CASE][PASSED] - Test Cases/Program Data File Formats/Test Case 4: Test Cases/Program Data File Formats/Test Case 4
+
+2020-10-30 16:16:05 - [TEST_STEP][PASSED] - click(findTestObject("Page_Home  GRiD/a_Map")): Object: 'Object Repository/Page_Home  GRiD/a_Map' is clicked on
+
+2020-10-30 16:16:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home  GRiD/a_Map' is clicked on
+
+2020-10-30 16:16:10 - [TEST_STEP][PASSED] - click(findTestObject("Page_Map  GRiD/span_Reset All")): Object: 'Object Repository/Page_Map  GRiD/span_Reset All' is clicked on
+
+2020-10-30 16:16:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Map  GRiD/span_Reset All' is clicked on
+
+2020-10-30 16:16:11 - [TEST_STEP][PASSED] - click(findTestObject("Page_Map  GRiD/Vectors Data Layer")): Object: 'Object Repository/Page_Map  GRiD/Vectors Data Layer' is clicked on
+
+2020-10-30 16:16:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Map  GRiD/Vectors Data Layer' is clicked on
+
+2020-10-30 16:16:12 - [TEST_STEP][PASSED] - click(findTestObject("Page_Map  GRiD/Vectors filter")): Object: 'Object Repository/Page_Map  GRiD/Vectors filter' is clicked on
+
+2020-10-30 16:16:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Map  GRiD/Vectors filter' is clicked on
+
+2020-10-30 16:16:12 - [TEST_STEP][PASSED] - click(findTestObject("Page_Map  GRiD/span_US Cities")): Object: 'Object Repository/Page_Map  GRiD/span_US Cities' is clicked on
+
+2020-10-30 16:16:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Map  GRiD/span_US Cities' is clicked on
+
+2020-10-30 16:16:13 - [TEST_STEP][PASSED] - click(findTestObject("Page_Map  GRiD/span_Buildings - 2D")): Object: 'Object Repository/Page_Map  GRiD/span_Buildings - 2D' is clicked on
+
+2020-10-30 16:16:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Map  GRiD/span_Buildings - 2D' is clicked on
+
+2020-10-30 16:16:14 - [TEST_STEP][PASSED] - click(findTestObject("Page_Map  GRiD/a_Apply Filter")): Object: 'Object Repository/Page_Map  GRiD/a_Apply Filter' is clicked on
+
+2020-10-30 16:16:45 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[@onclick='layer_form_post("/grid/map/layer/241265/edit/")']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-10-30 16:16:45 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Map  GRiD/a_Apply Filter'. Try using Self-healing.
+
+2020-10-30 16:16:45 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Map  GRiD/a_Apply Filter' was broken. Propose an alternative one: '//form[@id='layer-edit-form']/a'.
+
+2020-10-30 16:16:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Map  GRiD/a_Apply Filter' is clicked on
+
+2020-10-30 16:16:45 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Map  GRiD/input_Search Vectors_map-search"), "us cities 1"): Text 'us cities 1' is set on object 'Object Repository/Page_Map  GRiD/input_Search Vectors_map-search'
+
+2020-10-30 16:16:47 - [MESSAGE][PASSED] - Text 'us cities 1' is set on object 'Object Repository/Page_Map  GRiD/input_Search Vectors_map-search'
+
+2020-10-30 16:16:47 - [TEST_STEP][PASSED] - click(findTestObject("Page_Map  GRiD/a_US Cities 1 (AOI)")): Object: 'Object Repository/Page_Map  GRiD/a_US Cities 1 (AOI)' is clicked on
+
+2020-10-30 16:17:19 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[@id='ui-id-483']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-10-30 16:17:19 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Map  GRiD/a_US Cities 1 (AOI)'. Try using Self-healing.
+
+2020-10-30 16:17:19 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//a[@id='ui-id-483']'.
+
+2020-10-30 16:17:19 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//ul[@id='ui-id-1']/li/a'.
+
+2020-10-30 16:17:20 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/NickLivas/Documents/Testing/Katalon/KatalonTesting/Reports/Self-healing/Object Repository/Page_Map  GRiD/a_US Cities 1 (AOI)_idRelative.png
+
+2020-10-30 16:17:20 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Map  GRiD/a_US Cities 1 (AOI)' was broken. Propose an alternative one: '//ul[@id='ui-id-1']/li/a'.
+
+2020-10-30 16:17:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Map  GRiD/a_US Cities 1 (AOI)' is clicked on
+
+2020-10-30 16:17:20 - [TEST_STEP][PASSED] - click(findTestObject("Page_Map  GRiD/input_Selection area or layers have been mo_90fb99")): Object: 'Object Repository/Page_Map  GRiD/input_Selection area or layers have been mo_90fb99' is clicked on
+
+2020-10-30 16:17:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Map  GRiD/input_Selection area or layers have been mo_90fb99' is clicked on
+
+2020-10-30 16:17:22 - [TEST_STEP][PASSED] - click(findTestObject("Page_Map  GRiD/span_Export")): Object: 'Object Repository/Page_Map  GRiD/span_Export' is clicked on
+
+2020-10-30 16:17:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Map  GRiD/span_Export' is clicked on
+
+2020-10-30 16:17:23 - [TEST_STEP][PASSED] - click(findTestObject("Page_Map  GRiD/input_Export Name_name")): Object: 'Object Repository/Page_Map  GRiD/input_Export Name_name' is clicked on
+
+2020-10-30 16:17:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Map  GRiD/input_Export Name_name' is clicked on
+
+2020-10-30 16:17:24 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Map  GRiD/input_Export Name_name"), "286"): Text '286' is set on object 'Object Repository/Page_Map  GRiD/input_Export Name_name'
+
+2020-10-30 16:17:24 - [MESSAGE][PASSED] - Text '286' is set on object 'Object Repository/Page_Map  GRiD/input_Export Name_name'
+
+2020-10-30 16:17:24 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_Map  GRiD/select_KMZ  ESRI Shapefile  SQLite  GML  Ge_6bed24"), "9", true): All options with value '9' are selected in object 'Object Repository/Page_Map  GRiD/select_KMZ  ESRI Shapefile  SQLite  GML  Ge_6bed24'  using regular expression
+
+2020-10-30 16:17:25 - [MESSAGE][PASSED] - All options with value '9' are selected in object 'Object Repository/Page_Map  GRiD/select_KMZ  ESRI Shapefile  SQLite  GML  Ge_6bed24'  using regular expression
+
+2020-10-30 16:17:25 - [TEST_STEP][PASSED] - click(findTestObject("Page_Map  GRiD/button_Finish")): Object: 'Object Repository/Page_Map  GRiD/button_Finish' is clicked on
+
+2020-10-30 16:17:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Map  GRiD/button_Finish' is clicked on
+
+2020-10-30 16:17:25 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-10-30 16:17:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-10-30 16:12:24 - [TEST_SUITE][PASSED] - Program Data Exports: Test Cases/Program Data File Formats/Test Case 4]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

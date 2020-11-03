@@ -16,6 +16,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.navigateToUrl('https://grid.nga.mil/testgrid/export/aoi/38115/')
+
 WebUI.click(findTestObject('Page_AT-Elevation  GRiD/a_Export DEMsimagery'))
 
 WebUI.click(findTestObject('Page_AT-Elevation  GRiD/div_DTM - 20010601_1C461111 UNCLASSIFIED 20_b4b6ea'))

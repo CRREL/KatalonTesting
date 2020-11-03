@@ -14,14 +14,17 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import java.lang.Thread as Thread
 
 WebUI.click(findTestObject('Page_AFE  GRiD/a_Export pointcloud data'))
 
-WebUI.click(findTestObject('Page_AFE  GRiD/div_PC 20190623_18T577450 UNCLASSIFIEDFOUO _33ce5f'))
+WebUI.click(findTestObject('Page_USGS PC  GRiD/div_PC USGS_20100408-0510 UNCLASSIFIED 2010_1266e1'))
 
 WebUI.setText(findTestObject('Page_AFE  GRiD/input_Display Name_name'), 'SRI')
 
 WebUI.click(findTestObject('Page_AFE  GRiD/Filter Drop-down'))
+
+Thread.sleep(2000)
 
 WebUI.click(findTestObject('Page_AFE  GRiD/input_Feature Extraction_filter_afe'))
 

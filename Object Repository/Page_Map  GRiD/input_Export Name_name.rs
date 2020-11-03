@@ -6,12 +6,12 @@
    <elementGuidId>e386084c-21eb-4371-ac30-6eeb53bf7490</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='id_name']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#id_name</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='id_name']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -42,7 +42,7 @@
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>fg3d_FG3D_20200807.1549</value>
+      <value>Vricon-FVEY-ROK-PC_PC_20201029.2019</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,6 +71,20 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='id_name']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='product-selection-tab']/div[2]/div[2]/div/input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

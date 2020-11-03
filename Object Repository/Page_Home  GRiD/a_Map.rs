@@ -6,8 +6,12 @@
    <elementGuidId>32a25c6e-17a0-4ba8-9d39-3f567116926a</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//div[@id='navbarToggle']/ul/li/a</value>
+         <value>//div[@id='navbarToggle']/ul/li[2]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -52,7 +56,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='navbarToggle']/ul/li/a</value>
+      <value>//div[@id='navbarToggle']/ul/li[2]/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -60,6 +64,13 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Map')]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Load'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,6 +99,20 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/grid/map/')]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='navbarToggle']/ul/li/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

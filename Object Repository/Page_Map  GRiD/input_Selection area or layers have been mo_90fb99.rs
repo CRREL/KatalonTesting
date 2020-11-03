@@ -6,12 +6,12 @@
    <elementGuidId>1015a197-025b-4dd8-9433-66ec8f4ebd02</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@name='product_id']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>input[name=&quot;product_id&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@name='product_id']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -42,7 +42,7 @@
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>86891</value>
+      <value>123420</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,14 +56,7 @@
       <matchCondition>equals</matchCondition>
       <name>data-size</name>
       <type>Main</type>
-      <value>Not Implemented</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;fg3d-data-product-div&quot;)/div[@class=&quot;table-container table-responsive&quot;]/table[@class=&quot;table table-striped table-vertical-condensed&quot;]/tbody[1]/tr[@class=&quot;shown even&quot;]/td[@class=&quot;text-nowrap&quot;]/input[@class=&quot;product-selector selector&quot;]</value>
+      <value>0</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,6 +64,13 @@
       <name>nga-warn</name>
       <type>Main</type>
       <value>false</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pointclouds-product-div&quot;)/div[@class=&quot;table-container table-responsive&quot;]/table[@class=&quot;table table-striped table-vertical-condensed&quot;]/tbody[1]/tr[@class=&quot;shown even&quot;]/td[@class=&quot;text-nowrap&quot;]/input[@class=&quot;product-selector selector&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -84,7 +84,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='fg3d-data-product-div']/div/table/tbody/tr/td/input</value>
+      <value>//div[@id='pointclouds-product-div']/div/table/tbody/tr/td/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +98,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='pointclouds-product-div']/div/table/tbody/tr/td/input</value>
+      <value>//div[@id='fg3d-data-product-div']/div/table/tbody/tr/td/input</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,12 +6,12 @@
    <elementGuidId>44477889-55b5-431b-b1d8-a72b92e39e46</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//btn[@id='ga-btn']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#ga-btn</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//btn[@id='ga-btn']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
