@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_KMZ  ESRI Shapefile  SQLite  GML  Ge_6bed24</name>
+   <name>Pointcloud File Format</name>
    <tag></tag>
-   <elementGuidId>d37bd6af-5004-426c-99ba-8d5c7369990f</elementGuidId>
+   <elementGuidId>06ece2af-7a73-415f-bf7d-592f0b4affc9</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#id_file_type</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//select[@id='id_file_type']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#id_file_type</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -50,17 +50,15 @@
       <name>text</name>
       <type>Main</type>
       <value>
-  KMZ
+  BPF
 
-  ESRI Shapefile
+  CSV
 
-  SQLite
+  LAS 1.2
 
-  GML
+  LAS 1.4
 
-  GeoPackage
-
-  GeoJSON
+  PDF
 
   Source Format
 
@@ -85,7 +83,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='product-selection-tab']/div[2]/div[5]/div/select</value>
+      <value>//div[@id='product-selection-tab']/div[2]/div[6]/div/select</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,7 +97,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Compress the output.'])[1]/following::select[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Clip intersecting tiles to the AOI boundary. Clipping can return less data but can take more time.'])[1]/following::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='File export options:'])[1]/preceding::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,15 +116,8 @@
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/preceding::select[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div[2]/div[5]/div/select</value>
+      <value>//div[2]/div/div[2]/div[6]/div/select</value>
    </webElementXpaths>
 </WebElementEntity>

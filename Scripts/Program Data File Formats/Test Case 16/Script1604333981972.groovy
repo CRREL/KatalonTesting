@@ -41,7 +41,7 @@ WebUI.click(findTestObject('Page_Map  GRiD/input_Export Name_name'))
 
 WebUI.setText(findTestObject('Page_Map  GRiD/input_Export Name_name'), '16')
 
-WebUI.selectOptionByValue(findTestObject('Page_Map  GRiD/select_GeoTiff  National Imagery Transmissi_18f687'), '8', true)
+WebUI.selectOptionByValue(findTestObject('Page_Map  GRiD/EM_Imagery File Format'), '8', true)
 
 WebUI.click(findTestObject('Page_Map  GRiD/button_Finish'))
 

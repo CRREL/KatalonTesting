@@ -41,7 +41,7 @@ WebUI.click(findTestObject('Page_Map  GRiD/input_Export Name_name'))
 
 WebUI.setText(findTestObject('Page_Map  GRiD/input_Export Name_name'), '286')
 
-WebUI.selectOptionByValue(findTestObject('Page_Map  GRiD/select_KMZ  ESRI Shapefile  SQLite  GML  Ge_6bed24'), '9', true)
+WebUI.selectOptionByValue(findTestObject('Page_Map  GRiD/Vector File Format'), '9', true)
 
 WebUI.click(findTestObject('Page_Map  GRiD/button_Finish'))
 

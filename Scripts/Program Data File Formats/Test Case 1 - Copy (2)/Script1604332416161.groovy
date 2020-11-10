@@ -41,7 +41,7 @@ WebUI.click(findTestObject('Page_Map  GRiD/input_Export Name_name'))
 
 WebUI.setText(findTestObject('Page_Map  GRiD/input_Export Name_name'), '1')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Map  GRiD/select_BPF  CSV  LAS 12  LAS 14  PDF  Sourc_c9fa4c'), 
+WebUI.selectOptionByValue(findTestObject('Page_Map  GRiD/Pointcloud File Format'), 
     '1', true)
 
 WebUI.click(findTestObject('Page_Map  GRiD/button_Finish'))

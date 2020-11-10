@@ -402,7 +402,7 @@ WebUI.click(findTestObject('Object Repository/Page_Map  GRiD/a_Vricon FVEY DSM (
 
 WebUI.setText(findTestObject('Page_Map  GRiD/input_Search Vectors_map-search'), 'Vricon FVEY-rok dsm')
 
-WebUI.click(findTestObject('Object Repository/Page_Map  GRiD/a_Vricon FVEY-ROK DSM  (AOI)'))
+WebUI.click(findTestObject('Page_Map  GRiD/a_Vricon FVEY-ROK DSM (AOI)'))
 
 WebUI.setText(findTestObject('Page_Map  GRiD/input_Search Vectors_map-search'), 'Vricon owt-gpr dsm')
 
@@ -418,11 +418,11 @@ WebUI.click(findTestObject('Object Repository/Page_Map  GRiD/a_Vricon FVEY-ROK D
 
 WebUI.setText(findTestObject('Page_Map  GRiD/input_Search Vectors_map-search'), 'Vricon FVEY eo')
 
-WebUI.click(findTestObject('Object Repository/Page_Map  GRiD/a_Vricon FVEY EO  (AOI)'))
+WebUI.click(findTestObject('Page_Map  GRiD/a_Vricon FVEY EO (AOI)'))
 
 WebUI.setText(findTestObject('Page_Map  GRiD/input_Search Vectors_map-search'), 'Vricon FVEY-rok eo')
 
-WebUI.click(findTestObject('Object Repository/Page_Map  GRiD/a_Vricon FVEY-ROK EO  (AOI)'))
+WebUI.click(findTestObject('Page_Map  GRiD/a_Vricon FVEY-ROK EO (AOI)'))
 
 WebUI.setText(findTestObject('Page_Map  GRiD/input_Search Vectors_map-search'), 'Vricon FVEY pc')
 
@@ -476,22 +476,22 @@ WebUI.click(findTestObject('Page_Map  GRiD/input_Export Name_name'))
 
 WebUI.setText(findTestObject('Page_Map  GRiD/input_Export Name_name'), '12')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Map  GRiD/select_BPF  CSV  LAS 12  LAS 14  PDF  Sourc_c9fa4c'), 
+WebUI.selectOptionByValue(findTestObject('Page_Map  GRiD/Pointcloud File Format'), 
     '1', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Map  GRiD/select_BPF  CSV  LAS 12  LAS 14  PDF  Sourc_c9fa4c'), 
+WebUI.selectOptionByValue(findTestObject('Page_Map  GRiD/Pointcloud File Format'), 
     '2', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Map  GRiD/select_BPF  CSV  LAS 12  LAS 14  PDF  Sourc_c9fa4c'), 
+WebUI.selectOptionByValue(findTestObject('Page_Map  GRiD/Pointcloud File Format'), 
     '3', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Map  GRiD/select_BPF  CSV  LAS 12  LAS 14  PDF  Sourc_c9fa4c'), 
+WebUI.selectOptionByValue(findTestObject('Page_Map  GRiD/Pointcloud File Format'), 
     '4', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Map  GRiD/select_BPF  CSV  LAS 12  LAS 14  PDF  Sourc_c9fa4c'), 
+WebUI.selectOptionByValue(findTestObject('Page_Map  GRiD/Pointcloud File Format'), 
     '6', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Map  GRiD/select_BPF  CSV  LAS 12  LAS 14  PDF  Sourc_c9fa4c'), 
+WebUI.selectOptionByValue(findTestObject('Page_Map  GRiD/Pointcloud File Format'), 
     '15', true)
 
 WebUI.click(findTestObject('Object Repository/Page_Map  GRiD/svg_Editing Selection_svg-inline--fa fa-tim_7621d1'))
@@ -522,13 +522,13 @@ WebUI.click(findTestObject('Page_Map  GRiD/input_Export Name_name'))
 
 WebUI.setText(findTestObject('Page_Map  GRiD/input_Export Name_name'), '12')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Map  GRiD/select_GeoTiff  National Imagery Transmissi_18f687'), 
+WebUI.selectOptionByValue(findTestObject('Page_Map  GRiD/EM_Imagery File Format'), 
     '8', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Map  GRiD/select_GeoTiff  National Imagery Transmissi_18f687'), 
+WebUI.selectOptionByValue(findTestObject('Page_Map  GRiD/EM_Imagery File Format'), 
     '15', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Map  GRiD/select_GeoTiff  National Imagery Transmissi_18f687'), 
+WebUI.selectOptionByValue(findTestObject('Page_Map  GRiD/EM_Imagery File Format'), 
     '7', true)
 
 WebUI.click(findTestObject('Object Repository/Page_Map  GRiD/svg_Editing Selection_svg-inline--fa fa-tim_7621d1'))
@@ -559,25 +559,25 @@ WebUI.click(findTestObject('Page_Map  GRiD/span_Export'))
 
 WebUI.setText(findTestObject('Page_Map  GRiD/input_Export Name_name'), '13')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Map  GRiD/select_KMZ  ESRI Shapefile  SQLite  GML  Ge_6bed24'), 
+WebUI.selectOptionByValue(findTestObject('Page_Map  GRiD/Vector File Format'), 
     '9', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Map  GRiD/select_KMZ  ESRI Shapefile  SQLite  GML  Ge_6bed24'), 
+WebUI.selectOptionByValue(findTestObject('Page_Map  GRiD/Vector File Format'), 
     '10', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Map  GRiD/select_KMZ  ESRI Shapefile  SQLite  GML  Ge_6bed24'), 
+WebUI.selectOptionByValue(findTestObject('Page_Map  GRiD/Vector File Format'), 
     '11', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Map  GRiD/select_KMZ  ESRI Shapefile  SQLite  GML  Ge_6bed24'), 
+WebUI.selectOptionByValue(findTestObject('Page_Map  GRiD/Vector File Format'), 
     '12', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Map  GRiD/select_KMZ  ESRI Shapefile  SQLite  GML  Ge_6bed24'), 
+WebUI.selectOptionByValue(findTestObject('Page_Map  GRiD/Vector File Format'), 
     '13', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Map  GRiD/select_KMZ  ESRI Shapefile  SQLite  GML  Ge_6bed24'), 
+WebUI.selectOptionByValue(findTestObject('Page_Map  GRiD/Vector File Format'), 
     '14', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Map  GRiD/select_KMZ  ESRI Shapefile  SQLite  GML  Ge_6bed24'), 
+WebUI.selectOptionByValue(findTestObject('Page_Map  GRiD/Vector File Format'), 
     '15', true)
 
 WebUI.click(findTestObject('Object Repository/Page_Map  GRiD/svg_Editing Selection_svg-inline--fa fa-tim_7621d1'))
@@ -606,13 +606,13 @@ WebUI.click(findTestObject('Object Repository/Page_Map  GRiD/div_Export Name_col
 
 WebUI.setText(findTestObject('Page_Map  GRiD/input_Export Name_name'), '14')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Map  GRiD/select_GeoTiff  National Imagery Transmissi_18f687'), 
+WebUI.selectOptionByValue(findTestObject('Page_Map  GRiD/EM_Imagery File Format'), 
     '8', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Map  GRiD/select_GeoTiff  National Imagery Transmissi_18f687'), 
+WebUI.selectOptionByValue(findTestObject('Page_Map  GRiD/EM_Imagery File Format'), 
     '15', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Map  GRiD/select_GeoTiff  National Imagery Transmissi_18f687'), 
+WebUI.selectOptionByValue(findTestObject('Page_Map  GRiD/EM_Imagery File Format'), 
     '7', true)
 
 WebUI.click(findTestObject('Page_Map  GRiD/button_Finish'))
