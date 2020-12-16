@@ -11,6 +11,7 @@
       </entry>
       <entry>
          <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -34,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/grid/export/aoi/list/</value>
+      <value>/testgrid/export/aoi/list/</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -104,7 +105,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/grid/export/aoi/list/')]</value>
+      <value>//a[contains(@href, '/testgrid/export/aoi/list/')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

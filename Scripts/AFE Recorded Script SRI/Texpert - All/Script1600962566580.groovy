@@ -27,6 +27,8 @@ Thread.sleep(1000)
 
 WebUI.click(findTestObject('Page_AFE  GRiD/input_Feature Extraction_filter_afe'))
 
+WebUI.selectOptionByValue(findTestObject('Page_AFE  GRiD/select_PSU 190  TexPert 315-3  SRI 15'), 'texpert_3.1.5-3;', true)
+
 Thread.sleep(5000)
 
 WebUI.scrollToElement(findTestObject('Page_AFE  GRiD/label_Unity'), 0)

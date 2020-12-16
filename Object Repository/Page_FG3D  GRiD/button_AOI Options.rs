@@ -11,7 +11,11 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value>button.btn.btn-outline-dark.btn-sm.dropdown-toggle</value>
+         <value>button.btn.btn-outline-success.btn-sm.dropdown-toggle</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html[@class=&quot;fontawesome-i2svg-active fontawesome-i2svg-complete&quot;]/body[1]/div[@class=&quot;wrapper shown&quot;]/div[@class=&quot;main container-fluid&quot;]/div[@class=&quot;btn-group&quot;]/button[@class=&quot;btn btn-outline-dark btn-sm dropdown-toggle&quot;][count(. | //*[@type = 'button']) = count(//*[@type = 'button'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -35,7 +39,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-outline-dark btn-sm dropdown-toggle</value>
+      <value>btn btn-outline-success btn-sm dropdown-toggle</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -65,7 +69,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[@class=&quot;fontawesome-i2svg-active fontawesome-i2svg-complete&quot;]/body[1]/div[@class=&quot;wrapper shown&quot;]/div[@class=&quot;main container-fluid&quot;]/div[@class=&quot;btn-group&quot;]/button[@class=&quot;btn btn-outline-dark btn-sm dropdown-toggle&quot;]</value>
+      <value>/html[@class=&quot;fontawesome-i2svg-active fontawesome-i2svg-complete&quot;]/body[1]/div[@class=&quot;wrapper shown&quot;]/div[@class=&quot;main container-fluid&quot;]/div[@class=&quot;btn-group&quot;]/button[@class=&quot;btn btn-outline-success btn-sm dropdown-toggle&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

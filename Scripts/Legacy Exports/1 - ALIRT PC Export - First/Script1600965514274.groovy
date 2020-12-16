@@ -19,11 +19,7 @@ import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.support.ui.ExpectedConditions as ExpectedConditions
 import org.openqa.selenium.support.ui.WebDriverWait as WebDriverWait
 
-WebUI.openBrowser('')
-
 WebUI.navigateToUrl('https://grid.nga.mil/testgrid/accounts/login/?next=/testgrid/export/aoi/38123/')
-
-WebUI.click(findTestObject('Page_Login  GRiD/btn_CAC  GEOAxIS Login'))
 
 WebUI.click(findTestObject('Page_AT-Pointcloud  GRiD/a_Export pointcloud data'))
 

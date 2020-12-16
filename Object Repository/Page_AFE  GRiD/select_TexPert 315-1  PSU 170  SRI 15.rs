@@ -6,12 +6,7 @@
    <elementGuidId>fc8c7d2f-ce56-4a5e-8098-9e8b492378cc</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//select[@id='id_afe_selection']</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>#id_afe_selection</value>
+         <key>IMAGE</key>
       </entry>
       <entry>
          <key>BASIC</key>
@@ -32,7 +27,12 @@
 ')]</value>
       </entry>
       <entry>
-         <key>IMAGE</key>
+         <key>XPATH</key>
+         <value>//select[@id='id_afe_selection']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#id_afe_selection</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

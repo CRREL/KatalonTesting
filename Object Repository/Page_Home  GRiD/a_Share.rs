@@ -6,11 +6,12 @@
    <elementGuidId>d3eb3e09-2945-44bc-892a-5b2d39954fa4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//div[@id='navbarToggle']/ul/li[5]/a</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//li[5]/a</value>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

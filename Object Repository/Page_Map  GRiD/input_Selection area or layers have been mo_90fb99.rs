@@ -65,13 +65,6 @@
       <type>Main</type>
       <value>id(&quot;fg3d-data-product-div&quot;)/div[@class=&quot;table-container table-responsive&quot;]/table[@class=&quot;table table-striped table-vertical-condensed&quot;]/tbody[1]/tr[@class=&quot;shown even&quot;]/td[@class=&quot;text-nowrap&quot;]/input[@class=&quot;product-selector selector&quot;]</value>
    </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>nga-warn</name>
-      <type>Main</type>
-      <value>false</value>
-   </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
@@ -92,12 +85,5 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td/input</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='pointclouds-product-div']/div/table/tbody/tr/td/input</value>
    </webElementXpaths>
 </WebElementEntity>

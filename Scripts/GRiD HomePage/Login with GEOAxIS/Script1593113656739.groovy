@@ -16,16 +16,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://grid.nga.mil/testgrid/')
-
-WebUI.click(findTestObject('Object Repository/Page_Home  GRiD/a_GEOAxIS'))
-
-WebUI.click(findTestObject('Page_GEOAxIS/a_PKI Certificate'))
-
-WebUI.click(findTestObject('Page_GEOAxIS/span_Click here to continue'))
-
 WebUI.verifyTextPresent('How do I use GRiD?', false)
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Home  GRiD/a_Settings bhavikpatel'), 0)
@@ -47,6 +37,4 @@ WebUI.click(findTestObject('Object Repository/Page_Account Settings  GRiD/a_Perm
 WebUI.click(findTestObject('Object Repository/Page_Permission requests  GRiD/a_Data Access Agreements'))
 
 WebUI.click(findTestObject('Object Repository/Page_Data Access Agreements  GRiD/img_Map_brand'))
-
-WebUI.closeBrowser()
 

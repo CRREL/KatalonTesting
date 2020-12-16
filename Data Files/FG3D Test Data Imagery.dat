@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>FG3D Test Data Imagery</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>436636c1-250c-40f2-a39a-083f3d472687</dataFileGUID>
+   <dataSourceUrl>/Users/bhavikpatel/Downloads/Projects/CRREL/GRiD/Automation Testing/FG3D CDB To GEOINT Test Vector NO.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>FG3D Test Data - Imagery</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

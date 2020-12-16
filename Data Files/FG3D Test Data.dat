@@ -6,7 +6,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>1ff1ca20-f05b-41c7-a3f8-103a97fa6bc6</dataFileGUID>
-   <dataSourceUrl>/Users/bhavikpatel/Downloads/Projects/CRREL/GRiD/Automation Testing/FG3D CDB To GEOINT Test.xlsx</dataSourceUrl>
+   <dataSourceUrl>/Users/bhavikpatel/Downloads/Projects/CRREL/GRiD/Automation Testing/FG3D CDB To GEOINT Test Vector NO.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <properties>

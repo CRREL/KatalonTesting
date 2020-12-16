@@ -4,11 +4,11 @@
    <name>GRiD FG3D</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <mailRecipient></mailRecipient>
-   <numberOfRerun>0</numberOfRerun>
+   <mailRecipient>patel_bhavik@bah.com;</mailRecipient>
+   <numberOfRerun>1</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
-   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunFailedTestCasesOnly>true</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>13fa2d80-8c69-4c90-9ca7-d74c1e7a12e6</testSuiteGuid>
    <testCaseLink>
@@ -20,14 +20,14 @@
    <testCaseLink>
       <guid>79ce3cc6-644d-4394-8c62-4748068121c9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/FG3D/FG3D Test</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>6dc04db9-8342-417a-8f1d-bc4633ddc397</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
-            <value></value>
+            <value>1-10</value>
          </iterationEntity>
          <testDataId>Data Files/FG3D Test Data</testDataId>
       </testDataLink>
@@ -65,7 +65,7 @@
    <testCaseLink>
       <guid>06fda8ea-8636-4de8-959a-605f5b706b71</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/FG3D/FG3D Test - Stragetic</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -105,6 +105,51 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>da4f3047-96c2-4f97-8808-08425f977115</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6714d5e5-0ca5-4120-aee1-4c60af8cea03</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FG3D/FG3D Test - Imagery</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>c5709ba9-9765-4e15-8521-b8a238357209</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/FG3D Test Data Imagery</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>c5709ba9-9765-4e15-8521-b8a238357209</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>id_name</value>
+         <variableId>29463bfa-f390-4b3a-a616-7f36cea2ee2d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c5709ba9-9765-4e15-8521-b8a238357209</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>id_geoint_imagery</value>
+         <variableId>28d575a3-0636-4cce-b8bf-2c3712d11688</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c5709ba9-9765-4e15-8521-b8a238357209</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>id_geoint_elevation</value>
+         <variableId>61c59aa4-f529-493c-8ed8-a8c6d1e230fb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c5709ba9-9765-4e15-8521-b8a238357209</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>id_geoint_vectors</value>
+         <variableId>4c5e2ce2-4544-406d-b41d-5b81d046a60d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c5709ba9-9765-4e15-8521-b8a238357209</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>id_geoint_models</value>
+         <variableId>448172ff-5a66-4dc2-90cd-0e3543025398</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

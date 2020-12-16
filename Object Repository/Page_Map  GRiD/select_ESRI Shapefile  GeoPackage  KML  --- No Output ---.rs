@@ -46,15 +46,15 @@
 ')])]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#id_geoint_vectors</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//select[@id='id_geoint_vectors']</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#id_geoint_vectors</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

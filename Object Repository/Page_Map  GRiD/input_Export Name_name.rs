@@ -42,7 +42,7 @@
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>fg3d_FG3D_20200807.1549</value>
+      <value>FG3D_FG3D_20201215.2201</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,13 +77,13 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='product-selection-tab']/div/div/div/input</value>
+      <value>//div[@id='product-selection-tab']/div[2]/div/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div[2]/div/div/div/div/input</value>
+      <value>//div[2]/div/div[2]/div/div[2]/div/div/input</value>
    </webElementXpaths>
 </WebElementEntity>

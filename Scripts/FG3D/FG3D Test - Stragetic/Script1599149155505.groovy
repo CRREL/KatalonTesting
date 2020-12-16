@@ -17,42 +17,35 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://grid.nga.mil/testgrid/')
-
-WebUI.click(findTestObject('Page_Home  GRiD/a_CAC  GEOAxIS Login'))
-
 WebUI.click(findTestObject('Page_Home  GRiD/a_Share'))
 
 WebUI.click(findTestObject('Page_Workgroups  GRiD/a_FG3D'))
 
-for (def row = 1; row <= findTestData('FG3D Test Data').getRowNumbers(); row++) {
-	
-	Thread.sleep(2000)
-	
-    WebUI.click(findTestObject('Object Repository/Page_FG3D  GRiD/button_AOI Options'))
+//for (def row = 1; row <= findTestData('FG3D Test Data').getRowNumbers(); row++) {
+Thread.sleep(1000)
 
-    WebUI.click(findTestObject('Object Repository/Page_FG3D  GRiD/a_View on map'))
+WebUI.click(findTestObject('Object Repository/Page_FG3D  GRiD/button_AOI Options'))
 
-    WebUI.switchToWindowTitle('Map – GRiD')
+WebUI.click(findTestObject('Object Repository/Page_FG3D  GRiD/a_View on map'))
 
-    WebUI.click(findTestObject('Page_Map  GRiD/input__product_id'))
+WebUI.closeWindowIndex('0')
 
-    WebUI.click(findTestObject('Page_Map  GRiD/span_Export'))
+WebUI.switchToWindowTitle('Map – GRiD')
 
-    WebUI.setText(findTestObject('Page_Map  GRiD/input_Export Name_name'), findTestData('New Test Data - Strategic').getValue(
-            'id_name', row))
+WebUI.click(findTestObject('Page_Map  GRiD/input__product_id'))
 
-    WebUI.selectOptionByLabel(findTestObject('Page_Map  GRiD/select_GeoTiff  GeoPackage  ERDAS Imagine  --- No Output ---'), 
-        findTestData('New Test Data - Strategic').getValue('id_geoint_imagery', row), true)
+WebUI.click(findTestObject('Page_Map  GRiD/span_Export'))
 
-    WebUI.selectOptionByLabel(findTestObject('Page_Map  GRiD/select_GeoTiff  GeoPackage  DTED  --- No Output ---'), findTestData(
-            'New Test Data - Strategic').getValue('id_geoint_elevation', row), true)
+WebUI.setText(findTestObject('Page_Map  GRiD/input_Export Name_name'), id_name)
 
-    WebUI.selectOptionByLabel(findTestObject('Page_Map  GRiD/select_ESRI Shapefile  GeoPackage  KML  --- No Output ---'), 
-        findTestData('New Test Data - Strategic').getValue('id_geoint_vectors', row), true)
+WebUI.selectOptionByLabel(findTestObject('Page_Map  GRiD/select_GeoTiff  GeoPackage  ERDAS Imagine  --- No Output ---'), 
+    id_imagery, true)
 
-    WebUI.click(findTestObject('Page_Map  GRiD/button_Finish'))
-}
+WebUI.selectOptionByLabel(findTestObject('Page_Map  GRiD/select_GeoTiff  GeoPackage  DTED  --- No Output ---'), id_elevation, 
+    true)
+
+WebUI.selectOptionByLabel(findTestObject('Page_Map  GRiD/select_ESRI Shapefile  GeoPackage  KML  --- No Output ---'), id_vectors, 
+    true)
+
+WebUI.click(findTestObject('Page_Map  GRiD/button_Finish'))
 

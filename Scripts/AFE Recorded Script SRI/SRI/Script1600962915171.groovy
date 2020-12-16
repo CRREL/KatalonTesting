@@ -25,7 +25,7 @@ WebUI.click(findTestObject('Page_AFE  GRiD/Filter Drop-down'))
 
 WebUI.click(findTestObject('Page_AFE  GRiD/input_Feature Extraction_filter_afe'))
 
-WebUI.selectOptionByValue(findTestObject('Page_AFE  GRiD/select_TexPert 315-1  PSU 170  SRI 15'), 'sri_1.5;', true)
+WebUI.selectOptionByValue(findTestObject('Page_AFE  GRiD/select_PSU 190  TexPert 315-3  SRI 15'), 'sri_1.5;', true)
 
 WebUI.click(findTestObject('Page_AFE  GRiD/div_Cancel    Generate'))
 

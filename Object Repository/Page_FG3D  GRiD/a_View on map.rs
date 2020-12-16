@@ -6,12 +6,12 @@
    <elementGuidId>be186521-c64c-4842-8d1d-5e980c79496b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#aoiview</value>
+         <key>XPATH</key>
+         <value>//a[@id='aoiview']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[2]/div/div/a[2]</value>
+         <key>CSS</key>
+         <value>#aoiview</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -35,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/grid/map/36914/aoi</value>
+      <value>/testgrid/map/36914/aoi/</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -105,7 +105,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Copy AOI'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add to new workgroup'])[1]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +119,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/grid/map/36914/aoi')]</value>
+      <value>//a[contains(@href, '/testgrid/map/36914/aoi/')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

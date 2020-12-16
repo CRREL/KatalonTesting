@@ -6,12 +6,12 @@
    <elementGuidId>5879abcc-a03b-4865-a737-35b089f4bd69</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>a.btn.btn-outline-dark.btn-lg.mb-2.mb-sm-0</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//a[contains(text(),'CAC / GEOAxIS Login')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.btn.btn-outline-success.btn-lg.mb-2.mb-sm-0</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-outline-dark btn-lg mb-2 mb-sm-0</value>
+      <value>btn btn-outline-success btn-lg mb-2 mb-sm-0</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/div[2]/div[@class=&quot;text-center my-5&quot;]/p[1]/a[@class=&quot;btn btn-outline-dark btn-lg mb-2 mb-sm-0&quot;]</value>
+      <value>/html[1]/body[1]/div[2]/div[@class=&quot;text-center my-5&quot;]/p[1]/a[@class=&quot;btn btn-outline-success btn-lg mb-2 mb-sm-0&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
