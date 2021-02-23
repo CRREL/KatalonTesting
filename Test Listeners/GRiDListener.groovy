@@ -40,7 +40,22 @@ class GRiDListener {
 	@AfterTestCase
 	def sampleAfterTestCase(TestCaseContext testCaseContext) {
 		println testCaseContext.getTestCaseId()
-		println testCaseContext.getTestCaseStatus()
+		
+		def status = testCaseContext.getTestCaseStatus()
+		
+			GlobalVariable.testsTotal++
+			if (status == 'FAILED') {
+				GlobalVariable.testSuiteStatus = 'FAILED'
+				GlobalVariable.testsFailed++
+			}
+			if (status == 'PASSED'){
+				GlobalVariable.testsPassed++
+			}
+			if (status == 'ERROR'){
+				GlobalVariable.testSuiteStatus = 'ERROR'
+				GlobalVariable.testsError++
+			}
+		
 
 	}
 
@@ -87,6 +102,7 @@ class GRiDListener {
 	@AfterTestSuite
 	def sampleAfterTestSuite(TestSuiteContext testSuiteContext) {
 		println testSuiteContext.getTestSuiteId()
+		println testSuiteContext.getStatus().
 		
 		WebUI.closeBrowser()
 		
